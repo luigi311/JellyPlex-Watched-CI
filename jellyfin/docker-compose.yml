@@ -1,0 +1,19 @@
+version: '3'
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin
+    network_mode: bridge
+    ports:
+    - 1900:1900
+    - 7359:7359
+    - 8096:8096
+    - 8920:8920
+    environment:
+      PGID: '100'
+      PUID: '99'
+      UMASK: '022'
+    volumes:
+    - ./config:/config
+    - ../movies:/data/movies
+    - ../tvshows:/data/shows
+    devices: []

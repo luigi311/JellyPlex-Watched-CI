@@ -1,0 +1,18 @@
+version: '3'
+services:
+  plex:
+    image: lscr.io/linuxserver/plex
+    network_mode: host
+    ports: 
+    - 32400:32400
+    environment:
+      PGID: '100'
+      PLEX_CLAIM: ''
+      PUID: '99'
+      UMASK: '022'
+      VERSION: docker
+    volumes:
+    - ./config:/config
+    - ../movies:/movies
+    - ../tvshows:/tvshows
+    devices: []

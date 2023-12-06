@@ -1,0 +1,91 @@
+Nov 14, 2023 03:14:22.913 [139851237219072] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Nov 14, 2023 03:14:22.913 [139851237219072] INFO - Linux version: 6.6.0, language: en-US
+Nov 14, 2023 03:14:22.913 [139851237219072] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
+Nov 14, 2023 03:14:22.913 [139851237219072] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 9
+Nov 14, 2023 03:14:22.914 [139851237722944] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 14, 2023 03:14:22.965 [139851237722944] DEBUG - Analyzing media parts for item 9 (Episode 1): 7
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [ID 7] Media part analysis: /tvshows/Akiyo/S01E01.mkv
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [MI] Opening input file: "/tvshows/Akiyo/S01E01.mkv"
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Opening '/tvshows/Akiyo/S01E01.mkv' for reading
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3001 bytes read:32768 seeks:0 nb_streams:1
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Decoding VPS
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Decoding SPS
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Decoding VUI
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Decoding PPS
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - Decoding SEI
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - All info found
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5463 bytes read:32768 seeks:0 frames:3
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [MI]  * bbcd13d4294cc83e27d71a783a3778306f07c5f1 [mkv hevc/] Duration: 10010ms, 256x144 (1.337132) 29.970fps, bitrate=72kbps, audio channels=0, optimizedForStreaming=0 ("/tvshows/Akiyo/S01E01.mkv")
+Nov 14, 2023 03:14:22.966 [139851237722944] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - [MI] Closing input file: "/tvshows/Akiyo/S01E01.mkv"
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - Streams didn't change in analysis, not saving.
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - Updating media item 7, size=90132, metadata_item_id=9
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - Updating part with ID=7 [/tvshows/Akiyo/S01E01.mkv]
+Nov 14, 2023 03:14:22.967 [139851220130560] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - [MI] Opening input file: "/tvshows/Akiyo/S01E01.mkv"
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - [FFMPEG] - Opening '/tvshows/Akiyo/S01E01.mkv' for reading
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 14, 2023 03:14:22.967 [139851237722944] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3001 bytes read:32768 seeks:0 nb_streams:1
+Nov 14, 2023 03:14:22.968 [139851219671808] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 14, 2023 03:14:22.968 [139851220130560] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding VPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding SPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding VUI
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding PPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding SEI
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - All info found
+Nov 14, 2023 03:14:22.968 [139851219671808] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5463 bytes read:32768 seeks:0 frames:3
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/b/bcd13d4294cc83e27d71a783a3778306f07c5f1.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding VPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding SPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Main profile bitstream
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding VUI
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding PPS
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Decoding SEI
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.968 [139851237722944] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - Decoded frame with POC 4.
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - Output frame with POC 0.
+Nov 14, 2023 03:14:22.969 [139851237722944] DEBUG - [FFMPEG] - Decoded frame with POC 2.
+Nov 14, 2023 03:14:22.972 [139851237722944] DEBUG - Loaded memory image of size 256x191.
+Nov 14, 2023 03:14:22.973 [139851237722944] DEBUG - [MI] Closing input file: "/tvshows/Akiyo/S01E01.mkv"
+Nov 14, 2023 03:14:22.973 [139851237722944] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 14, 2023 03:14:22.973 [139851237722944] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 14, 2023 03:14:22.974 [139851219671808] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 14, 2023 03:14:22.974 [139851237722944] DEBUG - Updating metadata item (save) (Episode 1) with ID 9
+Nov 14, 2023 03:14:22.974 [139851220130560] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7
+Nov 14, 2023 03:14:22.975 [139851219671808] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7 (reused)
+Nov 14, 2023 03:14:22.975 [139851220130560] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 14, 2023 03:14:22.975 [139851219671808] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 14, 2023 03:14:22.976 [139851237722944] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 14, 2023 03:14:22.976 [139851237722944] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 14, 2023 03:14:22.976 [139851219671808] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 14, 2023 03:14:22.976 [139851237722944] DEBUG - Updating metadata item (save) (Episode 1) with ID 9
+Nov 14, 2023 03:14:22.977 [139851220130560] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7
+Nov 14, 2023 03:14:22.977 [139851219671808] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7 (reused)

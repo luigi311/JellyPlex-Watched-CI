@@ -6,9 +6,9 @@ services:
     ports: 
     - 32400:32400
     environment:
-      PGID: '100'
+      PGID: "${GID}"
+      PUID: "${UID}"
       PLEX_CLAIM: ''
-      PUID: '1000'
       UMASK: '022'
       VERSION: docker
     volumes:

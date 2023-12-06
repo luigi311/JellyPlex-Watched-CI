@@ -2,7 +2,7 @@ version: '3'
 services:
   plex:
     image: lscr.io/linuxserver/plex
-    network_mode: host
+    network_mode: bridge
     ports: 
     - 32400:32400
     environment:

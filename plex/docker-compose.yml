@@ -6,8 +6,8 @@ services:
     ports: 
     - 32400:32400
     environment:
-      PGID: "${GID}"
-      PUID: "${UID}"
+      PGID: "${PGID}"
+      PUID: "${PUID}"
       PLEX_CLAIM: ''
       UMASK: '022'
       VERSION: docker

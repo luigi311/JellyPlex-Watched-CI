@@ -9,8 +9,8 @@ services:
     - 8096:8096
     - 8920:8920
     environment:
-      PGID: "${GID}"
-      PUID: "${UID}"
+      PGID: "${PGID}"
+      PUID: "${PUID}"
       UMASK: '022'
     volumes:
     - ./config:/config

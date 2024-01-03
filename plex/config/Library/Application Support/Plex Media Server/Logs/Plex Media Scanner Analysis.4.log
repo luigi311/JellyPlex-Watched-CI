@@ -1,78 +1,153 @@
-Nov 14, 2023 03:03:27.822 [140279432301312] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Nov 14, 2023 03:03:27.823 [140279432301312] INFO - Linux version: 6.6.0, language: en-US
-Nov 14, 2023 03:03:27.823 [140279432301312] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
-Nov 14, 2023 03:03:27.823 [140279432301312] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 3
-Nov 14, 2023 03:03:27.823 [140279432805184] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - Analyzing media parts for item 3 (Tears of Steel): 3,6
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - Updating part with ID=3 [/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv]
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - Part hashes for media item 3 have changed.
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - [ID 3] Media part analysis: /movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - [MI] Opening input file: "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv"
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - [FFMPEG] - Opening '/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv' for reading
-Nov 14, 2023 03:03:27.878 [140279432805184] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3188 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3302 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [MI]  * fd2db84a6ab1628b82d198463f04d5a930e12d66 [mkv hevc/] Duration: 734167ms, 256x144 (2.400000) 24.000fps, bitrate=11kbps, audio channels=0, optimizedForStreaming=0 ("/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv")
-Nov 14, 2023 03:03:27.879 [140279432805184] DEBUG - [MI] Chapters had generic titles, clearing.
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [MI] Closing input file: "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv"
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - Committing media stream changes for part 3
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - Updating media item 3, size=1084839, metadata_item_id=3
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - Updating part with ID=3 [/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}.mkv]
-Nov 14, 2023 03:03:27.880 [140279415212800] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [ID 6] Media part analysis: /movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [MI] Opening input file: "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv"
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [FFMPEG] - Opening '/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv' for reading
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:03:27.880 [140279432805184] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 754 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:03:27.881 [140279414754048] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:03:27.881 [140279415212800] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Nov 14, 2023 03:03:27.881 [140279414754048] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - no picture 
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - no picture 
-Nov 14, 2023 03:03:27.881 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1687 bytes read:32768 seeks:0 frames:10
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [MI]  * 8d7f778c5af6bf3ed1d0326b56dd9c65429ef6df [mkv h264/] Duration: 734167ms, 256x144 (2.400000) 24.000fps, bitrate=11kbps, audio channels=0, optimizedForStreaming=0 ("/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv")
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [MI] Chapters had generic titles, clearing.
-Nov 14, 2023 03:03:27.882 [140279432805184] DEBUG - [MI] Closing input file: "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv"
-Nov 14, 2023 03:03:27.883 [140279432805184] DEBUG - Committing media stream changes for part 6
-Nov 14, 2023 03:03:27.883 [140279432805184] DEBUG - Updating media item 6, size=1027534, metadata_item_id=3
-Nov 14, 2023 03:03:27.883 [140279432805184] DEBUG - Updating part with ID=6 [/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752} (1).mkv]
-Nov 14, 2023 03:03:27.883 [140279415212800] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:03:27.883 [140279414754048] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Nov 14, 2023 03:03:27.883 [140279415212800] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Nov 14, 2023 03:03:27.884 [140279414754048] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Nov 14, 2023 03:03:27.884 [140279432805184] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:03:27.884 [140279432805184] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:03:27.885 [140279414754048] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Nov 14, 2023 03:03:27.885 [140279432805184] DEBUG - Updating metadata item (save) (Tears of Steel) with ID 3
+Jan 03, 2024 02:54:01.453 [139649489017600] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 03, 2024 02:54:01.453 [139649489017600] INFO - Linux version: 6.7.0-rc5, language: en-US
+Jan 03, 2024 02:54:01.453 [139649489017600] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
+Jan 03, 2024 02:54:01.453 [139649489017600] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 24
+Jan 03, 2024 02:54:01.453 [139649489521472] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 03, 2024 02:54:01.507 [139649489521472] DEBUG - Analyzing media parts for item 24 (Five Nights at Freddy's): 14
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - Computing hash for a tiny file, only using first block.
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - Updating part with ID=14 [/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv]
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - Part hashes for media item 14 have changed.
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [ID 14] Media part analysis: /movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [MI] Opening input file: "/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv"
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [FFMPEG] - Opening '/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv' for reading
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 03, 2024 02:54:01.508 [139649489521472] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 570 bytes read:16803 seeks:0 nb_streams:1
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - no picture 
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - no picture 
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.509 [139649489521472] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - first_dts 7000 not matching first dts NOPTS (pts 0, duration 1000) in the queue
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 1.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 2.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 2.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 3.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 4.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 4.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 5.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 6.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 6.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 7.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 8.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 8.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 9.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 10.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 10.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 11.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 12.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 12.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 13.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 14.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 14.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 15.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 16.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 16.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 17.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 18.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 18.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 19.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 20.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 20.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 21.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 22.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 22.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 23.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 24.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 24.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 25.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 26.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 26.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 27.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 28.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 28.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 29.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 30.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 30.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 31.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 32.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 32.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 33.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 34.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 34.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 35.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 36.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 36.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 37.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 38.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 38.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 39.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 40.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 40.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 41.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 42.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 42.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 43.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 44.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 44.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 45.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 46.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 46.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 47.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 48.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 48.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 49.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 50.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 50.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 51.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 52.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 52.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 53.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 54.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 54.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 55.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 56.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 56.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 57.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 58.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 58.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 59.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 60.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 60.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 80.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 80.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 120.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 120.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 240.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 240.000000 0.000000
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 23.976024 0.004743
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 23.976024 0.004743
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 29.970030 0.007410
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 11.988012 0.001186
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 11.988012 0.001186
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 14.985015 0.001853
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 14.985015 0.001853
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - rfps: 47.952048 0.018970
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1810 bytes read:16803 seeks:0 frames:20
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [MI]  * 16803b03ffbe068a37fd8fdca6585a58f5d23050325af [mkv h264/] Duration: 601000ms, 128x96 (1.333333) 1.000fps, bitrate=0kbps, audio channels=0, optimizedForStreaming=0 ("/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv")
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [MI] Chapters had generic titles, clearing.
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - [MI] Closing input file: "/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv"
+Jan 03, 2024 02:54:01.510 [139649489521472] DEBUG - Committing media stream changes for part 14
+Jan 03, 2024 02:54:01.511 [139649489521472] DEBUG - Updating media item 14, size=16803, metadata_item_id=24
+Jan 03, 2024 02:54:01.511 [139649489521472] DEBUG - Updating part with ID=14 [/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv]
+Jan 03, 2024 02:54:01.511 [139649471306496] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=24&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 03, 2024 02:54:01.511 [139649470782208] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=24&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 03, 2024 02:54:01.512 [139649471306496] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=24&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 03, 2024 02:54:01.512 [139649470782208] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=24&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 03, 2024 02:54:01.513 [139649489521472] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:54:01.513 [139649489521472] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:54:01.513 [139649470782208] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:54:01.513 [139649489521472] DEBUG - Updating metadata item (save) (Five Nights at Freddy's) with ID 24

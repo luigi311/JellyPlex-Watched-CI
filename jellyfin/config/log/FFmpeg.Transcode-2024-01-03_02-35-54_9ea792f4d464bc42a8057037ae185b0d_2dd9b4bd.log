@@ -1,0 +1,45 @@
+/videos/9ea792f4-d464-bc42-a805-7037ae185b0d/hls1/main/81.ts
+
+{"Protocol":0,"Id":"9ea792f4d464bc42a8057037ae185b0d","Path":"/data/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":913178,"Name":"Big Buck Bunny {tvdb-12352} {imdb-tt1254207}","IsRemote":false,"ETag":"83b3e806b6ddd575e90e689155f9ff16","RunTimeTicks":5964590080,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"hevc","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"144p HEVC SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":12247,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":144,"Width":256,"AverageFrameRate":24,"RealFrameRate":24,"Profile":"Main","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":60,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":12247,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -ss 00:04:03.000 -f matroska,webm -autorotate 0 -i file:"/data/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map -0:a -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 122472 -bufsize 244944 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,243+n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(256\,144*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(256/a\,144))/2)*2,format=yuv420p"  -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type mpegts -start_number 81 -hls_segment_filename "/config/data/transcodes/73b3f14a485fb17a5747eb5cfedb9956%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/73b3f14a485fb17a5747eb5cfedb9956.m3u8"
+
+
+ffmpeg version 5.1.3-Jellyfin Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libsvtav1 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-opencl --enable-vaapi --enable-amf --enable-libmfx --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, matroska,webm, from 'file:/data/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv':
+  Metadata:
+    ENCODER         : Lavf59.27.100
+  Duration: 00:04:01.00, start: 0.000000, bitrate: 0 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 128x96 [SAR 1:1 DAR 4:3], 1 fps, 1 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.37.100 libx264
+      DURATION        : 00:04:01.000000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x55b4b30beb80] using SAR=1/1
+[libx264 @ 0x55b4b30beb80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x55b4b30beb80] profile Main, level 1b, 4:2:0, 8-bit
+[libx264 @ 0x55b4b30beb80] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=1 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=122 vbv_bufsize=244 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '/config/data/transcodes/73b3f14a485fb17a5747eb5cfedb9956.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264, yuv420p, 128x96 [SAR 1:1 DAR 4:3], q=2-31, 1 fps, 90k tbn
+    Metadata:
+      encoder         : Lavc59.37.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 122000/0/0 buffer size: 244000 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[hls @ 0x55b4b30da7c0] Opening '/config/data/transcodes/73b3f14a485fb17a5747eb5cfedb995681.ts' for writing
+frame=    0 fps=0.0 q=0.0 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

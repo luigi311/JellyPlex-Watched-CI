@@ -1,42 +1,155 @@
-Nov 14, 2023 03:04:38.769 [140172136135424] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Nov 14, 2023 03:04:38.770 [140172136135424] INFO - Linux version: 6.6.0, language: en-US
-Nov 14, 2023 03:04:38.770 [140172136135424] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
-Nov 14, 2023 03:04:38.770 [140172136135424] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1
-Nov 14, 2023 03:04:38.770 [140172136639296] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Nov 14, 2023 03:04:38.822 [140172136639296] DEBUG - Analyzing media parts for item 1 (Big Buck Bunny): 1
-Nov 14, 2023 03:04:38.822 [140172136639296] DEBUG - Updating part with ID=1 [/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv]
-Nov 14, 2023 03:04:38.822 [140172136639296] DEBUG - Part hashes for media item 1 have changed.
-Nov 14, 2023 03:04:38.822 [140172136639296] DEBUG - [ID 1] Media part analysis: /movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [MI] Opening input file: "/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv"
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Opening '/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv' for reading
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3278 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3387 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [MI]  * de650e3f924f64f81ce163db309eca1fb0522ada [mkv hevc/] Duration: 596459ms, 256x144 (1.777778) 24.000fps, bitrate=12kbps, audio channels=0, optimizedForStreaming=0 ("/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv")
-Nov 14, 2023 03:04:38.823 [140172136639296] DEBUG - [MI] Chapters had generic titles, clearing.
-Nov 14, 2023 03:04:38.824 [140172136639296] DEBUG - [MI] Closing input file: "/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv"
-Nov 14, 2023 03:04:38.824 [140172136639296] DEBUG - Committing media stream changes for part 1
-Nov 14, 2023 03:04:38.824 [140172136639296] DEBUG - Updating media item 1, size=913178, metadata_item_id=1
-Nov 14, 2023 03:04:38.824 [140172136639296] DEBUG - Updating part with ID=1 [/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}.mkv]
-Nov 14, 2023 03:04:38.824 [140172118997760] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:04:38.825 [140172118588160] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:04:38.825 [140172118997760] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Nov 14, 2023 03:04:38.825 [140172118588160] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Nov 14, 2023 03:04:38.826 [140172136639296] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:04:38.826 [140172136639296] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:04:38.826 [140172118588160] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Nov 14, 2023 03:04:38.826 [140172136639296] DEBUG - Updating metadata item (save) (Big Buck Bunny) with ID 1
+Jan 03, 2024 02:54:01.584 [140384970615552] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 03, 2024 02:54:01.584 [140384970615552] INFO - Linux version: 6.7.0-rc5, language: en-US
+Jan 03, 2024 02:54:01.584 [140384970615552] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
+Jan 03, 2024 02:54:01.584 [140384970615552] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 26
+Jan 03, 2024 02:54:01.584 [140384971119424] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 03, 2024 02:54:01.637 [140384971119424] DEBUG - It took 0.000000 ms to retrieve 249 items.
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - Analyzing media parts for item 26 (Killers of the Flower Moon): 16
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - Computing hash for a tiny file, only using first block.
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - Updating part with ID=16 [/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv]
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - Part hashes for media item 16 have changed.
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [ID 16] Media part analysis: /movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [MI] Opening input file: "/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv"
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [FFMPEG] - Opening '/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv' for reading
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 03, 2024 02:54:01.638 [140384971119424] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 570 bytes read:16803 seeks:0 nb_streams:1
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - no picture 
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - no picture 
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.639 [140384971119424] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - first_dts 7000 not matching first dts NOPTS (pts 0, duration 1000) in the queue
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 1.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 2.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 2.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 3.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 4.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 4.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 5.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 6.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 6.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 7.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 8.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 8.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 9.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 10.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 10.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 11.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 12.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 12.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 13.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 14.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 14.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 15.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 16.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 16.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 17.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 18.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 18.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 19.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 20.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 20.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 21.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 22.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 22.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 23.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 24.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 24.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 25.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 26.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 26.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 27.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 28.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 28.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 29.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 30.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 30.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 31.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 32.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 32.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 33.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 34.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 34.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 35.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 36.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 36.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 37.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 38.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 38.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 39.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 40.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 40.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 41.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 42.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 42.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 43.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 44.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 44.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 45.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 46.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 46.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 47.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 48.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 48.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 49.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 50.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 50.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 51.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 52.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 52.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 53.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 54.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 54.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 55.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 56.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 56.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 57.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 58.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 58.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 59.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 60.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 60.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 80.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 80.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 120.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 120.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 240.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 240.000000 0.000000
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 23.976024 0.004743
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 23.976024 0.004743
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 29.970030 0.007410
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 11.988012 0.001186
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 11.988012 0.001186
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 14.985015 0.001853
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 14.985015 0.001853
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - rfps: 47.952048 0.018970
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1810 bytes read:16803 seeks:0 frames:20
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [MI]  * 16803638ba40a594838031e2e0814b78a3d20a76b4f72 [mkv h264/] Duration: 601000ms, 128x96 (1.333333) 1.000fps, bitrate=0kbps, audio channels=0, optimizedForStreaming=0 ("/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv")
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [MI] Chapters had generic titles, clearing.
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - [MI] Closing input file: "/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv"
+Jan 03, 2024 02:54:01.640 [140384971119424] DEBUG - Committing media stream changes for part 16
+Jan 03, 2024 02:54:01.641 [140384971119424] DEBUG - Updating media item 16, size=16803, metadata_item_id=26
+Jan 03, 2024 02:54:01.641 [140384971119424] DEBUG - Updating part with ID=16 [/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv]
+Jan 03, 2024 02:54:01.641 [140384952380160] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=26&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 03, 2024 02:54:01.641 [140384952236800] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=26&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 03, 2024 02:54:01.641 [140384952380160] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=26&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 03, 2024 02:54:01.642 [140384952236800] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=26&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 03, 2024 02:54:01.643 [140384971119424] DEBUG - It took 0.000000 ms to retrieve 249 items.
+Jan 03, 2024 02:54:01.644 [140384971119424] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:54:01.644 [140384971119424] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:54:01.644 [140384952236800] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:54:01.644 [140384971119424] DEBUG - Updating metadata item (save) (Killers of the Flower Moon) with ID 26

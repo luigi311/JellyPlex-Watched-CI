@@ -1,261 +1,82 @@
-Nov 14, 2023 03:25:19.361 [140053435992832] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Nov 14, 2023 03:25:19.361 [140053435992832] INFO - Linux version: 6.6.0, language: en-US
-Nov 14, 2023 03:25:19.361 [140053435992832] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
-Nov 14, 2023 03:25:19.361 [140053435992832] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 0553623d-91b7-4de2-b2a9-ee04690c087c
-Nov 14, 2023 03:25:19.362 [140053436496704] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Nov 14, 2023 03:25:19.416 [140053436496704] DEBUG - [HCl#1] HTTP requesting PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=0
-Nov 14, 2023 03:25:19.416 [140053418969856] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1699931119
-Nov 14, 2023 03:25:19.417 [140053418445568] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=0
-Nov 14, 2023 03:25:19.417 [140053418445568] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1699931119
-Nov 14, 2023 03:25:19.417 [140053436496704] DEBUG - Scanning TV Shows using xn(Plex Series Scanner) with 2 current media items and 1 section locations in the database.
-Nov 14, 2023 03:25:19.461 [140053436496704] DEBUG - Performing a scan with 'Plex Series Scanner' (language: xn virtual: 0).
-Nov 14, 2023 03:25:19.461 [140053436496704] DEBUG -   * Scanning /tvshows
-Nov 14, 2023 03:25:19.461 [140053436496704] DEBUG - Scanner: Processing directory /tvshows (parent: no)
-Nov 14, 2023 03:25:19.462 [140053436496704] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
-Nov 14, 2023 03:25:19.462 [140053436496704] DEBUG - Scanner: Processing directory /tvshows/Blender Shorts (parent: yes)
-Nov 14, 2023 03:25:19.463 [140053436496704] DEBUG - File '/tvshows/Blender Shorts/S01E02.mkv' changed size, can't skip.
-Nov 14, 2023 03:25:19.465 [140053436496704] DEBUG - Looking for path match for [/tvshows/Blender Shorts/S01E01.mkv]
-Nov 14, 2023 03:25:19.465 [140053436496704] DEBUG - Path matched, we're reusing media item 11
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Looking for path match for [/tvshows/Blender Shorts/S01E02.mkv]
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Path matched, we're reusing media item 12
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Noting item as needing media analysis, scanning=0, streams=0, missing channels=0, streamability=0, size=1, time=1.
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Turbo analysis on modified item 12 [/tvshows/Blender Shorts/S01E02.mkv]
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Updating media item 12, size=1048576, metadata_item_id=22
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - Updating part with ID=12 [/tvshows/Blender Shorts/S01E02.mkv]
-Nov 14, 2023 03:25:19.466 [140053436496704] DEBUG - [HCl#3] HTTP requesting PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=%2B99&subtitle=Blender%20Shorts
-Nov 14, 2023 03:25:19.467 [140053418445568] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=%2B99&subtitle=Blender%20Shorts (reused)
-Nov 14, 2023 03:25:19.467 [140053436496704] DEBUG - [HCl#4] HTTP requesting PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=99.000000
-Nov 14, 2023 03:25:19.467 [140053418445568] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=99.000000 (reused)
-Nov 14, 2023 03:25:19.467 [140053436496704] DEBUG - Removing 0 media items that were left.
-Nov 14, 2023 03:25:19.467 [140053436496704] DEBUG - Removing 0 directories that were left.
-Nov 14, 2023 03:25:19.468 [140053436496704] DEBUG - [HCl#5] HTTP requesting PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=100
-Nov 14, 2023 03:25:19.468 [140053418445568] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/0553623d-91b7-4de2-b2a9-ee04690c087c?percentComplete=100 (reused)
-Nov 14, 2023 03:25:19.468 [140053436496704] DEBUG - Refreshing section 2 of type: 2
-Nov 14, 2023 03:25:19.469 [140053417425664] DEBUG - Refreshing 0 IDs.
-Nov 14, 2023 03:25:19.469 [140053415881472] DEBUG - MediaItem::PerformBackgroundAnalysis on 12
-Nov 14, 2023 03:25:19.470 [140053415881472] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.470 [140053415881472] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.470 [140053418445568] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Nov 14, 2023 03:25:19.470 [140053415881472] DEBUG - Updating metadata item (save) () with ID 22
-Nov 14, 2023 03:25:19.471 [140053418969856] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
-Nov 14, 2023 03:25:19.471 [140053418445568] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - Updating part with ID=12 [/tvshows/Blender Shorts/S01E02.mkv]
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - Part hashes for media item 12 have changed.
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - [ID 12] Media part analysis: /tvshows/Blender Shorts/S01E02.mkv
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - [MI] Opening input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - [FFMPEG] - Opening '/tvshows/Blender Shorts/S01E02.mkv' for reading
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:25:19.472 [140053415881472] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3010 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:25:19.473 [140053415881472] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3122 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:25:19.476 [140053415881472] DEBUG - [MI]  * 8dcecc048abdaec79aa19b1ed598007c48f80b00 [mkv hevc/] Duration: 464083ms, 256x144 (2.386946) 24.000fps, bitrate=18kbps, audio channels=0, optimizedForStreaming=0 ("/tvshows/Blender Shorts/S01E02.mkv")
-Nov 14, 2023 03:25:19.476 [140053415881472] DEBUG - [MI] Chapters had generic titles, clearing.
-Nov 14, 2023 03:25:19.476 [140053415881472] DEBUG - [MI] Closing input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.477 [140053415881472] DEBUG - Committing media stream changes for part 12
-Nov 14, 2023 03:25:19.477 [140053415881472] DEBUG - Updating media item 12, size=1048576, metadata_item_id=22
-Nov 14, 2023 03:25:19.477 [140053415881472] DEBUG - Updating part with ID=12 [/tvshows/Blender Shorts/S01E02.mkv]
-Nov 14, 2023 03:25:19.477 [140053418969856] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Nov 14, 2023 03:25:19.477 [140053418445568] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Nov 14, 2023 03:25:19.477 [140053418969856] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [MI] Opening input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Opening '/tvshows/Blender Shorts/S01E02.mkv' for reading
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:25:19.478 [140053418445568] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3010 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3122 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:25:19.478 [140053415881472] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/dcecc048abdaec79aa19b1ed598007c48f80b00.bundle/Contents/Thumbnails/thumb1.jpg (25.0%, 720x512).
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.479 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.480 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.480 [140053415881472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 103.
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 104.
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - Output frame with POC 103.
-Nov 14, 2023 03:25:19.481 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 105.
-Nov 14, 2023 03:25:19.482 [140053415881472] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
-Nov 14, 2023 03:25:19.484 [140053415881472] DEBUG - Loaded memory image of size 343x144.
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.486 [140053415881472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 103.
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 104.
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - Output frame with POC 103.
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 105.
-Nov 14, 2023 03:25:19.487 [140053415881472] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
-Nov 14, 2023 03:25:19.490 [140053415881472] DEBUG - Loaded memory image of size 343x144.
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.491 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -83.
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.492 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -79.
-Nov 14, 2023 03:25:19.493 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.493 [140053415881472] DEBUG - [FFMPEG] - Output frame with POC -83.
-Nov 14, 2023 03:25:19.493 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -81.
-Nov 14, 2023 03:25:19.493 [140053415881472] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
-Nov 14, 2023 03:25:19.495 [140053415881472] DEBUG - Loaded memory image of size 343x144.
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [MI] Closing input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [MI] Opening input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Opening '/tvshows/Blender Shorts/S01E02.mkv' for reading
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3010 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.497 [140053415881472] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3122 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/dcecc048abdaec79aa19b1ed598007c48f80b00.bundle/Contents/Thumbnails/thumb2.jpg (50.0%, 720x512).
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.498 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.500 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.500 [140053415881472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -26.
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -22.
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - Output frame with POC -26.
-Nov 14, 2023 03:25:19.501 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC -24.
-Nov 14, 2023 03:25:19.502 [140053415881472] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
-Nov 14, 2023 03:25:19.504 [140053415881472] DEBUG - Loaded memory image of size 343x144.
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [MI] Closing input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [MI] Opening input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [FFMPEG] - Opening '/tvshows/Blender Shorts/S01E02.mkv' for reading
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Nov 14, 2023 03:25:19.505 [140053415881472] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3010 bytes read:32768 seeks:0 nb_streams:1
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - All info found
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3122 bytes read:32768 seeks:0 frames:3
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/dcecc048abdaec79aa19b1ed598007c48f80b00.bundle/Contents/Thumbnails/thumb3.jpg (75.0%, 720x512).
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding VPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding SPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Main profile bitstream
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding VUI
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding PPS
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.506 [140053415881472] DEBUG - [FFMPEG] - Decoding SEI
-Nov 14, 2023 03:25:19.509 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.509 [140053415881472] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 107.
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 111.
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - Output frame with POC 107.
-Nov 14, 2023 03:25:19.510 [140053415881472] DEBUG - [FFMPEG] - Decoded frame with POC 109.
-Nov 14, 2023 03:25:19.511 [140053415881472] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
-Nov 14, 2023 03:25:19.513 [140053415881472] DEBUG - Loaded memory image of size 343x144.
-Nov 14, 2023 03:25:19.514 [140053415881472] DEBUG - [MI] Closing input file: "/tvshows/Blender Shorts/S01E02.mkv"
-Nov 14, 2023 03:25:19.515 [140053415881472] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.515 [140053415881472] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.515 [140053418445568] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Nov 14, 2023 03:25:19.515 [140053415881472] DEBUG - Updating metadata item (save) () with ID 22
-Nov 14, 2023 03:25:19.516 [140053418969856] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
-Nov 14, 2023 03:25:19.516 [140053418445568] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
-Nov 14, 2023 03:25:19.516 [140053418969856] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Nov 14, 2023 03:25:19.516 [140053418445568] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Nov 14, 2023 03:25:19.517 [140053415881472] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.517 [140053415881472] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Nov 14, 2023 03:25:19.518 [140053418445568] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Nov 14, 2023 03:25:19.518 [140053415881472] DEBUG - Updating metadata item (save) () with ID 22
-Nov 14, 2023 03:25:19.518 [140053418969856] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
-Nov 14, 2023 03:25:19.518 [140053418445568] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
-Nov 14, 2023 03:25:19.518 [140053415881472] DEBUG - [HCl#f] HTTP requesting PUT http://127.0.0.1:32400/library/metadata/20/intro
-Nov 14, 2023 03:25:19.519 [140053418445568] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 404 response from PUT http://127.0.0.1:32400/library/metadata/20/intro (reused)
-Nov 14, 2023 03:25:19.519 [140053415881472] DEBUG - [HCl#10] HTTP requesting PUT http://127.0.0.1:32400/library/metadata/22/credits
-Nov 14, 2023 03:25:19.521 [140053418445568] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 403 response from PUT http://127.0.0.1:32400/library/metadata/22/credits (reused)
-Nov 14, 2023 03:25:19.521 [140053418969856] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=1&parentID=-1&rootID=-1
-Nov 14, 2023 03:25:19.521 [140053418445568] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=22&metadataType=4&state=1&parentID=-1&rootID=-1 (reused)
+Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Linux version: 6.7.0-rc5, language: en-US
+Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
+Jan 03, 2024 02:48:15.719 [140487186135808] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity dac2d184-cdbd-4a64-bcc7-fc5f6182867f
+Jan 03, 2024 02:48:15.720 [140487186639680] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 03, 2024 02:48:15.771 [140487186639680] DEBUG - [HCl#1] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=0
+Jan 03, 2024 02:48:15.771 [140487168948992] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1704248895
+Jan 03, 2024 02:48:15.771 [140487168424704] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=0
+Jan 03, 2024 02:48:15.771 [140487168424704] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1704248895
+Jan 03, 2024 02:48:15.771 [140487186639680] DEBUG - Scanning TV Shows using xn(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
+Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG - Performing a scan with 'Plex Series Scanner' (language: xn virtual: 0).
+Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG -   * Scanning /tvshows
+Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG - Scanner: Processing directory /tvshows (parent: no)
+Jan 03, 2024 02:48:15.812 [140487186639680] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+Jan 03, 2024 02:48:15.812 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216} (parent: yes)
+Jan 03, 2024 02:48:15.813 [140487186639680] DEBUG - Skipping over directory 'Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}', as nothing has changed; removing 0 media items from map.
+Jan 03, 2024 02:48:15.813 [140487168948992] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D
+Jan 03, 2024 02:48:15.813 [140487168424704] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D (reused)
+Jan 03, 2024 02:48:15.814 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1 (parent: yes)
+Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - Skipping over directory 'Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1', as nothing has changed; removing 5 media items from map.
+Jan 03, 2024 02:48:15.815 [140487168948992] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%2FSeason%201
+Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - [HCl#5] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%20-%20Season%201
+Jan 03, 2024 02:48:15.815 [140487168424704] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%2FSeason%201 (reused)
+Jan 03, 2024 02:48:15.815 [140487168424704] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%20-%20Season%201 (reused)
+Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992} (parent: yes)
+Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Skipping over directory 'Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}', as nothing has changed; removing 0 media items from map.
+Jan 03, 2024 02:48:15.816 [140487168948992] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D
+Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1 (parent: yes)
+Jan 03, 2024 02:48:15.816 [140487168424704] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D (reused)
+Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Skipping over directory 'Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1', as nothing has changed; removing 5 media items from map.
+Jan 03, 2024 02:48:15.816 [140487168948992] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%2FSeason%201
+Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - [HCl#8] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%20-%20Season%201
+Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%2FSeason%201 (reused)
+Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%20-%20Season%201 (reused)
+Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - [HCl#9] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=99.000000
+Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=99.000000 (reused)
+Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Removing 2 media items that were left.
+Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Deleting media item 11.
+Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.818 [140487168424704] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - Was connected to metadata item 21, count is now 0.
+Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - Destroying metadata item 21 (2023-11-14)
+Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.819 [140487168424704] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Updating deletion state for metadata item 20, is has a dead item count of 0.
+Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Updating deletion state for metadata item 19, is has a dead item count of 0.
+Jan 03, 2024 02:48:15.820 [140487168948992] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1
+Jan 03, 2024 02:48:15.820 [140487168424704] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1 (reused)
+Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - Deleting media item 12.
+Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.821 [140487168424704] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Was connected to metadata item 22, count is now 0.
+Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Destroying metadata item 22 (2023-11-14)
+Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.821 [140487168424704] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Destroying metadata item 20 (Season 1)
+Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.822 [140487168424704] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Destroying metadata item 19 (Blender Shorts)
+Jan 03, 2024 02:48:15.823 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.823 [140487186639680] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 03, 2024 02:48:15.823 [140487168424704] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 03, 2024 02:48:15.823 [140487168948992] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
+Jan 03, 2024 02:48:15.823 [140487168424704] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
+Jan 03, 2024 02:48:15.823 [140487168948992] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
+Jan 03, 2024 02:48:15.824 [140487168424704] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
+Jan 03, 2024 02:48:15.824 [140487168948992] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1
+Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Removing 1 directories that were left.
+Jan 03, 2024 02:48:15.824 [140487168424704] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1 (reused)
+Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Deleting directory [Blender Shorts] (6)
+Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Updating directory '' (ID 2) to time 2024-01-03 02:48:10.
+Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - [HCl#14] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=100
+Jan 03, 2024 02:48:15.825 [140487168424704] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=100 (reused)
+Jan 03, 2024 02:48:15.825 [140487168948992] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=21,19,20,22&types=4,2,3,4&parentIDs=20,-1,19,20&rootIDs=19,-1,-1,19
+Jan 03, 2024 02:48:15.825 [140487186639680] DEBUG - Refreshing section 2 of type: 2
+Jan 03, 2024 02:48:15.825 [140487168424704] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=21,19,20,22&types=4,2,3,4&parentIDs=20,-1,19,20&rootIDs=19,-1,-1,19 (reused)
+Jan 03, 2024 02:48:15.826 [140487167400704] DEBUG - Refreshing 0 IDs.

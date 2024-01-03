@@ -20,7 +20,13 @@ TVSHOWS=( "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv" 
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E02.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E03.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E04.mkv" \
-    "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E05.mkv"
+    "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E05.mkv" \
+    "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E01.mkv" \
+    "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E02.mkv" \
+    "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E03.mkv" \
+    "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E01.mkv" \
+    "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E02.mkv" \
+    "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv"
     )
 
 COMMAND="ffmpeg -y -t 600 -f lavfi -i color=c=black:s=128x96 -r 1 -c:v libx264 -tune stillimage -pix_fmt yuv420p"

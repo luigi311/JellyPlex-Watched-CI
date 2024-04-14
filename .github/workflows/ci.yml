@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - .gitignore
+      - "**/*.md"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Start containers
+        run: |
+          export PGID=$(id -g)
+          export PUID=$(id -u)
+
+          sudo chown -R $PUID:$PGID *
+
+          docker pull lscr.io/linuxserver/plex &
+          docker pull lscr.io/linuxserver/jellyfin &
+
+          wait
+
+          docker-compose -f plex/docker-compose.yml up -d 
+          docker-compose -f jellyfin/docker-compose.yml up -d
+          # Wait for containers to start
+          sleep 10
+
+          docker-compose -f plex/docker-compose.yml down
+          docker-compose -f jellyfin/docker-compose.yml down
+      
+      - name: Update
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "action@github.com"
+          git add .
+          git commit -m "Update"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          directory: .

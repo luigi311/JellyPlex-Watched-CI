@@ -1,7 +1,7 @@
-version: '3'
 services:
   jellyfin:
     image: lscr.io/linuxserver/jellyfin
+    container_name: jellyfin
     network_mode: bridge
     ports:
     - 1900:1900

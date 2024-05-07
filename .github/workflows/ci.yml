@@ -13,25 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Start containers
+      - name: Update containers
         run: |
-          export PGID=$(id -g)
-          export PUID=$(id -u)
-
-          sudo chown -R $PUID:$PGID *
-
-          docker pull lscr.io/linuxserver/plex &
-          docker pull lscr.io/linuxserver/jellyfin &
-
-          wait
-
-          docker-compose -f plex/docker-compose.yml up -d 
-          docker-compose -f jellyfin/docker-compose.yml up -d
-          # Wait for containers to start
-          sleep 10
-
-          docker-compose -f plex/docker-compose.yml down
-          docker-compose -f jellyfin/docker-compose.yml down
+          chmod +x ./update_containers.sh
+          ./update_containers.sh
       
       - name: Update
         run: |

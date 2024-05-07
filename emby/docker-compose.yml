@@ -1,0 +1,19 @@
+services:
+  emby:
+    image: emby/embyserver:latest
+    container_name: emby
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      # Port: 8920 Https webUI (you need to setup your own certificate).
+      #- 8920:8920
+      # WebUI Http webUI.
+      - 8097:8096
+    environment:
+      PGID: "${PGID}"
+      PUID: "${PUID}"
+    volumes:
+    - ./config:/config
+    - ../movies:/movies
+    - ../tvshows:/tvshows
+    devices: []

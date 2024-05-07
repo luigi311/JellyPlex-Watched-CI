@@ -16,11 +16,13 @@ TVSHOWS=( "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv" 
     "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E03.mkv" \
     "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E04.mkv" \
     "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E05.mkv" \
+    "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E06.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E01.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E02.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E03.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E04.mkv" \
     "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E05.mkv" \
+    "Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E06.mkv" \
     "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E01.mkv" \
     "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E02.mkv" \
     "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E03.mkv" \

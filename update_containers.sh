@@ -14,6 +14,6 @@ PUID=$(id -u)
 # Wait for containers to start
 sleep 30
 
-docker-compose -f "${DIR}/plex/docker-compose.yml" down
-docker-compose -f "${DIR}/jellyfin/docker-compose.yml" down
-docker-compose -f "${DIR}/emby/docker-compose.yml" down
+docker compose -f "${DIR}/plex/docker-compose.yml" down
+docker compose -f "${DIR}/jellyfin/docker-compose.yml" down
+docker compose -f "${DIR}/emby/docker-compose.yml" down

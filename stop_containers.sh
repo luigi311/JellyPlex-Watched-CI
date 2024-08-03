@@ -8,6 +8,6 @@ PGID=$(id -g)
 export PUID
 PUID=$(id -u)
 
-docker-compose -f "${DIR}/plex/docker-compose.yml" down
-docker-compose -f "${DIR}/jellyfin/docker-compose.yml" down
-docker-compose -f "${DIR}/emby/docker-compose.yml" down
+docker compose -f "${DIR}/plex/docker-compose.yml" down
+docker compose -f "${DIR}/jellyfin/docker-compose.yml" down
+docker compose -f "${DIR}/emby/docker-compose.yml" down

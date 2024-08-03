@@ -16,6 +16,6 @@ docker pull emby/embyserver &
 
 wait
 
-docker-compose -f "${DIR}/plex/docker-compose.yml" up -d 
-docker-compose -f "${DIR}/jellyfin/docker-compose.yml" up -d
-docker-compose -f "${DIR}/emby/docker-compose.yml" up -d
+docker compose -f "${DIR}/plex/docker-compose.yml" up -d
+docker compose -f "${DIR}/jellyfin/docker-compose.yml" up -d
+docker compose -f "${DIR}/emby/docker-compose.yml" up -d

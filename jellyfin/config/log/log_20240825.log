@@ -1,0 +1,58 @@
+[2024-08-25 00:22:55.680 +00:00] [INF] [1] Main: Jellyfin version: "10.9.9"
+[2024-08-25 00:22:55.697 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]"]
+[2024-08-25 00:22:55.700 +00:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2024-08-25 00:22:55.700 +00:00] [INF] [1] Main: Operating system: "Ubuntu 24.04 LTS"
+[2024-08-25 00:22:55.700 +00:00] [INF] [1] Main: Architecture: X64
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: User Interactive: True
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: Processor count: 4
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: Program data path: "/config/data"
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-08-25 00:22:55.701 +00:00] [INF] [1] Main: Config directory path: "/config"
+[2024-08-25 00:22:55.702 +00:00] [INF] [1] Main: Cache path: "/config/cache"
+[2024-08-25 00:22:55.702 +00:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2024-08-25 00:22:55.702 +00:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2024-08-25 00:22:55.869 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2024-08-25 00:22:55.922 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 00:22:56.015 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 00:22:56.015 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 00:22:56.015 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 00:22:56.016 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.17.0.3"]
+[2024-08-25 00:22:56.017 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 00:22:56.017 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 00:22:56.017 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 00:22:57.914 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 00:22:57.916 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 00:22:57.917 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 00:22:57.942 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 00:22:57.943 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 00:22:58.006 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2024-08-25 00:22:58.007 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2024-08-25 00:22:58.050 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 00:22:58.072 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {ddefde85-1f52-4dd4-9013-be77c8c982aa} may be persisted to storage in unencrypted form.
+[2024-08-25 00:22:58.745 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/run/s6-rc:s6-rc-init:MfhiBi/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2024-08-25 00:22:58.787 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 00:22:58.797 +00:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-08-25 00:22:58.800 +00:00] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-08-25 00:22:58.803 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-25 03:00:00.000 +00:00, which is 02:37:01.1964434 from now.
+[2024-08-25 00:22:58.820 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-25 02:00:00.000 +00:00, which is 01:37:01.1797435 from now.
+[2024-08-25 00:22:58.860 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 00:22:58.915 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 00:22:58.932 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 00:22:58.951 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 00:22:59.090 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 00:23:00.183 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 00:23:00.184 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "fa187d5995374f68bb1682aa5a681a70"
+[2024-08-25 00:23:00.184 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 00:23:00.184 +00:00] [INF] [1] Main: Startup complete 0:00:04.6807166
+[2024-08-25 00:23:01.844 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 00:23:02.745 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 00:23:28.893 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 00:23:28.904 +00:00] [INF] [8] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 00:23:28.910 +00:00] [INF] [17] Main: Running query planner optimizations in the database... This might take a while
+[2024-08-25 00:23:28.929 +00:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-08-25 00:23:28.929 +00:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-08-25 00:23:28.933 +00:00] [INF] [17] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-08-25 00:23:28.933 +00:00] [INF] [17] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-08-25 00:23:28.933 +00:00] [INF] [17] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-08-25 00:23:28.934 +00:00] [INF] [17] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

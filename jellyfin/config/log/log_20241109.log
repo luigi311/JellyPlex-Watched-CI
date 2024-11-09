@@ -1,0 +1,209 @@
+[2024-11-09 17:53:56.339 +00:00] [INF] [1] Main: Jellyfin version: "10.10.1"
+[2024-11-09 17:53:56.348 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_DATA_DIR, /config/data]"]
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Operating system: "Ubuntu 24.04.1 LTS"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Architecture: X64
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: User Interactive: True
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Processor count: 8
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Program data path: "/config/data"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Config directory path: "/config"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Cache path: "/config/cache"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Temp directory path: "/tmp/jellyfin"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2024-11-09 17:53:56.349 +00:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2024-11-09 17:53:56.406 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2024-11-09 17:53:56.425 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-11-09 17:53:56.472 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-11-09 17:53:56.472 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-11-09 17:53:56.472 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-11-09 17:53:56.473 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.17.0.3"]
+[2024-11-09 17:53:56.473 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-11-09 17:53:56.473 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-11-09 17:53:56.473 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-11-09 17:53:57.175 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.10.1.0"
+[2024-11-09 17:53:57.175 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.10.1.0"
+[2024-11-09 17:53:57.175 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.10.1.0"
+[2024-11-09 17:53:57.184 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.10.1.0"
+[2024-11-09 17:53:57.184 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.10.1.0"
+[2024-11-09 17:53:57.224 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-11-09 17:53:57.466 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/run/s6-rc:s6-rc-init:HiFenf/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2024-11-09 17:53:57.481 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-11-09 17:53:57.482 +00:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-11-09 17:53:57.482 +00:00] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-11-09 17:53:57.486 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-11-10 03:00:00.000 +00:00, which is 09:06:02.5130985 from now.
+[2024-11-09 17:53:57.491 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-11-10 02:00:00.000 +00:00, which is 08:06:02.5084285 from now.
+[2024-11-09 17:53:57.507 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.0.2"
+[2024-11-09 17:53:57.532 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2024-11-09 17:53:57.543 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-11-09 17:53:57.554 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-11-09 17:53:57.635 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-11-09 17:53:59.088 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-11-09 17:53:59.089 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "fa187d5995374f68bb1682aa5a681a70"
+[2024-11-09 17:53:59.089 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-11-09 17:53:59.089 +00:00] [INF] [1] Main: Startup complete 0:00:02.8173856
+[2024-11-09 17:54:00.496 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-11-09 17:54:00.498 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-11-09 17:54:02.279 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-11-09 18:20:51.494 +00:00] [INF] [21] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-11-09 18:20:51.498 +00:00] [INF] [22] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-11-09 18:20:51.500 +00:00] [INF] [19] Main: Running query planner optimizations in the database... This might take a while
+[2024-11-09 18:20:51.511 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-11-09 18:20:51.511 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-11-09 18:20:51.527 +00:00] [INF] [19] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-11-09 18:20:51.527 +00:00] [INF] [19] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-11-09 18:20:51.527 +00:00] [INF] [19] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-11-09 18:20:51.527 +00:00] [INF] [19] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2024-11-09 18:22:21.793 +00:00] [INF] [1] Main: Jellyfin version: "10.10.1"
+[2024-11-09 18:22:21.802 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Operating system: "Ubuntu 24.04.1 LTS"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Architecture: X64
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: User Interactive: True
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Processor count: 8
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Program data path: "/config/data"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Config directory path: "/config"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Cache path: "/config/cache"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Temp directory path: "/tmp/jellyfin"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2024-11-09 18:22:21.803 +00:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2024-11-09 18:22:21.863 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2024-11-09 18:22:21.881 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-11-09 18:22:21.927 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-11-09 18:22:21.927 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-11-09 18:22:21.927 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-11-09 18:22:21.928 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.17.0.3"]
+[2024-11-09 18:22:21.928 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-11-09 18:22:21.928 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-11-09 18:22:21.928 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-11-09 18:22:22.615 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.10.1.0"
+[2024-11-09 18:22:22.616 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.10.1.0"
+[2024-11-09 18:22:22.616 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.10.1.0"
+[2024-11-09 18:22:22.625 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.10.1.0"
+[2024-11-09 18:22:22.625 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.10.1.0"
+[2024-11-09 18:22:22.664 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-11-09 18:22:22.905 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/run/s6-rc:s6-rc-init:mIFKID/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2024-11-09 18:22:22.921 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-11-09 18:22:22.921 +00:00] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-11-09 18:22:22.921 +00:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-11-09 18:22:22.926 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-11-10 03:00:00.000 +00:00, which is 08:37:37.0731904 from now.
+[2024-11-09 18:22:22.931 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-11-10 02:00:00.000 +00:00, which is 07:37:37.0683638 from now.
+[2024-11-09 18:22:22.947 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.0.2"
+[2024-11-09 18:22:22.974 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2024-11-09 18:22:22.986 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-11-09 18:22:22.997 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-11-09 18:22:23.064 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-11-09 18:22:24.523 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-11-09 18:22:24.523 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "fa187d5995374f68bb1682aa5a681a70"
+[2024-11-09 18:22:24.523 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-11-09 18:22:24.523 +00:00] [INF] [1] Main: Startup complete 0:00:02.7960931
+[2024-11-09 18:22:25.936 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-11-09 18:22:25.938 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-11-09 18:22:26.611 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2024-11-09 18:31:41.639 +00:00] [INF] [26] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "JellyUser" has succeeded.
+[2024-11-09 18:31:41.640 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "JellyUser": 0/0
+[2024-11-09 18:31:41.641 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 32f97b31-f402-48fb-af21-7370a6f48bc9
+[2024-11-09 18:31:41.777 +00:00] [INF] [27] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.200.138" request
+[2024-11-09 18:31:53.876 +00:00] [INF] [30] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-11-09 18:31:53.876 +00:00] [INF] [30] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-11-09 18:31:53.876 +00:00] [INF] [30] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-11-09 18:31:54.006 +00:00] [WRN] [24] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:31:54.042 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:31:54.509 +00:00] [INF] [32] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/The Hunger Games The Ballad of Songbirds & Snakes (2023) {tmdb-695721} {imdb-tt10545296}/The Hunger Games The Ballad of Songbirds & Snakes (2023).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [30] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}/Big Buck Bunny.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [24] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/Elephant Dream {tvdb-16180} {imdb-tt0807840}/Elephant Dream.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [23] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}/Five Nights at Freddy's (2023).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [28] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}/Tears Of Steel.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [21] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/The Family Plan (2023) {tmdb-1029575} {imdb-tt16431870}/The Family Plan (2023).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.509 +00:00] [INF] [3] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}/Killers of the Flower Moon (2023).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.579 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E02.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.579 +00:00] [INF] [26] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E02.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.579 +00:00] [INF] [29] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E02.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.579 +00:00] [INF] [31] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E02.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.632 +00:00] [INF] [30] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.635 +00:00] [INF] [24] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E03.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.636 +00:00] [INF] [28] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E03.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.636 +00:00] [INF] [29] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E03.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.652 +00:00] [INF] [29] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E01.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.654 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E04.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.655 +00:00] [INF] [28] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E01.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.656 +00:00] [INF] [24] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E04.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.676 +00:00] [INF] [28] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E01.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.677 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.696 +00:00] [INF] [28] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E05.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:54.697 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/shows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E05.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:31:56.208 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/d820acd240ae4212b8748444a04ada60.png"
+[2024-11-09 18:31:56.496 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/d820acd240ae4212b8748444a04ada60.png"
+[2024-11-09 18:31:56.502 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/2bc728a1fa0c4c6aad75af44e0dddcaa.png"
+[2024-11-09 18:31:56.748 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/2bc728a1fa0c4c6aad75af44e0dddcaa.png"
+[2024-11-09 18:31:56.756 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/d78fdc7e3daf431e9b9b564a30f61fb4.png"
+[2024-11-09 18:31:56.908 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/d78fdc7e3daf431e9b9b564a30f61fb4.png"
+[2024-11-09 18:31:56.915 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/e4f049b6f6c4498ea52c5a58c1a2c959.png"
+[2024-11-09 18:31:57.098 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/e4f049b6f6c4498ea52c5a58c1a2c959.png"
+[2024-11-09 18:31:57.103 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/985ed4956afa479081369f43f75b15d6.png"
+[2024-11-09 18:31:57.361 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/985ed4956afa479081369f43f75b15d6.png"
+[2024-11-09 18:31:57.366 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/0fbb4583331b493db503cf0285388953.png"
+[2024-11-09 18:31:57.671 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/0fbb4583331b493db503cf0285388953.png"
+[2024-11-09 18:31:57.678 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/682dfa22befd4511ac785f78432f81af.png"
+[2024-11-09 18:31:57.762 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/682dfa22befd4511ac785f78432f81af.png"
+[2024-11-09 18:31:57.766 +00:00] [INF] [28] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/6fdd87086bb947f2b6e8a188e2e89b53.png"
+[2024-11-09 18:31:57.990 +00:00] [INF] [28] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/6fdd87086bb947f2b6e8a188e2e89b53.png"
+[2024-11-09 18:31:57.995 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/92ba842801584d99b1e6f2235268a8b6.png"
+[2024-11-09 18:31:58.333 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/92ba842801584d99b1e6f2235268a8b6.png"
+[2024-11-09 18:31:58.338 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/96e7062d483c46a1bdc0bb56ae8ee3a8.png"
+[2024-11-09 18:31:58.682 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/96e7062d483c46a1bdc0bb56ae8ee3a8.png"
+[2024-11-09 18:31:58.690 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/bd1dfd1bea344289b9b64c690c0c664a.png"
+[2024-11-09 18:31:58.934 +00:00] [INF] [22] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/bd1dfd1bea344289b9b64c690c0c664a.png"
+[2024-11-09 18:31:58.968 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Creating image collage and saving to "/tmp/jellyfin/c61c9741078a44ffadcaaf958f78b619.png"
+[2024-11-09 18:31:59.179 +00:00] [INF] [30] Jellyfin.Drawing.ImageProcessor: Completed creation of image collage and saved to "/tmp/jellyfin/c61c9741078a44ffadcaaf958f78b619.png"
+[2024-11-09 18:31:59.205 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 5 seconds
+[2024-11-09 18:31:59.216 +00:00] [INF] [21] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-11-09 18:31:59.216 +00:00] [INF] [28] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-11-09 18:32:16.310 +00:00] [INF] [28] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-11-09 18:32:16.310 +00:00] [INF] [28] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-11-09 18:32:16.346 +00:00] [WRN] [21] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:16.353 +00:00] [INF] [21] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-11-09 18:32:16.383 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:16.385 +00:00] [WRN] [21] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:16.389 +00:00] [INF] [20] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_movies/Movie Two (2021)/Movie Two (2021).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:16.389 +00:00] [INF] [30] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_movies/Movie One (2020)/Movie One (2020).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:16.389 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_movies/Movie Four (2023)/Movie Four (2023).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:16.389 +00:00] [INF] [19] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_movies/Movie Three (2022)/Movie Three (2022).mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:17.896 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 1 seconds
+[2024-11-09 18:32:17.921 +00:00] [INF] [18] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-11-09 18:32:17.921 +00:00] [INF] [21] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-11-09 18:32:17.921 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/custom_movies"
+[2024-11-09 18:32:41.877 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-11-09 18:32:41.877 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/custom_movies"
+[2024-11-09 18:32:41.877 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-11-09 18:32:41.902 +00:00] [WRN] [28] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:41.906 +00:00] [INF] [36] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-11-09 18:32:41.931 +00:00] [WRN] [28] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:41.934 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-11-09 18:32:41.942 +00:00] [INF] [36] MediaBrowser.Providers.TV.SeriesMetadataService: Creating Season "Season Unknown" entry for "Greatest Show Ever (3000)"
+[2024-11-09 18:32:41.946 +00:00] [INF] [36] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_tvshows/Greatest Show Ever (3000)/Season 1/S01E04.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:41.963 +00:00] [INF] [36] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_tvshows/Greatest Show Ever (3000)/Season 1/S01E03.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:41.978 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_tvshows/Greatest Show Ever (3000)/Season 1/S01E02.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:42.015 +00:00] [INF] [22] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/custom_tvshows/Greatest Show Ever (3000)/Season 1/S01E01.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-11-09 18:32:42.034 +00:00] [INF] [22] MediaBrowser.Providers.TV.SeriesMetadataService: Removing virtual season null in series "Greatest Show Ever (3000)"
+[2024-11-09 18:32:42.035 +00:00] [INF] [22] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Season", Name: "Season Unknown", Path: "", Id: ab94e28e-3ee1-d70b-dd4b-1a16e835b092
+[2024-11-09 18:32:43.576 +00:00] [INF] [28] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 1 seconds
+[2024-11-09 18:32:43.595 +00:00] [INF] [33] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/custom_tvshows"
+[2024-11-09 18:32:43.595 +00:00] [INF] [35] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/custom_movies"
+[2024-11-09 18:32:43.596 +00:00] [INF] [36] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/shows"
+[2024-11-09 18:32:43.596 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-11-09 18:37:40.107 +00:00] [INF] [46] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.200.138" closed
+[2024-11-09 18:37:59.888 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-11-09 18:37:59.892 +00:00] [INF] [46] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-11-09 18:37:59.894 +00:00] [INF] [47] Main: Running query planner optimizations in the database... This might take a while
+[2024-11-09 18:37:59.907 +00:00] [INF] [46] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/shows"
+[2024-11-09 18:37:59.907 +00:00] [INF] [46] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/custom_tvshows"
+[2024-11-09 18:37:59.907 +00:00] [INF] [46] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/custom_movies"
+[2024-11-09 18:37:59.907 +00:00] [INF] [46] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-11-09 18:37:59.909 +00:00] [INF] [47] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-11-09 18:37:59.909 +00:00] [INF] [47] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-11-09 18:37:59.909 +00:00] [INF] [47] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-11-09 18:37:59.910 +00:00] [INF] [47] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

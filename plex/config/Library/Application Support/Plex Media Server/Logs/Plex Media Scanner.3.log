@@ -1,82 +1,101 @@
-Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Plex Media Scanner v1.32.7.7621-871adbd44 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Linux version: 6.7.0-rc5, language: en-US
-Jan 03, 2024 02:48:15.719 [140487186135808] INFO - Processor: 32-core AMD Ryzen 9 5950X 16-Core Processor            
-Jan 03, 2024 02:48:15.719 [140487186135808] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity dac2d184-cdbd-4a64-bcc7-fc5f6182867f
-Jan 03, 2024 02:48:15.720 [140487186639680] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jan 03, 2024 02:48:15.771 [140487186639680] DEBUG - [HCl#1] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=0
-Jan 03, 2024 02:48:15.771 [140487168948992] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1704248895
-Jan 03, 2024 02:48:15.771 [140487168424704] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=0
-Jan 03, 2024 02:48:15.771 [140487168424704] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1704248895
-Jan 03, 2024 02:48:15.771 [140487186639680] DEBUG - Scanning TV Shows using xn(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
-Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG - Performing a scan with 'Plex Series Scanner' (language: xn virtual: 0).
-Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG -   * Scanning /tvshows
-Jan 03, 2024 02:48:15.811 [140487186639680] DEBUG - Scanner: Processing directory /tvshows (parent: no)
-Jan 03, 2024 02:48:15.812 [140487186639680] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
-Jan 03, 2024 02:48:15.812 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216} (parent: yes)
-Jan 03, 2024 02:48:15.813 [140487186639680] DEBUG - Skipping over directory 'Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}', as nothing has changed; removing 0 media items from map.
-Jan 03, 2024 02:48:15.813 [140487168948992] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D
-Jan 03, 2024 02:48:15.813 [140487168424704] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D (reused)
-Jan 03, 2024 02:48:15.814 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1 (parent: yes)
-Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - Skipping over directory 'Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1', as nothing has changed; removing 5 media items from map.
-Jan 03, 2024 02:48:15.815 [140487168948992] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%2FSeason%201
-Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - [HCl#5] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%20-%20Season%201
-Jan 03, 2024 02:48:15.815 [140487168424704] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%2FSeason%201 (reused)
-Jan 03, 2024 02:48:15.815 [140487168424704] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Monarch%20-%20Legacy%20of%20Monsters%20%7Btvdb-422598%7D%20%7Bimdb-tt17220216%7D%20-%20Season%201 (reused)
-Jan 03, 2024 02:48:15.815 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992} (parent: yes)
-Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Skipping over directory 'Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}', as nothing has changed; removing 0 media items from map.
-Jan 03, 2024 02:48:15.816 [140487168948992] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D
-Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Scanner: Processing directory /tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1 (parent: yes)
-Jan 03, 2024 02:48:15.816 [140487168424704] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D (reused)
-Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - Skipping over directory 'Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1', as nothing has changed; removing 5 media items from map.
-Jan 03, 2024 02:48:15.816 [140487168948992] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%2FSeason%201
-Jan 03, 2024 02:48:15.816 [140487186639680] DEBUG - [HCl#8] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%20-%20Season%201
-Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%2FSeason%201 (reused)
-Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=%2B49%2E5&subtitle=Doctor%20Who%20%282005%29%20%7Btvdb-78804%7D%20%7Bimdb-tt0436992%7D%20-%20Season%201 (reused)
-Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - [HCl#9] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=99.000000
-Jan 03, 2024 02:48:15.817 [140487168424704] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=99.000000 (reused)
-Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Removing 2 media items that were left.
-Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Deleting media item 11.
-Jan 03, 2024 02:48:15.817 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.818 [140487168424704] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - Was connected to metadata item 21, count is now 0.
-Jan 03, 2024 02:48:15.818 [140487186639680] DEBUG - Destroying metadata item 21 (2023-11-14)
-Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.819 [140487168424704] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Updating deletion state for metadata item 20, is has a dead item count of 0.
-Jan 03, 2024 02:48:15.819 [140487186639680] DEBUG - Updating deletion state for metadata item 19, is has a dead item count of 0.
-Jan 03, 2024 02:48:15.820 [140487168948992] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1
-Jan 03, 2024 02:48:15.820 [140487168424704] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1 (reused)
-Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - Deleting media item 12.
-Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.820 [140487186639680] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.821 [140487168424704] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Was connected to metadata item 22, count is now 0.
-Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Destroying metadata item 22 (2023-11-14)
-Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.821 [140487186639680] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.821 [140487168424704] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Destroying metadata item 20 (Season 1)
-Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.822 [140487168424704] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.822 [140487186639680] DEBUG - Destroying metadata item 19 (Blender Shorts)
-Jan 03, 2024 02:48:15.823 [140487186639680] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.823 [140487186639680] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 03, 2024 02:48:15.823 [140487168424704] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 03, 2024 02:48:15.823 [140487168948992] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
-Jan 03, 2024 02:48:15.823 [140487168424704] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
-Jan 03, 2024 02:48:15.823 [140487168948992] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19
-Jan 03, 2024 02:48:15.824 [140487168424704] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=19 (reused)
-Jan 03, 2024 02:48:15.824 [140487168948992] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1
-Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Removing 1 directories that were left.
-Jan 03, 2024 02:48:15.824 [140487168424704] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1 (reused)
-Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Deleting directory [Blender Shorts] (6)
-Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - Updating directory '' (ID 2) to time 2024-01-03 02:48:10.
-Jan 03, 2024 02:48:15.824 [140487186639680] DEBUG - [HCl#14] HTTP requesting PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=100
-Jan 03, 2024 02:48:15.825 [140487168424704] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dac2d184-cdbd-4a64-bcc7-fc5f6182867f?percentComplete=100 (reused)
-Jan 03, 2024 02:48:15.825 [140487168948992] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=21,19,20,22&types=4,2,3,4&parentIDs=20,-1,19,20&rootIDs=19,-1,-1,19
-Jan 03, 2024 02:48:15.825 [140487186639680] DEBUG - Refreshing section 2 of type: 2
-Jan 03, 2024 02:48:15.825 [140487168424704] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=21,19,20,22&types=4,2,3,4&parentIDs=20,-1,19,20&rootIDs=19,-1,-1,19 (reused)
-Jan 03, 2024 02:48:15.826 [140487167400704] DEBUG - Refreshing 0 IDs.
+Nov 09, 2024 18:28:51.398 [124093655960320] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Nov 09, 2024 18:28:51.398 [124093655960320] INFO - Linux version: 6.8.4-3-pve, language: en-US
+Nov 09, 2024 18:28:51.398 [124093655960320] INFO - Processor: 8-core AMD Ryzen 7 7700X 8-Core Processor             
+Nov 09, 2024 18:28:51.398 [124093655960320] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 4 --activity 2be66655-e196-4dd8-bad5-c88c04b9cebb
+Nov 09, 2024 18:28:51.399 [124093656477440] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 09, 2024 18:28:51.441 [124093656477440] DEBUG - [HCl#1] HTTP requesting PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=0
+Nov 09, 2024 18:28:51.441 [124093638400768] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=4&sinceTime=1731175731
+Nov 09, 2024 18:28:51.442 [124093637892864] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=0
+Nov 09, 2024 18:28:51.442 [124093637892864] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=4&sinceTime=1731175731
+Nov 09, 2024 18:28:51.442 [124093656477440] DEBUG - Scanning Custom Movies using xn(Plex Movie Scanner) with 2 current media items and 1 section locations in the database.
+Nov 09, 2024 18:28:51.473 [124093656477440] DEBUG - Performing a scan with 'Plex Movie Scanner' (language: xn virtual: 0).
+Nov 09, 2024 18:28:51.473 [124093656477440] DEBUG -   * Scanning /custom_movies
+Nov 09, 2024 18:28:51.473 [124093656477440] DEBUG - Scanner: Processing directory /custom_movies (parent: no)
+Nov 09, 2024 18:28:51.474 [124093656477440] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+Nov 09, 2024 18:28:51.475 [124093656477440] DEBUG - Scanner: Processing directory /custom_movies/Movie One (2020) (parent: yes)
+Nov 09, 2024 18:28:51.475 [124093656477440] DEBUG - Skipping over directory 'Movie One (2020)', as nothing has changed; removing 1 media items from map.
+Nov 09, 2024 18:28:51.475 [124093638400768] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Movie%20One%20%282020%29
+Nov 09, 2024 18:28:51.475 [124093656477440] DEBUG - [HCl#3] HTTP requesting PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=%2B49%2E5&subtitle=Movie%20One%20%282020%29
+Nov 09, 2024 18:28:51.475 [124093637892864] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Movie%20One%20%282020%29 (reused)
+Nov 09, 2024 18:28:51.475 [124093637892864] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=%2B49%2E5&subtitle=Movie%20One%20%282020%29 (reused)
+Nov 09, 2024 18:28:51.475 [124093656477440] DEBUG - Scanner: Processing directory /custom_movies/Movie Two (2021) (parent: yes)
+Nov 09, 2024 18:28:51.476 [124093656477440] DEBUG - Directory had 1 files, database had 0 files, can't skip.
+Nov 09, 2024 18:28:51.477 [124093656477440] DEBUG - Looking for path match for [/custom_movies/Movie Two (2021)/Watched Movie (2024).mkv]
+Nov 09, 2024 18:28:51.477 [124093656477440] DEBUG - Skipping hash check, no size match for 0 bytes.
+Nov 09, 2024 18:28:51.477 [124093656477440] DEBUG - No match for hash.
+Nov 09, 2024 18:28:51.477 [124093656477440] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.477 [124093656477440] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.477 [124093637892864] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 09, 2024 18:28:51.478 [124093656477440] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.478 [124093656477440] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.479 [124093637892864] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 09, 2024 18:28:51.479 [124093656477440] DEBUG - Added new metadata item (Movie Two) with ID 127
+Nov 09, 2024 18:28:51.479 [124093638400768] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=1&parentID=-1&rootID=-1
+Nov 09, 2024 18:28:51.479 [124093637892864] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=1&parentID=-1&rootID=-1 (reused)
+Nov 09, 2024 18:28:51.479 [124093656477440] DEBUG - [HCl#8] HTTP requesting PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=%2B49%2E5&subtitle=Movie%20Two%20%282021%29
+Nov 09, 2024 18:28:51.480 [124093637892864] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=%2B49%2E5&subtitle=Movie%20Two%20%282021%29 (reused)
+Nov 09, 2024 18:28:51.480 [124093638400768] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=4&ids=127&types=1&parentIDs=-1&rootIDs=-1
+Nov 09, 2024 18:28:51.480 [124093656477440] DEBUG - [HCl#a] HTTP requesting PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=99.000000
+Nov 09, 2024 18:28:51.480 [124093636025088] DEBUG - Matching 'Movie Two' (ID 127) with agent com.plexapp.agents.none
+Nov 09, 2024 18:28:51.480 [124093636025088] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/metadata/127/matches?agent=com.plexapp.agents.none&language=xn&manual=0
+Nov 09, 2024 18:28:51.480 [124093637892864] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=4&ids=127&types=1&parentIDs=-1&rootIDs=-1 (reused)
+Nov 09, 2024 18:28:51.480 [124093638400768] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=2&parentID=-1&rootID=-1&metadataState=matching
+Nov 09, 2024 18:28:51.480 [124093637892864] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=99.000000 (reused)
+Nov 09, 2024 18:28:51.480 [124093656477440] DEBUG - Removing 1 media items that were left.
+Nov 09, 2024 18:28:51.480 [124093656477440] DEBUG - Deleting media item 199.
+Nov 09, 2024 18:28:51.480 [124093637892864] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=2&parentID=-1&rootID=-1&metadataState=matching (reused)
+Nov 09, 2024 18:28:51.480 [124093656477440] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.480 [124093656477440] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.480 [124093637892864] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 09, 2024 18:28:51.481 [124093656477440] DEBUG - Was connected to metadata item 121, count is now 0.
+Nov 09, 2024 18:28:51.481 [124093656477440] DEBUG - Destroying metadata item 121 (Watched Movie (2024))
+Nov 09, 2024 18:28:51.481 [124093656477440] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.481 [124093656477440] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.481 [124093637892864] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 09, 2024 18:28:51.481 [124093638400768] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1
+Nov 09, 2024 18:28:51.481 [124093637892864] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=-1 (reused)
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - Removing 1 directories that were left.
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - Deleting directory [Watched Movie (2024)] (29)
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - Updating directory '' (ID 27) to time 2024-11-09 18:28:46.
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - Updating directory 'Movie One (2020)' (ID 33) to time 2024-11-09 18:28:38.
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - Updating directory 'Movie Two (2021)' (ID 34) to time 2024-11-09 18:19:47.
+Nov 09, 2024 18:28:51.482 [124093656477440] DEBUG - [HCl#10] HTTP requesting PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=100
+Nov 09, 2024 18:28:51.482 [124093637892864] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/2be66655-e196-4dd8-bad5-c88c04b9cebb?percentComplete=100 (reused)
+Nov 09, 2024 18:28:51.482 [124093638400768] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=4&ids=121&types=1&parentIDs=-1&rootIDs=-1
+Nov 09, 2024 18:28:51.482 [124093637892864] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=4&ids=121&types=1&parentIDs=-1&rootIDs=-1 (reused)
+Nov 09, 2024 18:28:51.490 [124093637892864] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/metadata/127/matches?agent=com.plexapp.agents.none&language=xn&manual=0
+Nov 09, 2024 18:28:51.490 [124093636025088] DEBUG - Refreshing metadata for 'Movie Two' (agent: com.plexapp.agents.none)
+Nov 09, 2024 18:28:51.490 [124093638400768] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=5&parentID=-1&rootID=-1&metadataState=idle
+Nov 09, 2024 18:28:51.490 [124093636025088] DEBUG - Refreshing GUID: 'local://127'
+Nov 09, 2024 18:28:51.490 [124093636025088] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/system/agents/update?mediaType=1&force=1&respectTags=0&guid=local%3A%2F%2F127&id=127
+Nov 09, 2024 18:28:51.490 [124093637892864] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+Nov 09, 2024 18:28:51.490 [124093638400768] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=3&parentID=-1&rootID=-1&metadataState=queued
+Nov 09, 2024 18:28:51.490 [124093637892864] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=3&parentID=-1&rootID=-1&metadataState=queued (reused)
+Nov 09, 2024 18:28:51.495 [124093637892864] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/system/agents/update?mediaType=1&force=1&respectTags=0&guid=local%3A%2F%2F127&id=127 (reused)
+Nov 09, 2024 18:28:51.495 [124093656477440] DEBUG - Refreshing section 4 of type: 1
+Nov 09, 2024 18:28:51.495 [124093636025088] DEBUG - Refreshing 1 IDs.
+Nov 09, 2024 18:28:51.495 [124093636025088] DEBUG - Matching 'Movie Two' (ID 127) with agent com.plexapp.agents.none
+Nov 09, 2024 18:28:51.495 [124093636025088] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/library/metadata/127/matches?agent=com.plexapp.agents.none&language=xn&manual=0
+Nov 09, 2024 18:28:51.495 [124093638400768] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=2&parentID=-1&rootID=-1&metadataState=matching
+Nov 09, 2024 18:28:51.495 [124093637892864] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=2&parentID=-1&rootID=-1&metadataState=matching (reused)
+Nov 09, 2024 18:28:51.505 [124093637892864] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/metadata/127/matches?agent=com.plexapp.agents.none&language=xn&manual=0 (reused)
+Nov 09, 2024 18:28:51.505 [124093636025088] DEBUG - Refreshing metadata for 'Movie Two' (agent: com.plexapp.agents.none)
+Nov 09, 2024 18:28:51.505 [124093638400768] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=5&parentID=-1&rootID=-1&metadataState=idle
+Nov 09, 2024 18:28:51.505 [124093636025088] DEBUG - Refreshing GUID: 'local://127'
+Nov 09, 2024 18:28:51.505 [124093636025088] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/system/agents/update?mediaType=1&force=1&respectTags=0&guid=local%3A%2F%2F127&id=127
+Nov 09, 2024 18:28:51.505 [124093637892864] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+Nov 09, 2024 18:28:51.505 [124093638400768] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=3&parentID=-1&rootID=-1&metadataState=queued
+Nov 09, 2024 18:28:51.505 [124093637892864] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=4&metadataItemID=127&metadataType=1&state=3&parentID=-1&rootID=-1&metadataState=queued (reused)
+Nov 09, 2024 18:28:51.508 [124093637892864] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/system/agents/update?mediaType=1&force=1&respectTags=0&guid=local%3A%2F%2F127&id=127 (reused)
+Nov 09, 2024 18:28:51.508 [124093635877632] DEBUG - MediaItem::PerformBackgroundAnalysis on 203
+Nov 09, 2024 18:28:51.508 [124093635877632] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.508 [124093635877632] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 09, 2024 18:28:51.509 [124093637892864] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 09, 2024 18:28:51.509 [124093635877632] DEBUG - Updating metadata item (save) (Movie Two) with ID 127
+Nov 09, 2024 18:28:51.509 [124093635877632] DEBUG - [ID 203] Media part analysis: /custom_movies/Movie Two (2021)/Watched Movie (2024).mkv
+Nov 09, 2024 18:28:51.509 [124093635877632] DEBUG - [MI] Opening input file: "/custom_movies/Movie Two (2021)/Watched Movie (2024).mkv"
+Nov 09, 2024 18:28:51.509 [124093635877632] DEBUG - [FFMPEG] - Opening '/custom_movies/Movie Two (2021)/Watched Movie (2024).mkv' for reading
+Nov 09, 2024 18:28:51.509 [124093635877632] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 09, 2024 18:28:51.509 [124093635877632] ERROR - Exception analyzing media file '/custom_movies/Movie Two (2021)/Watched Movie (2024).mkv' (Could not parse /custom_movies/Movie Two (2021)/Watched Movie (2024).mkv (error=-2): No such file or directory)
+Nov 09, 2024 18:28:51.509 [124093635877632] ERROR - Failed to successfully analyze part 203.
+Nov 09, 2024 18:28:51.509 [124093635877632] ERROR - Failed to generate media bundle

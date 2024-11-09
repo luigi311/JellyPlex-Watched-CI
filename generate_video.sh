@@ -31,6 +31,19 @@ TVSHOWS=( "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv" 
     "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv"
     )
 
+# Location only based matching for Movies and Shows
+CUSTOM_MOVIES=( "Movie One (2020)/Movie One (2020).mkv" \
+    "Movie Two (2021)/Movie Two (2021).mkv" \
+    "Movie Three (2022)/Movie Three (2022).mkv" \
+    "Movie Four (2023)/Movie Four (2023).mkv"
+)
+
+CUSTOM_TVSHOWS=( "Greatest Show Ever (3000)/Season 1/S01E01.mkv" \
+    "Greatest Show Ever (3000)/Season 1/S01E02.mkv" \
+    "Greatest Show Ever (3000)/Season 1/S01E03.mkv" \
+    "Greatest Show Ever (3000)/Season 1/S01E04.mkv"
+)
+
 COMMAND="ffmpeg -y -t 600 -f lavfi -i color=c=black:s=128x96 -r 1 -c:v libx264 -tune stillimage -pix_fmt yuv420p"
 
 
@@ -46,6 +59,22 @@ done
 for tvshow in "${TVSHOWS[@]}"
 do
     OUTPUT="tvshows/$tvshow"
+    echo "Creating tvshow: $OUTPUT"
+    mkdir -p "$(dirname "$OUTPUT")"
+    eval "$COMMAND \"$OUTPUT\""
+done
+
+for movie in "${CUSTOM_MOVIES[@]}"
+do
+    OUTPUT="custom_movies/$movie"
+    echo "Creating movie: $OUTPUT"
+    mkdir -p "$(dirname "$OUTPUT")"
+    eval "$COMMAND \"$OUTPUT\""
+done
+
+for tvshow in "${CUSTOM_TVSHOWS[@]}"
+do
+    OUTPUT="custom_tvshows/$tvshow"
     echo "Creating tvshow: $OUTPUT"
     mkdir -p "$(dirname "$OUTPUT")"
     eval "$COMMAND \"$OUTPUT\""

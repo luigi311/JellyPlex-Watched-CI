@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2024-11-17T00:26:18.0759997Z","EndTimeUtc":"2024-11-17T00:26:19.1168310Z","Status":"Completed","Name":"Hardware Detection","Key":"HardwareDetection","Id":"4ccba258b890b2b73ee3e1d0ceec11e9"}
+{"StartTimeUtc":"2024-11-24T00:26:37.2561412Z","EndTimeUtc":"2024-11-24T00:26:37.9077818Z","Status":"Completed","Name":"Hardware Detection","Key":"HardwareDetection","Id":"4ccba258b890b2b73ee3e1d0ceec11e9"}

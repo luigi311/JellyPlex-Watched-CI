@@ -12,7 +12,7 @@ sudo chown -R "${PUID}:${PGID}" "${DIR}"/*
 
 docker pull lscr.io/linuxserver/plex &
 docker pull lscr.io/linuxserver/jellyfin &
-docker pull emby/embyserver &
+docker pull docker.io/emby/embyserver &
 
 wait
 

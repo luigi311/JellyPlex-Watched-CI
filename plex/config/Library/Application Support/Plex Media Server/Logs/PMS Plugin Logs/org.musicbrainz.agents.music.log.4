@@ -1,30 +1,30 @@
-2024-12-15 00:27:58,042 (7fa695746808) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: bc73974 (Mon Dec 09 15:23:33 UTC 2024)
-2024-12-15 00:27:58,043 (7fa695746808) :  DEBUG (core:361) - Using the elevated policy
-2024-12-15 00:27:58,043 (7fa695746808) :  DEBUG (core:450) - Starting runtime component.
-2024-12-15 00:27:58,055 (7fa695746808) :  DEBUG (core:450) - Starting caching component.
-2024-12-15 00:27:58,055 (7fa695746808) :  DEBUG (core:450) - Starting data component.
-2024-12-15 00:27:58,055 (7fa695746808) :  DEBUG (core:450) - Starting networking component.
-2024-12-15 00:27:58,056 (7fa695746808) :  DEBUG (networking:262) - Loaded HTTP cookies
-2024-12-15 00:27:58,056 (7fa695746808) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
-2024-12-15 00:27:58,057 (7fa695746808) :  DEBUG (core:450) - Starting localization component.
-2024-12-15 00:27:58,057 (7fa695746808) :  INFO (localization:409) - Setting the default locale to en-us
-2024-12-15 00:27:58,057 (7fa695746808) :  DEBUG (core:450) - Starting messaging component.
-2024-12-15 00:27:58,058 (7fa692331b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/org.musicbrainz.agents.music'
-2024-12-15 00:27:58,059 (7fa695746808) :  DEBUG (core:450) - Starting debugging component.
-2024-12-15 00:27:58,059 (7fa695746808) :  DEBUG (core:450) - Starting services component.
-2024-12-15 00:27:58,060 (7fa695746808) :  DEBUG (core:450) - Starting myplex component.
-2024-12-15 00:27:58,060 (7fa695746808) :  DEBUG (core:450) - Starting notifications component.
-2024-12-15 00:27:58,255 (7fa695746808) :  DEBUG (accessor:68) - Creating a new model access point for provider org.musicbrainz.agents.music in namespace 'metadata'
-2024-12-15 00:27:58,261 (7fa695746808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
-2024-12-15 00:27:58,370 (7fa695746808) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
-2024-12-15 00:27:58,372 (7fa695746808) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
-  File "/usr/lib/plexmediaserver/Resources/Plug-ins-bc7397402/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1293, in get_resource_hashes
+2024-12-22 00:26:07,997 (7fe1b73b0808) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: a0bfb83 (Mon Dec 16 15:16:41 UTC 2024)
+2024-12-22 00:26:07,997 (7fe1b73b0808) :  DEBUG (core:361) - Using the elevated policy
+2024-12-22 00:26:07,997 (7fe1b73b0808) :  DEBUG (core:450) - Starting runtime component.
+2024-12-22 00:26:07,999 (7fe1b73b0808) :  DEBUG (core:450) - Starting caching component.
+2024-12-22 00:26:07,999 (7fe1b73b0808) :  DEBUG (core:450) - Starting data component.
+2024-12-22 00:26:07,999 (7fe1b73b0808) :  DEBUG (core:450) - Starting networking component.
+2024-12-22 00:26:08,000 (7fe1b73b0808) :  DEBUG (networking:262) - Loaded HTTP cookies
+2024-12-22 00:26:08,000 (7fe1b73b0808) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
+2024-12-22 00:26:08,001 (7fe1b73b0808) :  DEBUG (core:450) - Starting localization component.
+2024-12-22 00:26:08,001 (7fe1b73b0808) :  INFO (localization:409) - Setting the default locale to en-us
+2024-12-22 00:26:08,002 (7fe1b73b0808) :  DEBUG (core:450) - Starting messaging component.
+2024-12-22 00:26:08,002 (7fe1b73b0808) :  DEBUG (core:450) - Starting debugging component.
+2024-12-22 00:26:08,002 (7fe1b73b0808) :  DEBUG (core:450) - Starting services component.
+2024-12-22 00:26:08,003 (7fe1b73b0808) :  DEBUG (core:450) - Starting myplex component.
+2024-12-22 00:26:08,003 (7fe1b73b0808) :  DEBUG (core:450) - Starting notifications component.
+2024-12-22 00:26:08,004 (7fe1b3f9bb38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/org.musicbrainz.agents.music'
+2024-12-22 00:26:08,117 (7fe1b73b0808) :  DEBUG (accessor:68) - Creating a new model access point for provider org.musicbrainz.agents.music in namespace 'metadata'
+2024-12-22 00:26:08,120 (7fe1b73b0808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2024-12-22 00:26:08,254 (7fe1b73b0808) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2024-12-22 00:26:08,256 (7fe1b73b0808) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-a0bfb8370/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1293, in get_resource_hashes
     json = self._core.networking.http_request("http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes", timeout=10).content
-  File "/usr/lib/plexmediaserver/Resources/Plug-ins-bc7397402/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-a0bfb8370/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
     return self.__str__()
-  File "/usr/lib/plexmediaserver/Resources/Plug-ins-bc7397402/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 221, in __str__
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-a0bfb8370/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 221, in __str__
     self.load()
-  File "/usr/lib/plexmediaserver/Resources/Plug-ins-bc7397402/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-a0bfb8370/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
     f = self._opener.open(req, timeout=self._timeout)
   File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 435, in open
     response = meth(req, response)
@@ -38,29 +38,29 @@
     raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
 HTTPError: HTTP Error 404: Not Found
 
-2024-12-15 00:27:58,382 (7fa6920e9b38) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
-2024-12-15 00:27:58,383 (7fa6920e9b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
-2024-12-15 00:27:58,384 (7fa695746808) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
-2024-12-15 00:27:58,388 (7fa695746808) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
-2024-12-15 00:27:58,389 (7fa6920a3b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
-2024-12-15 00:27:58,389 (7fa695746808) :  DEBUG (core:150) - Finished starting framework core
-2024-12-15 00:27:58,390 (7fa695746808) :  DEBUG (core:560) - Loading plug-in code
-2024-12-15 00:27:58,396 (7fa6920a3b38) :  DEBUG (core:538) - Machine identifier is 4aa082f4f7d6dd1a83a571d03b236b07794db03c
-2024-12-15 00:27:58,397 (7fa6920a3b38) :  DEBUG (core:539) - Server version is 1.41.3.9292-bc7397402
-2024-12-15 00:27:58,403 (7fa695746808) :  DEBUG (core:566) - Finished loading plug-in code
-2024-12-15 00:27:58,404 (7fa695746808) :  DEBUG (agentkit:1132) - Creating new agent class called MusicbrainzArtistAgent
-2024-12-15 00:27:58,405 (7fa695746808) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}]
-2024-12-15 00:27:58,406 (7fa695746808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50bnMxNApjb250cmlidXRlc190b3I0CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczExCk11c2ljYnJhaW56czQKbmFtZTEKczYKQXJ0aXN0MzAKczIKZW5zMgphcnMyCmJnczIKemhzMgpocnMyCmNzczIKZGFzMgpubHMyCmZpczIKZnJzMgpkZXMyCmVsczIKaHVzMgppZHMyCml0czIKamFzMgprb3MyCm5uczIKcGxzMgpwdHMyCnJvczIKcnVzMgpzcnMyCnNrczIKZXNzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnh4cjAK'
-2024-12-15 00:27:58,423 (7fa695746808) :  DEBUG (agentkit:1132) - Creating new agent class called PlexMusicAlbumAgent
-2024-12-15 00:27:58,426 (7fa695746808) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}]
-2024-12-15 00:27:58,427 (7fa6920e9b38) :  DEBUG (services:362) - Loaded services
-2024-12-15 00:27:58,429 (7fa695746808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKMgpzMjgKb3JnLm11c2ljYnJhaW56LmFnZW50cy5tdXNpY3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8yCnIyCnI1CjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MxMQpNdXNpY2JyYWluenM0Cm5hbWUxCnM2CkFydGlzdDMwCnMyCmVuczIKYXJzMgpiZ3MyCnpoczIKaHJzMgpjc3MyCmRhczIKbmxzMgpmaXMyCmZyczIKZGVzMgplbHMyCmh1czIKaWRzMgppdHMyCmphczIKa29zMgpubnMyCnBsczIKcHRzMgpyb3MyCnJ1czIKc3JzMgpza3MyCmVzczIKc3ZzMgp0aHMyCnRyczIKdmlzMgp4eDEwCnI2CnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MxMQpNdXNpY2JyYWluenM0Cm5hbWUxCnM1CkFsYnVtcjAK'
-2024-12-15 00:27:58,435 (7fa6920c6b38) :  DEBUG (services:438) - No shared code to load
-2024-12-15 00:27:58,438 (7fa695746808) :  INFO (core:611) - Started plug-in
-2024-12-15 00:27:58,438 (7fa695746808) :  DEBUG (socketinterface:160) - Starting socket server
-2024-12-15 00:27:58,438 (7fa695746808) :  DEBUG (runtime:1117) - Created a thread named 'start'
-2024-12-15 00:27:58,439 (7fa695746808) :  INFO (socketinterface:184) - Socket server started on port 35823
-2024-12-15 00:27:58,439 (7fa695746808) :  INFO (pipeinterface:25) - Entering run loop
-2024-12-15 00:27:58,439 (7fa695746808) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
-2024-12-15 00:27:58,440 (7fa695746808) :  DEBUG (runtime:814) - Found route matching /:/prefixes
-2024-12-15 00:27:58,441 (7fa695746808) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 153 bytes
+2024-12-22 00:26:08,267 (7fe1b3d57b38) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2024-12-22 00:26:08,268 (7fe1b3d57b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2024-12-22 00:26:08,269 (7fe1b73b0808) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2024-12-22 00:26:08,270 (7fe1b73b0808) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2024-12-22 00:26:08,270 (7fe1b73b0808) :  DEBUG (core:150) - Finished starting framework core
+2024-12-22 00:26:08,270 (7fe1b73b0808) :  DEBUG (core:560) - Loading plug-in code
+2024-12-22 00:26:08,287 (7fe1b3d11b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2024-12-22 00:26:08,289 (7fe1b3d57b38) :  DEBUG (services:362) - Loaded services
+2024-12-22 00:26:08,293 (7fe1b73b0808) :  DEBUG (core:566) - Finished loading plug-in code
+2024-12-22 00:26:08,293 (7fe1b73b0808) :  DEBUG (agentkit:1132) - Creating new agent class called MusicbrainzArtistAgent
+2024-12-22 00:26:08,295 (7fe1b3d34b38) :  DEBUG (services:438) - No shared code to load
+2024-12-22 00:26:08,297 (7fe1b3d11b38) :  DEBUG (core:538) - Machine identifier is 4aa082f4f7d6dd1a83a571d03b236b07794db03c
+2024-12-22 00:26:08,297 (7fe1b3d11b38) :  DEBUG (core:539) - Server version is 1.41.3.9314-a0bfb8370
+2024-12-22 00:26:08,298 (7fe1b73b0808) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}]
+2024-12-22 00:26:08,299 (7fe1b73b0808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50bnMxNApjb250cmlidXRlc190b3I0CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczExCk11c2ljYnJhaW56czQKbmFtZTEKczYKQXJ0aXN0MzAKczIKZW5zMgphcnMyCmJnczIKemhzMgpocnMyCmNzczIKZGFzMgpubHMyCmZpczIKZnJzMgpkZXMyCmVsczIKaHVzMgppZHMyCml0czIKamFzMgprb3MyCm5uczIKcGxzMgpwdHMyCnJvczIKcnVzMgpzcnMyCnNrczIKZXNzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnh4cjAK'
+2024-12-22 00:26:08,306 (7fe1b73b0808) :  DEBUG (agentkit:1132) - Creating new agent class called PlexMusicAlbumAgent
+2024-12-22 00:26:08,308 (7fe1b73b0808) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}]
+2024-12-22 00:26:08,309 (7fe1b73b0808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKMgpzMjgKb3JnLm11c2ljYnJhaW56LmFnZW50cy5tdXNpY3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8yCnIyCnI1CjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MxMQpNdXNpY2JyYWluenM0Cm5hbWUxCnM2CkFydGlzdDMwCnMyCmVuczIKYXJzMgpiZ3MyCnpoczIKaHJzMgpjc3MyCmRhczIKbmxzMgpmaXMyCmZyczIKZGVzMgplbHMyCmh1czIKaWRzMgppdHMyCmphczIKa29zMgpubnMyCnBsczIKcHRzMgpyb3MyCnJ1czIKc3JzMgpza3MyCmVzczIKc3ZzMgp0aHMyCnRyczIKdmlzMgp4eDEwCnI2CnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MxMQpNdXNpY2JyYWluenM0Cm5hbWUxCnM1CkFsYnVtcjAK'
+2024-12-22 00:26:08,321 (7fe1b73b0808) :  INFO (core:611) - Started plug-in
+2024-12-22 00:26:08,321 (7fe1b73b0808) :  DEBUG (socketinterface:160) - Starting socket server
+2024-12-22 00:26:08,323 (7fe1b73b0808) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2024-12-22 00:26:08,323 (7fe1b73b0808) :  INFO (socketinterface:184) - Socket server started on port 38879
+2024-12-22 00:26:08,323 (7fe1b73b0808) :  INFO (pipeinterface:25) - Entering run loop
+2024-12-22 00:26:08,324 (7fe1b73b0808) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2024-12-22 00:26:08,325 (7fe1b73b0808) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2024-12-22 00:26:08,326 (7fe1b73b0808) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 153 bytes

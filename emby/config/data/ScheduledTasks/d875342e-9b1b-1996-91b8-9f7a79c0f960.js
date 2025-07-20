@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2025-07-13T00:32:02.1496982Z","EndTimeUtc":"2025-07-13T00:32:02.2182909Z","Status":"Completed","Name":"Download OCR Data","Key":"DownloadOcr","Id":"d875342e9b1b199691b89f7a79c0f960"}
+{"StartTimeUtc":"2025-07-20T00:32:28.5797593Z","EndTimeUtc":"2025-07-20T00:32:28.7015988Z","Status":"Completed","Name":"Download OCR Data","Key":"DownloadOcr","Id":"d875342e9b1b199691b89f7a79c0f960"}

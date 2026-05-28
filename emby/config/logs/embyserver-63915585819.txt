@@ -1,0 +1,660 @@
+2026-05-28 17:16:46.258 Info Main: Application path: /system/EmbyServer.dll
+2026-05-28 17:16:46.309 Info NetworkManager: Adding event handler for NetworkChange.NetworkAddressChanged
+2026-05-28 17:16:46.455 Info App: Setting default culture to en-US
+2026-05-28 17:16:46.458 Info Main: Emby Server 4.9.5.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 6.12.85 (nixbld@localhost) (gcc (GCC) 14.3.0, GNU ld (GNU Binutils) 2.44) #1-NixOS SMP PREEMPT_DYNAMIC Thu Apr 30 09:14:47 UTC 2026
+	OS/Process: x64/x64
+	Framework: .NET 8.0.25
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /config
+	Application path: /system
+2026-05-28 17:16:46.458 Info Main: Logs path: /config/logs
+2026-05-28 17:16:46.458 Info Main: Cache path: /config/cache
+2026-05-28 17:16:46.458 Info Main: Internal metadata path: /config/metadata
+2026-05-28 17:16:46.458 Info Main: DefaultThreadCurrentCulture: en-US
+2026-05-28 17:16:46.458 Info Main: DefaultThreadCurrentUICulture: en-US
+2026-05-28 17:16:46.458 Info Main: DefaultThreadCurrentUICulture: en-US
+2026-05-28 17:16:46.462 Info Main: Server Friendly Name: ‌Emby-Server‌
+2026-05-28 17:16:46.462 Info Main: Local time: 05/28/2026 17:16:46 +00:00
+2026-05-28 17:16:46.464 Info App: Emby Server Version: 4.9.5.0
+2026-05-28 17:16:46.465 Info App: Loading assemblies
+2026-05-28 17:16:46.477 Info App: File /config/plugins/StudioImages.dll has version 1.0.3.0
+2026-05-28 17:16:46.477 Info App: File /system/plugins/StudioImages.dll has version 1.0.3.0
+2026-05-28 17:16:46.478 Info App: File /config/plugins/BlurayMounter.dll has version 1.0.5.0
+2026-05-28 17:16:46.478 Info App: File /system/plugins/BlurayMounter.dll has version 1.0.5.0
+2026-05-28 17:16:46.478 Info App: File /config/plugins/Tvdb.dll has version 1.6.3.0
+2026-05-28 17:16:46.479 Info App: File /system/plugins/Tvdb.dll has version 1.6.3.0
+2026-05-28 17:16:46.480 Info App: File /config/plugins/Fanart.dll has version 1.0.18.0
+2026-05-28 17:16:46.480 Info App: File /system/plugins/Fanart.dll has version 1.0.18.0
+2026-05-28 17:16:46.480 Info App: File /config/plugins/AudioDb.dll has version 1.0.21.0
+2026-05-28 17:16:46.481 Info App: File /system/plugins/AudioDb.dll has version 1.0.21.0
+2026-05-28 17:16:46.481 Info App: File /config/plugins/NfoMetadata.dll has version 1.0.86.0
+2026-05-28 17:16:46.481 Info App: File /system/plugins/NfoMetadata.dll has version 1.0.86.0
+2026-05-28 17:16:46.481 Info App: File /config/plugins/DvdMounter.dll has version 1.0.2.0
+2026-05-28 17:16:46.481 Info App: File /system/plugins/DvdMounter.dll has version 1.0.2.0
+2026-05-28 17:16:46.482 Info App: File /config/plugins/MovieDb.dll has version 1.8.9.0
+2026-05-28 17:16:46.482 Info App: File /system/plugins/MovieDb.dll has version 1.8.9.0
+2026-05-28 17:16:46.482 Info App: File /config/plugins/Emby.M3UTuner.dll has version 1.0.42.0
+2026-05-28 17:16:46.483 Info App: File /system/plugins/Emby.M3UTuner.dll has version 1.0.42.0
+2026-05-28 17:16:46.483 Info App: File /config/plugins/OMDb.dll has version 1.0.22.0
+2026-05-28 17:16:46.483 Info App: File /system/plugins/OMDb.dll has version 1.0.22.0
+2026-05-28 17:16:46.483 Info App: File /config/plugins/EmbyGuideData.dll has version 1.0.20.0
+2026-05-28 17:16:46.484 Info App: File /system/plugins/EmbyGuideData.dll has version 1.0.20.0
+2026-05-28 17:16:46.484 Info App: File /config/plugins/Emby.Dlna.dll has version 1.5.5.0
+2026-05-28 17:16:46.485 Info App: File /system/plugins/Emby.Dlna.dll has version 1.5.5.0
+2026-05-28 17:16:46.485 Info App: File /config/plugins/MusicBrainz.dll has version 1.0.28.0
+2026-05-28 17:16:46.485 Info App: File /system/plugins/MusicBrainz.dll has version 1.0.28.0
+2026-05-28 17:16:46.485 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.50.0
+2026-05-28 17:16:46.486 Info App: File /system/plugins/Emby.Server.CinemaMode.dll has version 1.0.50.0
+2026-05-28 17:16:46.486 Info App: File /config/plugins/Emby.PortMapper.dll has version 1.3.0.0
+2026-05-28 17:16:46.486 Info App: File /system/plugins/Emby.PortMapper.dll has version 1.3.0.0
+2026-05-28 17:16:46.486 Info App: File /config/plugins/Emby.Webhooks.dll has version 1.0.38.0
+2026-05-28 17:16:46.487 Info App: File /system/plugins/Emby.Webhooks.dll has version 1.0.38.0
+2026-05-28 17:16:46.487 Info App: File /config/plugins/Emby.XmlTV.dll has version 1.2.2.0
+2026-05-28 17:16:46.487 Info App: File /system/plugins/Emby.XmlTV.dll has version 1.2.2.0
+2026-05-28 17:16:46.488 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.68.0
+2026-05-28 17:16:46.488 Info App: File /system/plugins/OpenSubtitles.dll has version 1.0.68.0
+2026-05-28 17:16:46.488 Info App: File /config/plugins/MBBackup.dll has version 1.8.3.0
+2026-05-28 17:16:46.488 Info App: File /system/plugins/MBBackup.dll has version 1.8.3.0
+2026-05-28 17:16:46.499 Info App: Loading Emby.Api, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.499 Info App: Loading Emby.Web, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.499 Info App: Loading MediaBrowser.Model, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.499 Info App: Loading MediaBrowser.Common, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.499 Info App: Loading MediaBrowser.Controller, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.499 Info App: Loading Emby.Providers, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Photos, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Server.Implementations, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.LiveTV, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.ActivityLog, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Server.MediaEncoding, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.LocalMetadata, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Notifications, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Web.GenericUI, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Codecs.Dxva, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Codecs, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Server.Connect, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading Emby.Server.Sync, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading EmbyServer, Version=4.9.5.0, Culture=neutral, PublicKeyToken=null
+2026-05-28 17:16:46.500 Info App: Loading StudioImages, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null from /config/plugins/StudioImages.dll
+2026-05-28 17:16:46.500 Info App: Loading BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/BlurayMounter.dll
+2026-05-28 17:16:46.500 Info App: Loading Tvdb, Version=1.6.3.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Tvdb.dll
+2026-05-28 17:16:46.500 Info App: Loading Fanart, Version=1.0.18.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Fanart.dll
+2026-05-28 17:16:46.500 Info App: Loading AudioDb, Version=1.0.21.0, Culture=neutral, PublicKeyToken=null from /config/plugins/AudioDb.dll
+2026-05-28 17:16:46.500 Info App: Loading NfoMetadata, Version=1.0.86.0, Culture=neutral, PublicKeyToken=null from /config/plugins/NfoMetadata.dll
+2026-05-28 17:16:46.500 Info App: Loading DvdMounter, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/DvdMounter.dll
+2026-05-28 17:16:46.500 Info App: Loading MovieDb, Version=1.8.9.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MovieDb.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.M3UTuner.dll
+2026-05-28 17:16:46.500 Info App: Loading OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OMDb.dll
+2026-05-28 17:16:46.500 Info App: Loading EmbyGuideData, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null from /config/plugins/EmbyGuideData.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.Dlna, Version=1.5.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Dlna.dll
+2026-05-28 17:16:46.500 Info App: Loading MusicBrainz, Version=1.0.28.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MusicBrainz.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.Server.CinemaMode, Version=1.0.50.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.PortMapper, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.PortMapper.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.Webhooks, Version=1.0.38.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Webhooks.dll
+2026-05-28 17:16:46.500 Info App: Loading Emby.XmlTV, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.XmlTV.dll
+2026-05-28 17:16:46.500 Info App: Loading OpenSubtitles, Version=1.0.68.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
+2026-05-28 17:16:46.500 Info App: Loading MBBackup, Version=1.8.3.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MBBackup.dll
+2026-05-28 17:16:46.651 Info SqliteUserRepository: Initializing PooledDatabaseConnectionManager with pool size: 3
+2026-05-28 17:16:46.655 Info SqliteUserRepository: Sqlite version: 3.49.2
+2026-05-28 17:16:46.655 Info SqliteUserRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-10.3.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,DIRECT_OVERFLOW_READ,ENABLE_COLUMN_METADATA,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS5,ENABLE_MATH_FUNCTIONS,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=1000,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=0xfffffffe,MAX_PAGE_SIZE=65536,MAX_SCHEMA_RETRY=25,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=250000,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,OMIT_LOOKASIDE,OMIT_SHARED_CACHE,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+2026-05-28 17:16:46.655 Info SqliteUserRepository: Sqlite ThreadSafe: 1
+2026-05-28 17:16:46.655 Info SqliteUserRepository: Sqlite ThreadingMode: MultiThreaded
+2026-05-28 17:16:46.655 Info SqliteUserRepository: Opening sqlite connection to /config/data/users.db. isReadOnly: False
+2026-05-28 17:16:46.664 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
+2026-05-28 17:16:46.666 Info SqliteUserRepository: PRAGMA cache_size=-65536
+2026-05-28 17:16:46.667 Info SqliteUserRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.667 Info SqliteUserRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.667 Info SqliteUserRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.668 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.668 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:46.728 Info SqliteItemRepository: Initializing PooledDatabaseConnectionManager with pool size: 5
+2026-05-28 17:16:46.730 Info AuthenticationRepository: Initializing PooledDatabaseConnectionManager with pool size: 5
+2026-05-28 17:16:46.767 Info ActivityRepository: Initializing PooledDatabaseConnectionManager with pool size: 3
+2026-05-28 17:16:46.768 Info ActivityRepository: Opening sqlite connection to /config/data/activitylog.db. isReadOnly: False
+2026-05-28 17:16:46.769 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
+2026-05-28 17:16:46.769 Info ActivityRepository: PRAGMA cache_size=-65536
+2026-05-28 17:16:46.769 Info ActivityRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.769 Info ActivityRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.769 Info ActivityRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.769 Info ActivityRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.769 Info ActivityRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:46.780 Info NetworkManager: Detecting local network addresses
+2026-05-28 17:16:46.781 Info NetworkManager: networkInterface: Ethernet eth0, Speed: 10000000000, Description: eth0
+2026-05-28 17:16:46.784 Info NetworkManager: GatewayAddresses: 172.17.0.1
+2026-05-28 17:16:46.785 Info NetworkManager: UnicastAddresses: 172.17.0.4
+2026-05-28 17:16:46.785 Info NetworkManager: networkInterface: Loopback lo, Speed: -1, Description: lo
+2026-05-28 17:16:46.785 Info NetworkManager: GatewayAddresses: 
+2026-05-28 17:16:46.793 Info NetworkManager: UnicastAddresses: 127.0.0.1,::1
+2026-05-28 17:16:46.829 Info NetworkManager: Detected local ip addresses: [{"IPAddress":"172.17.0.4","HasGateWayAddress":true,"PrefixLength":16,"IPv4Mask":"255.255.0.0"},{"IPAddress":"127.0.0.1","HasGateWayAddress":false,"PrefixLength":8,"IPv4Mask":"255.0.0.0"},{"IPAddress":"::1","HasGateWayAddress":false,"PrefixLength":128}]
+2026-05-28 17:16:46.837 Info App: Adding HttpListener prefix http://+:8096/
+2026-05-28 17:16:46.887 Info AuthenticationRepository: Opening sqlite connection to /config/data/authentication.db. isReadOnly: False
+2026-05-28 17:16:46.888 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
+2026-05-28 17:16:46.888 Info AuthenticationRepository: PRAGMA cache_size=-65536
+2026-05-28 17:16:46.888 Info AuthenticationRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.888 Info AuthenticationRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.888 Info AuthenticationRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.888 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.888 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:46.893 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db. isReadOnly: False
+2026-05-28 17:16:46.901 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
+2026-05-28 17:16:46.902 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2026-05-28 17:16:46.902 Info SqliteItemRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.902 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.902 Info SqliteItemRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.902 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.902 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:46.907 Info SqliteItemRepository: Init Complete
+2026-05-28 17:16:46.911 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db. isReadOnly: True
+2026-05-28 17:16:46.912 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2026-05-28 17:16:46.912 Info SqliteItemRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.912 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.912 Info SqliteItemRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.912 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.912 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:46.998 Info SqliteUserRepository: Opening sqlite connection to /config/data/users.db. isReadOnly: True
+2026-05-28 17:16:46.998 Info SqliteUserRepository: PRAGMA cache_size=-65536
+2026-05-28 17:16:46.998 Info SqliteUserRepository: PRAGMA page_size=4096
+2026-05-28 17:16:46.998 Info SqliteUserRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:46.998 Info SqliteUserRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:46.998 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:46.998 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:47.146 Info App: Emby Server 4.9.5.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 6.12.85 (nixbld@localhost) (gcc (GCC) 14.3.0, GNU ld (GNU Binutils) 2.44) #1-NixOS SMP PREEMPT_DYNAMIC Thu Apr 30 09:14:47 UTC 2026
+	OS/Process: x64/x64
+	Framework: .NET 8.0.25
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /config
+	Application path: /system
+2026-05-28 17:16:47.146 Info App: Logs path: /config/logs
+2026-05-28 17:16:47.146 Info App: Cache path: /config/cache
+2026-05-28 17:16:47.146 Info App: Internal metadata path: /config/metadata
+2026-05-28 17:16:47.146 Info App: Transcoding temporary files path: /config/transcoding-temp
+2026-05-28 17:16:47.146 Info App: DefaultThreadCurrentCulture: en-US
+2026-05-28 17:16:47.146 Info App: DefaultThreadCurrentUICulture: en-US
+2026-05-28 17:16:47.146 Info App: DefaultThreadCurrentUICulture: en-US
+2026-05-28 17:16:47.146 Info App: Server Friendly Name: ‌Emby-Server‌
+2026-05-28 17:16:47.146 Info App: Local time: 05/28/2026 17:16:47 +00:00
+2026-05-28 17:16:47.972 Info FfmpegManager: FFMpeg: /bin/ffmpeg
+2026-05-28 17:16:47.972 Info FfmpegManager: FFProbe: /bin/ffprobe
+2026-05-28 17:16:47.972 Info FfmpegManager: FFDetect: /bin/ffdetect
+2026-05-28 17:16:47.977 Info Skia: SkiaSharp version: 2.88.0.0
+2026-05-28 17:16:47.989 Info libvips: NetVips version: 3.0.0.0
+2026-05-28 17:16:47.989 Info ImageProcessor: Adding image processor Skia
+2026-05-28 17:16:47.989 Info ImageProcessor: Adding image processor libvips
+2026-05-28 17:16:48.028 Info TaskManager: Daily trigger for Video preview thumbnail extraction set to fire at 05/29/2026 02:00:00, which is 523.199535255 minutes from now.
+2026-05-28 17:16:48.079 Info TaskManager: Daily trigger for Rotate log file set to fire at 05/29/2026 00:00:00, which is 403.19867496666666 minutes from now.
+2026-05-28 17:16:48.083 Info TaskManager: Queueing task HardwareDetectionScheduledTask
+2026-05-28 17:16:48.087 Info TaskManager: Executing Hardware Detection
+2026-05-28 17:16:48.088 Info TaskManager: Daily trigger for Emby Server Backup set to fire at 05/29/2026 00:10:00, which is 413.19853133833334 minutes from now.
+2026-05-28 17:16:48.090 Info App: ServerId: 69daa6486c7f446085cb31fd27447264
+2026-05-28 17:16:48.105 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Execute: /bin/ffmpeg -hide_banner -version
+2026-05-28 17:16:48.119 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0
+2026-05-28 17:16:48.131 Info FfmpegManager: FfmpegValidator.Validate complete
+2026-05-28 17:16:48.138 Info App: Starting entry point Emby.Server.Implementations.Networking.RemoteAddressEntryPoint
+2026-05-28 17:16:48.139 Info App: Loading data from /config/data/wan.dat
+2026-05-28 17:16:48.140 Info App: Entry point completed: Emby.Server.Implementations.Networking.RemoteAddressEntryPoint. Duration: 0.0017692 seconds
+2026-05-28 17:16:48.140 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2026-05-28 17:16:48.141 Info App: Loading data from /config/data/connect.txt
+2026-05-28 17:16:48.142 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0021213 seconds
+2026-05-28 17:16:48.142 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2026-05-28 17:16:48.194 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.0517225 seconds
+2026-05-28 17:16:48.194 Info App: Core startup complete
+2026-05-28 17:16:48.195 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2026-05-28 17:16:48.196 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.001626 seconds
+2026-05-28 17:16:48.197 Info App: Starting entry point Emby.Server.Implementations.Session.PartyEventNotifier
+2026-05-28 17:16:48.197 Info App: Entry point completed: Emby.Server.Implementations.Session.PartyEventNotifier. Duration: 0.0003752 seconds
+2026-05-28 17:16:48.197 Info App: Starting entry point Emby.Server.Implementations.Playlists.PlaylistUpgradeEntryPoint
+2026-05-28 17:16:48.198 Info App: Entry point completed: Emby.Server.Implementations.Playlists.PlaylistUpgradeEntryPoint. Duration: 0.001237 seconds
+2026-05-28 17:16:48.199 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2026-05-28 17:16:48.199 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0002575 seconds
+2026-05-28 17:16:48.199 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: h264, libx264, x264, V-E-libx264
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: hevc, libx265, x265, V-E-libx265
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2, V-E-mpeg4
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3), V-E-msmpeg4
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2026-05-28 17:16:48.234 Info SoftwareCodecProvider: av1, libaom-av1, libaom-av1, V-E-libaom_av1
+2026-05-28 17:16:48.235 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.0358621 seconds
+2026-05-28 17:16:48.235 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2026-05-28 17:16:48.235 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0002979 seconds
+2026-05-28 17:16:48.235 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2026-05-28 17:16:48.235 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.0001652 seconds
+2026-05-28 17:16:48.235 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2026-05-28 17:16:48.236 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0006935 seconds
+2026-05-28 17:16:48.236 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LogLibrariesEntryPoint
+2026-05-28 17:16:48.239 Info SoftwareCodecProvider: h264, libx264, x264, V-E-libx264
+2026-05-28 17:16:48.239 Info LibraryMonitor: Watching directory with new FileSystemWatcher for /custom_movies for item 717
+2026-05-28 17:16:48.239 Info SoftwareCodecProvider: hevc, libx265, x265, V-E-libx265
+2026-05-28 17:16:48.239 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2, V-E-mpeg4
+2026-05-28 17:16:48.240 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3), V-E-msmpeg4
+2026-05-28 17:16:48.240 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2026-05-28 17:16:48.240 Info SoftwareCodecProvider: av1, libaom-av1, libaom-av1, V-E-libaom_av1
+2026-05-28 17:16:48.240 Info App: Libraries
+	Server Configuration: CollapseVideoFolders: False
+	Library:  Movies, id: 3, CollectionType: movies, CollapseSingleItemFolders: False, ForceCollapseSingleItemFolders: False
+	Configured paths: /movies
+	Library Folder: movies, id: 4: path: /movies
+	Library:  TV Shows, id: 5, CollectionType: tvshows, CollapseSingleItemFolders: False, ForceCollapseSingleItemFolders: False
+	Configured paths: /tvshows
+	Library Folder: tvshows, id: 6: path: /tvshows
+	Library:  Custom Movies, id: 716, CollectionType: movies, CollapseSingleItemFolders: False, ForceCollapseSingleItemFolders: False
+	Configured paths: /custom_movies
+	Library Folder: custom_movies, id: 717: path: /custom_movies
+	Library:  Custom TV Shows, id: 726, CollectionType: tvshows, CollapseSingleItemFolders: False, ForceCollapseSingleItemFolders: False
+	Configured paths: /custom_tvshows
+	Library Folder: custom_tvshows, id: 727: path: /custom_tvshows
+2026-05-28 17:16:48.240 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LogLibrariesEntryPoint. Duration: 0.0036858 seconds
+2026-05-28 17:16:48.240 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2026-05-28 17:16:48.242 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0015344 seconds
+2026-05-28 17:16:48.242 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2026-05-28 17:16:48.242 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0002529 seconds
+2026-05-28 17:16:48.242 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2026-05-28 17:16:48.242 Info LibraryMonitor: Watching directory with new FileSystemWatcher for /custom_tvshows for item 727
+2026-05-28 17:16:48.242 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0001873 seconds
+2026-05-28 17:16:48.242 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2026-05-28 17:16:48.243 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0003008 seconds
+2026-05-28 17:16:48.243 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2026-05-28 17:16:48.243 Info LibraryMonitor: Watching directory with new FileSystemWatcher for /movies for item 4
+2026-05-28 17:16:48.244 Info LibraryMonitor: Watching directory with new FileSystemWatcher for /tvshows for item 6
+2026-05-28 17:16:48.245 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0022356 seconds
+2026-05-28 17:16:48.245 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2026-05-28 17:16:48.247 Info LiveTV: Loading live tv data from /config/data/livetv/timers
+2026-05-28 17:16:48.248 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0026618 seconds
+2026-05-28 17:16:48.248 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2026-05-28 17:16:48.249 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0010655 seconds
+2026-05-28 17:16:48.249 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2026-05-28 17:16:48.249 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0005034 seconds
+2026-05-28 17:16:48.250 Info App: Starting entry point Emby.Notifications.NotificationManagerEntryPoint
+2026-05-28 17:16:48.255 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2026-05-28 17:16:48.258 Info Notifications: Registering event nofitier Activity Log
+2026-05-28 17:16:48.259 Info Notifications: Registering event nofitier Emby Server User Notifications
+2026-05-28 17:16:48.259 Info Notifications: Registering event factory CoreNotificationTypeFactory
+2026-05-28 17:16:48.259 Info Notifications: Registering event factory BackupNotificationTypeFactory
+2026-05-28 17:16:48.267 Info App: Entry point completed: Emby.Notifications.NotificationManagerEntryPoint. Duration: 0.017907 seconds
+2026-05-28 17:16:48.268 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2026-05-28 17:16:48.268 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0008662 seconds
+2026-05-28 17:16:48.269 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2026-05-28 17:16:48.269 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 8.5E-05 seconds
+2026-05-28 17:16:48.269 Info App: Starting entry point Tvdb.EntryPoint
+2026-05-28 17:16:48.270 Info App: Entry point completed: Tvdb.EntryPoint. Duration: 3.55E-05 seconds
+2026-05-28 17:16:48.270 Info App: Starting entry point NfoMetadata.EntryPoint
+2026-05-28 17:16:48.270 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.0001165 seconds
+2026-05-28 17:16:48.270 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2026-05-28 17:16:48.270 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 3.1E-05 seconds
+2026-05-28 17:16:48.270 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2026-05-28 17:16:48.270 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0001114 seconds
+2026-05-28 17:16:48.270 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2026-05-28 17:16:48.271 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.0006319 seconds
+2026-05-28 17:16:48.271 Info App: Starting entry point MBBackup.ServerEntryPoint
+2026-05-28 17:16:48.271 Info App: Entry point completed: MBBackup.ServerEntryPoint. Duration: 3.06E-05 seconds
+2026-05-28 17:16:48.271 Info App: All entry points have started
+2026-05-28 17:16:48.288 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0
+2026-05-28 17:16:48.315 Info App: Init BeginReceive on 0.0.0.0
+2026-05-28 17:16:48.315 Info App: Init BeginReceive on 0.0.0.0
+2026-05-28 17:16:48.315 Info App: Init BeginReceive on 172.17.0.4
+2026-05-28 17:16:48.315 Info App: Init BeginReceive on 127.0.0.1
+2026-05-28 17:16:48.368 Info VaapiCodecProvider: Adapter #0: 'CoffeeLake-H GT2 UHD Graphics 630' Id:16027 (Driver: , Vendor: Intel Corporation)
+2026-05-28 17:16:48.371 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2026-05-28 17:16:48.383 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0
+2026-05-28 17:16:48.440 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2026-05-28 17:16:48.443 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed
+2026-05-28 17:16:48.725 Info CodecManager: CodecList:
+2026-05-28 17:16:48.726 Info TaskManager: Hardware Detection Completed after 0 minute(s) and 0 seconds
+2026-05-28 17:16:51.077 Info TaskManager: Queueing task PluginUpdateTask
+2026-05-28 17:16:51.077 Info TaskManager: Executing Check for plugin updates
+2026-05-28 17:16:51.080 Info TaskManager: Queueing task SubtitleOcrDataTask
+2026-05-28 17:16:51.080 Info TaskManager: Executing Download OCR Data
+2026-05-28 17:16:51.082 Info TaskManager: Queueing task SystemUpdateTask
+2026-05-28 17:16:51.082 Info TaskManager: Executing Check for application updates
+2026-05-28 17:16:51.089 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2026-05-28 17:16:51.094 Info HttpClient: GET https://api.github.com/repos/MediaBrowser/Emby.Releases/releases
+2026-05-28 17:16:51.094 Info HttpClient: Http response served from cache from https://api.github.com/repos/MediaBrowser/Emby.Releases/releases
+2026-05-28 17:16:51.118 Info TaskManager: Download OCR Data Completed after 0 minute(s) and 0 seconds
+2026-05-28 17:16:51.449 Info App: No application update available.
+2026-05-28 17:16:51.449 Info TaskManager: Check for application updates Completed after 0 minute(s) and 0 seconds
+2026-05-28 17:16:51.465 Info HttpClient: Http response 200 from https://www.mb3admin.com/admin/service/EmbyPackages.json after 375ms
+2026-05-28 17:16:51.887 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 0 seconds
+2026-05-28 17:16:55.050 Info AuthenticationRepository: Opening sqlite connection to /config/data/authentication.db. isReadOnly: True
+2026-05-28 17:16:55.050 Info AuthenticationRepository: PRAGMA cache_size=-65536
+2026-05-28 17:16:55.050 Info AuthenticationRepository: PRAGMA page_size=4096
+2026-05-28 17:16:55.050 Info AuthenticationRepository: PRAGMA foreign_keys=1
+2026-05-28 17:16:55.050 Info AuthenticationRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:16:55.050 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:16:55.050 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:16:55.052 Warn SystemService-0HNLSRJJAMM6N:0000002A: AUTH-ERROR: 172.17.0.1 - Access token is invalid or expired.
+2026-05-28 17:16:55.053 Error SystemService-0HNLSRJJAMM6N:0000002A: Access token is invalid or expired.
+2026-05-28 17:16:55.055 Info SystemService-0HNLSRJJAMM6N:0000002A: http/1.1 Response 401 to ‌‍‍172.17.0.1‌. Time: 12ms. GET http://‌‍‍localhost‌:8097/emby/System/Info?api_key=‌d191c3527ae243c1b9ba97c0c54655d6‌. 
+2026-05-28 17:16:55.328 Warn UserViewsService-0HNLSRJJAMM6P:00000009: AUTH-ERROR: 172.17.0.1 - Access token is invalid or expired.
+2026-05-28 17:16:55.328 Error UserViewsService-0HNLSRJJAMM6P:00000009: Access token is invalid or expired.
+2026-05-28 17:16:55.328 Info UserViewsService-0HNLSRJJAMM6P:00000009: http/1.1 Response 401 to ‌‍‍172.17.0.1‌. Time: 2ms. GET http://‌‍‍localhost‌:8097/emby/Users/undefined/Views?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Language=en-us. 
+2026-05-28 17:17:37.872 Info UserService-0HNLSRJJAMM6N:00000035: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Users/authenticatebyname?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Language=en-us. Source Ip: ‌‍‍172.17.0.1‌, Accept=application/json, Connection=keep-alive, Host=‌‍‍localhost‌:8097, User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0, Accept-Encoding=gzip, deflate, br, zstd, Accept-Language=en-US,en;q=0.9, Content-Type=application/x-www-form-urlencoded; charset=UTF-8, Origin=http://‌‍‍localhost‌:8097, Referer=http://‌‍‍localhost‌:8097/web/index.html, Content-Length=47, Sec-Fetch-Dest=empty, Sec-Fetch-Mode=cors, Sec-Fetch-Site=same-origin, Priority=u=0
+2026-05-28 17:17:37.892 Info UserManager: Authentication request for jellyplex_watched has succeeded.
+2026-05-28 17:17:37.894 Info SessionManager: Creating new access token for user 1 jellyplex_watched
+2026-05-28 17:17:37.972 Info UserService-0HNLSRJJAMM6N:00000035: http/1.1 Response 200 to ‌‍‍172.17.0.1‌. Time: 100ms. POST http://‌‍‍localhost‌:8097/emby/Users/authenticatebyname?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Language=en-us. Headers: Content-Type=application/json; charset=utf-8, Date=Thu, 28 May 2026 17:17:37 GMT, Server=UPnP/1.0 DLNADOC/1.50, Content-Encoding=br, Expires=-1, Vary=Accept-Encoding, Content-Length=1375, Cross-Origin-Resource-Policy=cross-origin, Private-Network-Access-Name=Media Server-Server, Private-Network-Access-Id=69daa6486c7f446085cb31fd27447264
+2026-05-28 17:17:37.983 Info SessionsService-0HNLSRJJAMM6P:0000000B: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Capabilities/Full?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:17:37.983 Info AuthenticationRepository: Opening sqlite connection to /config/data/authentication.db. isReadOnly: True
+2026-05-28 17:17:37.983 Info AuthenticationRepository: PRAGMA cache_size=-65536
+2026-05-28 17:17:37.983 Info AuthenticationRepository: PRAGMA page_size=4096
+2026-05-28 17:17:37.983 Info AuthenticationRepository: PRAGMA foreign_keys=1
+2026-05-28 17:17:37.983 Info AuthenticationRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:17:37.984 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:17:37.984 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:17:38.014 Info SessionsService-0HNLSRJJAMM6P:0000000B: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 31ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Capabilities/Full?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:17:38.157 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db. isReadOnly: True
+2026-05-28 17:17:38.158 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2026-05-28 17:17:38.158 Info SqliteItemRepository: PRAGMA page_size=4096
+2026-05-28 17:17:38.158 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2026-05-28 17:17:38.158 Info SqliteItemRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:17:38.158 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:17:38.158 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:17:38.195 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db. isReadOnly: True
+2026-05-28 17:17:38.195 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db. isReadOnly: True
+2026-05-28 17:17:38.197 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2026-05-28 17:17:38.197 Info SqliteItemRepository: PRAGMA page_size=4096
+2026-05-28 17:17:38.197 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2026-05-28 17:17:38.197 Info SqliteItemRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:17:38.197 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:17:38.197 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:17:38.198 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2026-05-28 17:17:38.198 Info SqliteItemRepository: PRAGMA page_size=4096
+2026-05-28 17:17:38.198 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2026-05-28 17:17:38.198 Info SqliteItemRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:17:38.198 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:17:38.198 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:17:43.599 Info ItemRefreshService-0HNLSRJJAMM6N:0000003F: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Items/5/Refresh?Recursive=true&ImageRefreshMode=Default&MetadataRefreshMode=Default&ReplaceAllImages=false&ReplaceAllMetadata=false&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:17:43.603 Info ItemRefreshService-0HNLSRJJAMM6N:0000003F: Refresh metadata requested on 5
+2026-05-28 17:17:43.605 Info ItemRefreshService-0HNLSRJJAMM6N:0000003F: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 6ms. POST http://‌‍‍localhost‌:8097/emby/Items/5/Refresh?Recursive=true&ImageRefreshMode=Default&MetadataRefreshMode=Default&ReplaceAllImages=false&ReplaceAllMetadata=false&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us. 
+2026-05-28 17:17:43.658 Info ProviderManager: RefreshItem Start: 5 CollectionFolder TV Shows
+2026-05-28 17:17:44.023 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:44.042 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:44.155 Info HttpClient: POST https://api4.thetvdb.com/v4/login
+2026-05-28 17:17:44.345 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/login after 190ms
+2026-05-28 17:17:44.348 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/295294/extended?meta=translations
+2026-05-28 17:17:44.433 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/295294/extended?meta=translations after 85ms
+2026-05-28 17:17:44.476 Info HttpClient: GET https://api.themoviedb.org/3/configuration?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌
+2026-05-28 17:17:44.548 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/configuration?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌ after 72ms
+2026-05-28 17:17:44.549 Info TheMovieDb: MovieDb settings: {"change_keys":["adult","air_date","also_known_as","alternative_titles","biography","birthday","budget","cast","certifications","character_names","created_by","crew","deathday","episode","episode_number","episode_run_time","freebase_id","freebase_mid","general","genres","guest_stars","homepage","images","imdb_id","languages","name","network","origin_country","original_name","original_title","overview","parts","place_of_birth","plot_keywords","production_code","production_companies","production_countries","releases","revenue","runtime","season","season_number","season_regular","softcore","spoken_languages","status","tagline","title","translations","tvdb_id","tvrage_id","type","video","videos"],"images":{"base_url":"http://image.tmdb.org/t/p/","secure_base_url":"https://image.tmdb.org/t/p/","backdrop_sizes":["w300","w780","w1280","original"],"logo_sizes":["w45","w92","w154","w185","w300","w500","original"],"poster_sizes":["w92","w154","w185","w342","w500","w780","original"],"profile_sizes":["w45","w185","h632","original"],"still_sizes":["w92","w185","w300","original"]}}
+2026-05-28 17:17:44.575 Info HttpClient: GET https://api.themoviedb.org/3/configuration/primary_translations?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌
+2026-05-28 17:17:44.617 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/configuration/primary_translations?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌ after 42ms
+2026-05-28 17:17:44.618 Info TheMovieDb: MovieDb languages: ["af-ZA","ar-AE","ar-BH","ar-EG","ar-IQ","ar-JO","ar-LY","ar-MA","ar-QA","ar-SA","ar-TD","ar-YE","be-BY","bg-BG","bn-BD","bn-IN","br-FR","ca-AD","ca-ES","ch-GU","cs-CZ","cy-GB","da-DK","de-AT","de-CH","de-DE","el-CY","el-GR","en-AG","en-AU","en-BB","en-BZ","en-CA","en-CM","en-GB","en-GG","en-GH","en-GI","en-GY","en-IE","en-JM","en-KE","en-LC","en-MW","en-NZ","en-PG","en-TC","en-US","en-ZM","en-ZW","eo-EO","es-AR","es-CL","es-DO","es-EC","es-ES","es-GQ","es-GT","es-HN","es-MX","es-NI","es-PA","es-PE","es-PY","es-SV","es-UY","et-EE","eu-ES","fa-IR","fi-FI","fr-BF","fr-CA","fr-CD","fr-CI","fr-FR","fr-GF","fr-GP","fr-MC","fr-ML","fr-MU","fr-PF","ga-IE","gd-GB","gl-ES","he-IL","hi-IN","hr-HR","hu-HU","hy-AM","id-ID","it-IT","it-VA","ja-JP","ka-GE","kk-KZ","kn-IN","ko-KR","ku-TR","ky-KG","lt-LT","lv-LV","ml-IN","mr-IN","ms-MY","ms-SG","nb-NO","ne-NP","nl-BE","nl-NL","no-NO","oc-FR","pa-IN","pl-PL","pt-AO","pt-BR","pt-MZ","pt-PT","ro-MD","ro-RO","ru-RU","si-LK","sk-SK","sl-SI","so-SO","sq-AL","sq-XK","sr-ME","sr-RS","sv-SE","sw-TZ","ta-IN","te-IN","th-TH","tl-PH","tr-TR","uk-UA","ur-PK","uz-UZ","vi-VN","zh-CN","zh-HK","zh-SG","zh-TW","zu-ZA"]
+2026-05-28 17:17:44.697 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:44.712 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:44.713 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/295295/extended?meta=translations
+2026-05-28 17:17:44.783 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/295295/extended?meta=translations after 69ms
+2026-05-28 17:17:44.788 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:44.802 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:44.803 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/295296/extended?meta=translations
+2026-05-28 17:17:44.879 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/295296/extended?meta=translations after 76ms
+2026-05-28 17:17:44.889 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E04.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:44.913 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:44.914 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/295297/extended?meta=translations
+2026-05-28 17:17:44.989 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/295297/extended?meta=translations after 75ms
+2026-05-28 17:17:44.999 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E05.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.016 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.017 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/295298/extended?meta=translations
+2026-05-28 17:17:45.087 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/295298/extended?meta=translations after 70ms
+2026-05-28 17:17:45.116 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.131 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.132 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/9959300/extended?meta=translations
+2026-05-28 17:17:45.203 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/9959300/extended?meta=translations after 71ms
+2026-05-28 17:17:45.207 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.226 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.227 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/10009417/extended?meta=translations
+2026-05-28 17:17:45.323 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/10009417/extended?meta=translations after 97ms
+2026-05-28 17:17:45.327 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.342 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.343 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/10009418/extended?meta=translations
+2026-05-28 17:17:45.411 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/10009418/extended?meta=translations after 68ms
+2026-05-28 17:17:45.415 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E04.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.431 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.432 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/10009419/extended?meta=translations
+2026-05-28 17:17:45.499 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/10009419/extended?meta=translations after 67ms
+2026-05-28 17:17:45.503 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1/S01E05.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.520 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.521 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/10009420/extended?meta=translations
+2026-05-28 17:17:45.596 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/10009420/extended?meta=translations after 75ms
+2026-05-28 17:17:45.603 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.617 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.618 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/8438181/extended?meta=translations
+2026-05-28 17:17:45.692 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/8438181/extended?meta=translations after 74ms
+2026-05-28 17:17:45.698 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.713 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.714 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/9829910/extended?meta=translations
+2026-05-28 17:17:45.789 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/9829910/extended?meta=translations after 75ms
+2026-05-28 17:17:45.794 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.809 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.810 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/9870382/extended?meta=translations
+2026-05-28 17:17:45.905 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/9870382/extended?meta=translations after 95ms
+2026-05-28 17:17:45.912 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:45.926 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:45.928 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/8651297/extended?meta=translations
+2026-05-28 17:17:46.020 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/8651297/extended?meta=translations after 92ms
+2026-05-28 17:17:46.053 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:46.067 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:46.068 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/9931632/extended?meta=translations
+2026-05-28 17:17:46.161 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/9931632/extended?meta=translations after 94ms
+2026-05-28 17:17:46.167 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:46.183 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:46.184 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/9931633/extended?meta=translations
+2026-05-28 17:17:46.256 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/9931633/extended?meta=translations after 72ms
+2026-05-28 17:17:46.270 Info HttpClient: GET https://api4.thetvdb.com/v4/series/81189/extended?meta=translations&short=false
+2026-05-28 17:17:46.374 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/81189/extended?meta=translations&short=false after 103ms
+2026-05-28 17:17:46.542 Info HttpClient: GET https://api.themoviedb.org/3/tv/1396?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=alternative_titles,reviews,credits,images,keywords,external_ids,videos,content_ratings,episode_groups&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:46.594 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/1396?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=alternative_titles,reviews,credits,images,keywords,external_ids,videos,content_ratings,episode_groups&language=en-US&include_image_language=en-US,null after 51ms
+2026-05-28 17:17:46.639 Info HttpClient: GET https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt0903747&plot=short&r=json
+2026-05-28 17:17:46.796 Info HttpClient: Http response 200 from https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt0903747&plot=short&r=json after 156ms
+2026-05-28 17:17:46.813 Info HttpClient: GET https://webservice.fanart.tv/v3/tv/81189?api_key=‌5c6b04c68e904cfed1e6cbc9a9e683d4‌
+2026-05-28 17:17:47.155 Info HttpClient: Http response 200 from https://webservice.fanart.tv/v3/tv/81189?api_key=‌5c6b04c68e904cfed1e6cbc9a9e683d4‌ after 343ms
+2026-05-28 17:17:47.185 Info HttpClient: GET https://api.themoviedb.org/3/tv/1396/season/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,keywords,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:47.214 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/1396/season/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,keywords,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 29ms
+2026-05-28 17:17:47.225 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:47.238 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:47.241 Info HttpClient: GET https://api4.thetvdb.com/v4/series/81189/episodes/official?page=0
+2026-05-28 17:17:47.314 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/81189/episodes/official?page=0 after 73ms
+2026-05-28 17:17:47.352 Info HttpClient: GET https://api4.thetvdb.com/v4/series/81189/episodes/official/eng?page=0
+2026-05-28 17:17:47.428 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/81189/episodes/official/eng?page=0 after 76ms
+2026-05-28 17:17:47.454 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/349235/extended?meta=translations
+2026-05-28 17:17:47.528 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/349235/extended?meta=translations after 74ms
+2026-05-28 17:17:47.532 Info HttpClient: GET https://api.themoviedb.org/3/tv/1396/season/1/episode/3?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:47.556 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/1396/season/1/episode/3?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 24ms
+2026-05-28 17:17:47.563 Info HttpClient: GET https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt0903747&season=1&detail=full
+2026-05-28 17:17:47.672 Info HttpClient: Http response 200 from https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt0903747&season=1&detail=full after 109ms
+2026-05-28 17:17:47.699 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:47.719 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:47.721 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/349233/extended?meta=translations
+2026-05-28 17:17:47.818 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/349233/extended?meta=translations after 97ms
+2026-05-28 17:17:47.819 Info HttpClient: GET https://api.themoviedb.org/3/tv/1396/season/1/episode/2?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:47.845 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/1396/season/1/episode/2?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 26ms
+2026-05-28 17:17:47.856 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:47.875 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:47.876 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/349232/extended?meta=translations
+2026-05-28 17:17:47.981 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/349232/extended?meta=translations after 105ms
+2026-05-28 17:17:48.001 Info HttpClient: GET https://api.themoviedb.org/3/tv/1396/season/1/episode/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:48.029 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/1396/season/1/episode/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 28ms
+2026-05-28 17:17:48.053 Info HttpClient: GET https://api4.thetvdb.com/v4/series/253463/extended?meta=translations&short=false
+2026-05-28 17:17:48.122 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/253463/extended?meta=translations&short=false after 70ms
+2026-05-28 17:17:48.194 Info HttpClient: GET https://api.themoviedb.org/3/tv/42009?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=alternative_titles,reviews,credits,images,keywords,external_ids,videos,content_ratings,episode_groups&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:48.225 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/42009?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=alternative_titles,reviews,credits,images,keywords,external_ids,videos,content_ratings,episode_groups&language=en-US&include_image_language=en-US,null after 31ms
+2026-05-28 17:17:48.228 Info HttpClient: GET https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt2085059&plot=short&r=json
+2026-05-28 17:17:48.331 Info HttpClient: Http response 200 from https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt2085059&plot=short&r=json after 103ms
+2026-05-28 17:17:48.332 Info HttpClient: GET https://webservice.fanart.tv/v3/tv/253463?api_key=‌5c6b04c68e904cfed1e6cbc9a9e683d4‌
+2026-05-28 17:17:48.406 Info HttpClient: Http response 200 from https://webservice.fanart.tv/v3/tv/253463?api_key=‌5c6b04c68e904cfed1e6cbc9a9e683d4‌ after 74ms
+2026-05-28 17:17:48.414 Info HttpClient: GET https://api.themoviedb.org/3/tv/42009/season/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,keywords,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:48.439 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/42009/season/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,keywords,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 25ms
+2026-05-28 17:17:48.444 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E03.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:48.463 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:48.464 Info HttpClient: GET https://api4.thetvdb.com/v4/series/253463/episodes/official?page=0
+2026-05-28 17:17:48.614 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/253463/episodes/official?page=0 after 150ms
+2026-05-28 17:17:48.636 Info HttpClient: GET https://api4.thetvdb.com/v4/series/253463/episodes/official/eng?page=0
+2026-05-28 17:17:48.712 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/series/253463/episodes/official/eng?page=0 after 75ms
+2026-05-28 17:17:48.715 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/4201397/extended?meta=translations
+2026-05-28 17:17:48.789 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/4201397/extended?meta=translations after 74ms
+2026-05-28 17:17:48.791 Info HttpClient: GET https://api.themoviedb.org/3/tv/42009/season/1/episode/3?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:48.814 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/42009/season/1/episode/3?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 23ms
+2026-05-28 17:17:48.816 Info HttpClient: GET https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt2085059&season=1&detail=full
+2026-05-28 17:17:48.916 Info HttpClient: Http response 200 from https://private.omdbapi.com?apikey=‌fe53f97e‌&i=tt2085059&season=1&detail=full after 101ms
+2026-05-28 17:17:48.927 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E02.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:48.950 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:48.952 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/4201396/extended?meta=translations
+2026-05-28 17:17:49.163 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/4201396/extended?meta=translations after 211ms
+2026-05-28 17:17:49.165 Info HttpClient: GET https://api.themoviedb.org/3/tv/42009/season/1/episode/2?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:49.190 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/42009/season/1/episode/2?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 25ms
+2026-05-28 17:17:49.218 Info MediaProbeManager: ProcessRun 'ffprobe' Execute: /bin/ffprobe -i file:"/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E01.mkv" -threads 0 -v info -print_format json -show_streams -show_chapters -show_format -show_data
+2026-05-28 17:17:49.236 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code 0
+2026-05-28 17:17:49.237 Info HttpClient: GET https://api4.thetvdb.com/v4/episodes/4201395/extended?meta=translations
+2026-05-28 17:17:49.327 Info HttpClient: Http response 200 from https://api4.thetvdb.com/v4/episodes/4201395/extended?meta=translations after 90ms
+2026-05-28 17:17:49.347 Info HttpClient: GET https://api.themoviedb.org/3/tv/42009/season/1/episode/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null
+2026-05-28 17:17:49.375 Info HttpClient: Http response 200 from https://api.themoviedb.org/3/tv/42009/season/1/episode/1?api_key=‌f6bd687ffa63cd282b6ff2c6877f2669‌&append_to_response=images,external_ids,credits,videos&language=en-US&include_image_language=en-US,null after 28ms
+2026-05-28 17:17:49.401 Info ProviderManager: RefreshItem Complete: 5 CollectionFolder TV Shows
+2026-05-28 17:17:49.563 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:49.981 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 418ms
+2026-05-28 17:17:49.984 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:49.984 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.040 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:50.081 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 41ms
+2026-05-28 17:17:50.082 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.082 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.136 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:50.183 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 47ms
+2026-05-28 17:17:50.184 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.184 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.238 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:50.285 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 47ms
+2026-05-28 17:17:50.285 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.285 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.341 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:50.389 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 48ms
+2026-05-28 17:17:50.389 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.389 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.442 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt
+2026-05-28 17:17:50.487 Info HttpClient: Http response 200 from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studioposters.txt after 45ms
+2026-05-28 17:17:50.487 Info HttpClient: GET https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:17:50.487 Info HttpClient: Http response served from cache from https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/images/imagesbyname/studiothumbs.txt
+2026-05-28 17:18:35.030 Info HttpClient: GET https://artworks.thetvdb.com/banners/posters/81189-10.jpg
+2026-05-28 17:18:35.030 Info HttpClient: GET https://artworks.thetvdb.com/banners/posters/253463-4.jpg
+2026-05-28 17:18:35.154 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/posters/81189-10.jpg after 124ms
+2026-05-28 17:18:35.159 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/posters/253463-4.jpg after 128ms
+2026-05-28 17:18:35.234 Info ProviderManager: Saving image to /config/metadata/library/44/4466f4a42899f9ffbab64d8d69124697/poster.jpg
+2026-05-28 17:18:35.237 Info ProviderManager: Saving image to /config/metadata/library/d9/d9cdf0025934353ea435d05c368b2121/poster.jpg
+2026-05-28 17:18:36.974 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/series/253463/clearlogo/611b79d8cf43a.png
+2026-05-28 17:18:36.974 Info HttpClient: GET https://artworks.thetvdb.com/banners/fanart/original/253463-20.jpg
+2026-05-28 17:18:36.975 Info AuthenticationRepository: Opening sqlite connection to /config/data/authentication.db. isReadOnly: True
+2026-05-28 17:18:36.975 Info AuthenticationRepository: PRAGMA cache_size=-65536
+2026-05-28 17:18:36.975 Info AuthenticationRepository: PRAGMA page_size=4096
+2026-05-28 17:18:36.975 Info AuthenticationRepository: PRAGMA foreign_keys=1
+2026-05-28 17:18:36.975 Info AuthenticationRepository: PRAGMA SECURE_DELETE=0
+2026-05-28 17:18:36.975 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2026-05-28 17:18:36.975 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2026-05-28 17:18:37.044 Info HttpClient: GET https://www.thetvdb.com/banners/episodes/253463/4201395.jpg
+2026-05-28 17:18:37.045 Info HttpClient: GET https://www.thetvdb.com/banners/episodes/253463/4201397.jpg
+2026-05-28 17:18:37.045 Info HttpClient: GET https://www.thetvdb.com/banners/episodes/253463/4201396.jpg
+2026-05-28 17:18:37.061 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/series/253463/clearlogo/611b79d8cf43a.png after 87ms
+2026-05-28 17:18:37.063 Info ProviderManager: Saving image to /config/metadata/library/44/4466f4a42899f9ffbab64d8d69124697/clearlogo.png
+2026-05-28 17:18:37.177 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/fanart/original/253463-20.jpg after 203ms
+2026-05-28 17:18:37.195 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/episodes/253463/4201395.jpg after 151ms
+2026-05-28 17:18:37.202 Info ProviderManager: Saving image to /config/metadata/library/58/5887e3bfcc82f0cfa907b72bbc4457ae/poster.jpg
+2026-05-28 17:18:37.280 Info ProviderManager: Saving image to /config/metadata/library/44/4466f4a42899f9ffbab64d8d69124697/fanart.jpg
+2026-05-28 17:18:37.324 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/episodes/253463/4201397.jpg after 279ms
+2026-05-28 17:18:37.325 Info ProviderManager: Saving image to /config/metadata/library/4a/4aa2d8f421f5ee7dba2f90fcfcb77e60/poster.jpg
+2026-05-28 17:18:37.382 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/episodes/253463/4201396.jpg after 337ms
+2026-05-28 17:18:37.410 Info ProviderManager: Saving image to /config/metadata/library/63/635b3b997d432cf52efb7e76953237c9/poster.jpg
+2026-05-28 17:18:38.827 Info MediaInfoService-0HNLSRJJAMM6S:00000017: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Items/743/PlaybackInfo?UserId=‌26fe336341e94153ac6ec2dd2e90245c‌&StartTimeTicks=0&IsPlayback=true&AutoOpenLiveStream=true&MaxStreamingBitrate=200000000&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:38.866 Info MediaInfoService-0HNLSRJJAMM6S:00000017: GetPostedPlaybackInfo request. IsPlayback: true, isInLocalNetwork: True
+2026-05-28 17:18:38.971 Info MediaInfoService-0HNLSRJJAMM6S:00000017: User policy for jellyplex_watched. EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+2026-05-28 17:18:38.989 Info SessionManager: Setting _lastPlaySessionId for session 5c3adfe1e547285610ef213ea964e17c to afb5a37b714844e1b618b8993a77fdfe
+2026-05-28 17:18:38.993 Info MediaInfoService-0HNLSRJJAMM6S:00000017: http/1.1 Response 200 to ‌‍‍172.17.0.1‌. Time: 166ms. POST http://‌‍‍localhost‌:8097/emby/Items/743/PlaybackInfo?UserId=‌26fe336341e94153ac6ec2dd2e90245c‌&StartTimeTicks=0&IsPlayback=true&AutoOpenLiveStream=true&MaxStreamingBitrate=200000000&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:39.095 Info VideoService-0HNLSRJJAMM6S:0000001C: http/1.1 GET http://‌‍‍localhost‌:8097/emby/videos/743/original.mkv?DeviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&MediaSourceId=mediasource_743&PlaySessionId=afb5a37b714844e1b618b8993a77fdfe&api_key=‌e9abe962d9034c109eca44bb9aaa0b4a‌. Source Ip: ‌‍‍172.17.0.1‌, Accept=video/webm,video/ogg,video/*;q=0.9,application/ogg;q=0.7,audio/*;q=0.6,*/*;q=0.5, Connection=keep-alive, Host=‌‍‍localhost‌:8097, User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0, Accept-Encoding=identity, Accept-Language=en-US,en;q=0.9, Range=bytes=0-, Referer=http://‌‍‍localhost‌:8097/web/index.html, Sec-Fetch-Dest=video, Sec-Fetch-Mode=cors, Sec-Fetch-Site=same-origin, Priority=u=4
+2026-05-28 17:18:39.131 Info VideoService-0HNLSRJJAMM6S:0000001C: http/1.1 Response 206 to ‌‍‍172.17.0.1‌. Time: 35ms. GET http://‌‍‍localhost‌:8097/emby/videos/743/original.mkv?DeviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&MediaSourceId=mediasource_743&PlaySessionId=afb5a37b714844e1b618b8993a77fdfe&api_key=‌e9abe962d9034c109eca44bb9aaa0b4a‌. Headers: Content-Type=video/x-matroska, Date=Thu, 28 May 2026 17:18:38 GMT, Server=UPnP/1.0 DLNADOC/1.50, Accept-Ranges=bytes, Cache-Control=private, no-transform, Content-Range=bytes 0-16849/16850, ETag="d690a8d4639072e5e54f6867301f33cb", Content-Length=16850, Cross-Origin-Resource-Policy=cross-origin, Private-Network-Access-Name=Media Server-Server, Private-Network-Access-Id=69daa6486c7f446085cb31fd27447264
+2026-05-28 17:18:39.152 Info PlaystateService-0HNLSRJJAMM6S:0000001D: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:39.172 Info PlaystateService-0HNLSRJJAMM6N:0000004C: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:39.196 Info SessionManager: Playback start reported by app Emby Web 4.9.5.0 on Firefox playing Black Mirror - S1, Ep1 - The National Anthem. Position: 0 ms. PlaySessionId: afb5a37b714844e1b618b8993a77fdfe. IsPaused: False
+2026-05-28 17:18:39.203 Info PlaystateService-0HNLSRJJAMM6S:0000001D: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 52ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:39.206 Info PlaystateService-0HNLSRJJAMM6N:0000004C: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 34ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:44.055 Info PlaystateService-0HNLSRJJAMM6S:0000001F: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:44.057 Info PlaystateService-0HNLSRJJAMM6S:0000001F: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:54.193 Info PlaystateService-0HNLSRJJAMM6S:00000020: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:54.194 Info PlaystateService-0HNLSRJJAMM6S:00000020: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:54.741 Info PlaystateService-0HNLSRJJAMM6S:00000021: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:54.741 Info SessionManager: Playback progress (Pause) reported by app Emby Web 4.9.5.0 on Firefox playing Black Mirror - S1, Ep1 - The National Anthem. Position: 300463 ms. PlaySessionId: afb5a37b714844e1b618b8993a77fdfe. IsPaused: True
+2026-05-28 17:18:54.742 Info PlaystateService-0HNLSRJJAMM6S:00000021: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:56.413 Info PlaystateService-0HNLSRJJAMM6S:00000022: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Stopped?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:18:56.421 Info SessionManager: Playback stopped reported by app Emby Web 4.9.5.0 on Firefox playing Black Mirror - S1, Ep1 - The National Anthem. Position: 300463 ms. PlaySessionId: afb5a37b714844e1b618b8993a77fdfe. IsPaused: True
+2026-05-28 17:18:56.423 Info SessionManager: Removed playSession afb5a37b714844e1b618b8993a77fdfe from session 5c3adfe1e547285610ef213ea964e17c
+2026-05-28 17:18:56.423 Info PlaystateService-0HNLSRJJAMM6S:00000022: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 10ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Stopped?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:18:59.627 Info HttpClient: GET https://artworks.thetvdb.com/banners/fanart/original/81189-21.jpg
+2026-05-28 17:18:59.628 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/series/81189/clearlogo/611b4df33bac5.png
+2026-05-28 17:18:59.652 Info HttpClient: GET https://artworks.thetvdb.com/banners/person/275750/primary.jpg
+2026-05-28 17:18:59.653 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/269404/photo/61138b8f549b0.jpg
+2026-05-28 17:18:59.654 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/series/81189/clearlogo/611b4df33bac5.png after 26ms
+2026-05-28 17:18:59.654 Info HttpClient: GET https://artworks.thetvdb.com/banners/person/255211/68e688c12965e.jpg
+2026-05-28 17:18:59.655 Info ProviderManager: Saving image to /config/metadata/library/d9/d9cdf0025934353ea435d05c368b2121/clearlogo.png
+2026-05-28 17:18:59.684 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/person/275750/primary.jpg after 32ms
+2026-05-28 17:18:59.685 Info ProviderManager: Saving image to /config/metadata/people/a/Aaron Paul-tmdb-84497/folder.jpg
+2026-05-28 17:18:59.694 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/fanart/original/81189-21.jpg after 67ms
+2026-05-28 17:18:59.707 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/248280/photo/64ed5a8bda865.jpg
+2026-05-28 17:18:59.710 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/person/255211/68e688c12965e.jpg after 56ms
+2026-05-28 17:18:59.717 Info ProviderManager: Saving image to /config/metadata/people/b/Bryan Cranston-tmdb-17419/folder.jpg
+2026-05-28 17:18:59.719 Info ProviderManager: Saving image to /config/metadata/library/d9/d9cdf0025934353ea435d05c368b2121/fanart.jpg
+2026-05-28 17:18:59.732 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/325833/photo/651bd7cfcd801.jpg
+2026-05-28 17:18:59.733 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/269404/photo/61138b8f549b0.jpg after 79ms
+2026-05-28 17:18:59.733 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/472989/photo/630f6bebea0f3.jpg
+2026-05-28 17:18:59.741 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/248280/photo/64ed5a8bda865.jpg after 33ms
+2026-05-28 17:18:59.751 Info ProviderManager: Saving image to /config/metadata/people/a/Anna Gunn-tmdb-134531/folder.jpg
+2026-05-28 17:18:59.756 Info ProviderManager: Saving image to /config/metadata/people/d/Dean Norris-tmdb-14329/folder.jpg
+2026-05-28 17:18:59.759 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/272968/photo/6696465832f3c.jpg
+2026-05-28 17:18:59.760 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/472989/photo/630f6bebea0f3.jpg after 27ms
+2026-05-28 17:18:59.760 Info ProviderManager: Saving image to /config/metadata/people/r/RJ Mitte-tmdb-209674/folder.jpg
+2026-05-28 17:18:59.761 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/325833/photo/651bd7cfcd801.jpg after 28ms
+2026-05-28 17:18:59.762 Info ProviderManager: Saving image to /config/metadata/people/b/Betsy Brandt-tmdb-1217934/folder.jpg
+2026-05-28 17:18:59.775 Info HttpClient: GET https://artworks.thetvdb.com/banners/person/290451/primary.jpg
+2026-05-28 17:18:59.785 Info HttpClient: GET https://www.thetvdb.com/banners/episodes/81189/6421d9584f9dd.jpg
+2026-05-28 17:18:59.800 Info HttpClient: GET https://www.thetvdb.com/banners/episodes/81189/642203f37c277.jpg
+2026-05-28 17:18:59.802 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/person/290451/primary.jpg after 27ms
+2026-05-28 17:18:59.802 Info ProviderManager: Saving image to /config/metadata/people/b/Bob Odenkirk-tmdb-59410/folder.jpg
+2026-05-28 17:18:59.805 Info HttpClient: GET https://www.thetvdb.com/banners/series/81189/episodes/5ea716c6a773d.jpg
+2026-05-28 17:18:59.813 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/episodes/81189/6421d9584f9dd.jpg after 27ms
+2026-05-28 17:18:59.821 Info ProviderManager: Saving image to /config/metadata/library/1d/1dad3597c3a99d8f4204b99cc7671ba4/poster.jpg
+2026-05-28 17:18:59.837 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/episodes/81189/642203f37c277.jpg after 36ms
+2026-05-28 17:18:59.837 Info ProviderManager: Saving image to /config/metadata/library/3b/3bb4d93219f39d6b1d43c620813e754d/poster.jpg
+2026-05-28 17:18:59.838 Info HttpClient: Http response 200 from https://www.thetvdb.com/banners/series/81189/episodes/5ea716c6a773d.jpg after 33ms
+2026-05-28 17:18:59.841 Info HttpClient: GET https://artworks.thetvdb.com/banners/v4/actor/293588/photo/651bd47df1599.jpg
+2026-05-28 17:18:59.842 Info ProviderManager: Saving image to /config/metadata/library/45/4515f7975339d2fa474df9b6bd9986b5/poster.jpg
+2026-05-28 17:18:59.864 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/293588/photo/651bd47df1599.jpg after 22ms
+2026-05-28 17:18:59.864 Info ProviderManager: Saving image to /config/metadata/people/j/Jonathan Banks-tmdb-783/folder.jpg
+2026-05-28 17:19:00.013 Info HttpClient: Http response 200 from https://artworks.thetvdb.com/banners/v4/actor/272968/photo/6696465832f3c.jpg after 254ms
+2026-05-28 17:19:00.079 Info ProviderManager: Saving image to /config/metadata/people/g/Giancarlo Esposito/folder.png
+2026-05-28 17:19:01.860 Info MediaInfoService-0HNLSRJJAMM6S:0000002D: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Items/737/PlaybackInfo?UserId=‌26fe336341e94153ac6ec2dd2e90245c‌&StartTimeTicks=0&IsPlayback=true&AutoOpenLiveStream=true&MaxStreamingBitrate=200000000&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:01.863 Info MediaInfoService-0HNLSRJJAMM6S:0000002D: GetPostedPlaybackInfo request. IsPlayback: true, isInLocalNetwork: True
+2026-05-28 17:19:01.865 Info MediaInfoService-0HNLSRJJAMM6S:0000002D: User policy for jellyplex_watched. EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+2026-05-28 17:19:01.865 Info SessionManager: Setting _lastPlaySessionId for session 5c3adfe1e547285610ef213ea964e17c to 3473fac053424eef888e613321a1cff0
+2026-05-28 17:19:01.866 Info MediaInfoService-0HNLSRJJAMM6S:0000002D: http/1.1 Response 200 to ‌‍‍172.17.0.1‌. Time: 6ms. POST http://‌‍‍localhost‌:8097/emby/Items/737/PlaybackInfo?UserId=‌26fe336341e94153ac6ec2dd2e90245c‌&StartTimeTicks=0&IsPlayback=true&AutoOpenLiveStream=true&MaxStreamingBitrate=200000000&X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:01.917 Info VideoService-0HNLSRJJAMM6S:0000002F: http/1.1 GET http://‌‍‍localhost‌:8097/emby/videos/737/original.mkv?DeviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&MediaSourceId=mediasource_737&PlaySessionId=3473fac053424eef888e613321a1cff0&api_key=‌e9abe962d9034c109eca44bb9aaa0b4a‌. Source Ip: ‌‍‍172.17.0.1‌, Accept=video/webm,video/ogg,video/*;q=0.9,application/ogg;q=0.7,audio/*;q=0.6,*/*;q=0.5, Connection=keep-alive, Host=‌‍‍localhost‌:8097, User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0, Accept-Encoding=identity, Accept-Language=en-US,en;q=0.9, Range=bytes=0-, Referer=http://‌‍‍localhost‌:8097/web/index.html, Sec-Fetch-Dest=video, Sec-Fetch-Mode=cors, Sec-Fetch-Site=same-origin, Priority=u=4
+2026-05-28 17:19:01.919 Info VideoService-0HNLSRJJAMM6S:0000002F: http/1.1 Response 206 to ‌‍‍172.17.0.1‌. Time: 2ms. GET http://‌‍‍localhost‌:8097/emby/videos/737/original.mkv?DeviceId=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&MediaSourceId=mediasource_737&PlaySessionId=3473fac053424eef888e613321a1cff0&api_key=‌e9abe962d9034c109eca44bb9aaa0b4a‌. Headers: Content-Type=video/x-matroska, Date=Thu, 28 May 2026 17:19:01 GMT, Server=UPnP/1.0 DLNADOC/1.50, Accept-Ranges=bytes, Cache-Control=private, no-transform, Content-Range=bytes 0-16849/16850, ETag="5b0171a638ebdc24278522b5818a4175", Content-Length=16850, Cross-Origin-Resource-Policy=cross-origin, Private-Network-Access-Name=Media Server-Server, Private-Network-Access-Id=69daa6486c7f446085cb31fd27447264
+2026-05-28 17:19:01.948 Info PlaystateService-0HNLSRJJAMM6S:00000030: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:01.949 Info SessionManager: Playback start reported by app Emby Web 4.9.5.0 on Firefox playing Breaking Bad - S1, Ep3 - ...And the Bag's in the River. Position: 0 ms. PlaySessionId: 3473fac053424eef888e613321a1cff0. IsPaused: False
+2026-05-28 17:19:01.950 Info PlaystateService-0HNLSRJJAMM6S:00000030: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 2ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:01.952 Info PlaystateService-0HNLSRJJAMM6S:00000031: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:01.953 Info PlaystateService-0HNLSRJJAMM6S:00000031: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:08.091 Info PlaystateService-0HNLSRJJAMM6S:00000034: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:08.092 Info PlaystateService-0HNLSRJJAMM6S:00000034: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:09.837 Info PlaystateService-0HNLSRJJAMM6S:00000035: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:09.837 Info PlaystateService-0HNLSRJJAMM6S:00000035: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:10.348 Info PlaystateService-0HNLSRJJAMM6S:00000036: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:10.349 Info SessionManager: Playback progress (Pause) reported by app Emby Web 4.9.5.0 on Firefox playing Breaking Bad - S1, Ep3 - ...And the Bag's in the River. Position: 412613 ms. PlaySessionId: 3473fac053424eef888e613321a1cff0. IsPaused: True
+2026-05-28 17:19:10.349 Info PlaystateService-0HNLSRJJAMM6S:00000036: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:15.167 Info PlaystateService-0HNLSRJJAMM6S:00000037: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:15.168 Info SessionManager: Playback progress (Unpause) reported by app Emby Web 4.9.5.0 on Firefox playing Breaking Bad - S1, Ep3 - ...And the Bag's in the River. Position: 412613 ms. PlaySessionId: 3473fac053424eef888e613321a1cff0. IsPaused: False
+2026-05-28 17:19:15.168 Info PlaystateService-0HNLSRJJAMM6N:00000051: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:15.171 Info PlaystateService-0HNLSRJJAMM6S:00000037: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 2ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:15.171 Info PlaystateService-0HNLSRJJAMM6N:00000051: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 3ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:23.333 Info PlaystateService-0HNLSRJJAMM6S:00000038: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:23.333 Info SessionManager: Playback progress (Pause) reported by app Emby Web 4.9.5.0 on Firefox playing Breaking Bad - S1, Ep3 - ...And the Bag's in the River. Position: 420796 ms. PlaySessionId: 3473fac053424eef888e613321a1cff0. IsPaused: True
+2026-05-28 17:19:23.334 Info PlaystateService-0HNLSRJJAMM6S:00000038: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Progress?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 
+2026-05-28 17:19:25.049 Info PlaystateService-0HNLSRJJAMM6S:00000039: http/1.1 POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Stopped?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.17.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0
+2026-05-28 17:19:25.050 Info SessionManager: Playback stopped reported by app Emby Web 4.9.5.0 on Firefox playing Breaking Bad - S1, Ep3 - ...And the Bag's in the River. Position: 420796 ms. PlaySessionId: 3473fac053424eef888e613321a1cff0. IsPaused: True
+2026-05-28 17:19:25.050 Info SessionManager: Removed playSession 3473fac053424eef888e613321a1cff0 from session 5c3adfe1e547285610ef213ea964e17c
+2026-05-28 17:19:25.050 Info PlaystateService-0HNLSRJJAMM6S:00000039: http/1.1 Response 204 to ‌‍‍172.17.0.1‌. Time: 1ms. POST http://‌‍‍localhost‌:8097/emby/Sessions/Playing/Stopped?X-Emby-Client=Emby Web&X-Emby-Device-Name=Firefox&X-Emby-Device-Id=TW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxNDQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDQuMHwxNzY0NjM4MjcxNDEy&X-Emby-Client-Version=4.9.5.0&X-Emby-Token=‌e9abe962d9034c109eca44bb9aaa0b4a‌&X-Emby-Language=en-us&reqformat=json. 

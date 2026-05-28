@@ -28,7 +28,13 @@ TVSHOWS=( "Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1/S01E01.mkv" 
     "ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1/S01E03.mkv" \
     "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E01.mkv" \
     "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E02.mkv" \
-    "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv"
+    "My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1/S01E03.mkv" \
+    "Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E01.mkv" \
+    "Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E02.mkv" \
+    "Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1/S01E03.mkv" \
+    "Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E01.mkv" \
+    "Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E02.mkv" \
+    "Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1/S01E03.mkv"
     )
 
 # Location only based matching for Movies and Shows

@@ -14,6 +14,7 @@
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>
+  <EnableInternetProviders>false</EnableInternetProviders>
   <EnableAutomaticSeriesGrouping>false</EnableAutomaticSeriesGrouping>
   <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
   <EnableEmbeddedExtrasTitles>false</EnableEmbeddedExtrasTitles>
@@ -30,7 +31,7 @@
   <DisabledSubtitleFetchers />
   <SubtitleFetcherOrder />
   <DisabledMediaSegmentProviders />
-  <MediaSegmentProvideOrder />
+  <MediaSegmentProviderOrder />
   <SkipSubtitlesIfEmbeddedSubtitlesPresent>false</SkipSubtitlesIfEmbeddedSubtitlesPresent>
   <SkipSubtitlesIfAudioTrackMatches>false</SkipSubtitlesIfAudioTrackMatches>
   <SubtitleDownloadLanguages />
@@ -60,6 +61,10 @@
         <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders>
+        <string>Local Genre/Tag</string>
+      </SimilarItemProviders>
+      <SimilarItemProviderOrder />
     </TypeOptions>
     <TypeOptions>
       <Type>Season</Type>
@@ -72,6 +77,8 @@
         <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders />
+      <SimilarItemProviderOrder />
     </TypeOptions>
     <TypeOptions>
       <Type>Episode</Type>
@@ -88,6 +95,8 @@
         <string>Screen Grabber</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders />
+      <SimilarItemProviderOrder />
     </TypeOptions>
   </TypeOptions>
 </LibraryOptions>

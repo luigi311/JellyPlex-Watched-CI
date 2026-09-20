@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>true</Enabled>
   <EnablePhotos>true</EnablePhotos>
   <EnableRealtimeMonitor>true</EnableRealtimeMonitor>
+  <EnableLUFSScan>false</EnableLUFSScan>
   <EnableChapterImageExtraction>false</EnableChapterImageExtraction>
   <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
+  <EnableTrickplayImageExtraction>false</EnableTrickplayImageExtraction>
+  <ExtractTrickplayImagesDuringLibraryScan>false</ExtractTrickplayImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
       <Path>/data/shows</Path>
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>
+  <EnableInternetProviders>false</EnableInternetProviders>
   <EnableAutomaticSeriesGrouping>false</EnableAutomaticSeriesGrouping>
   <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
+  <EnableEmbeddedExtrasTitles>false</EnableEmbeddedExtrasTitles>
   <EnableEmbeddedEpisodeInfos>false</EnableEmbeddedEpisodeInfos>
   <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
   <PreferredMetadataLanguage />
@@ -24,11 +30,22 @@
   </LocalMetadataReaderOrder>
   <DisabledSubtitleFetchers />
   <SubtitleFetcherOrder />
+  <DisabledMediaSegmentProviders />
+  <MediaSegmentProviderOrder />
   <SkipSubtitlesIfEmbeddedSubtitlesPresent>false</SkipSubtitlesIfEmbeddedSubtitlesPresent>
   <SkipSubtitlesIfAudioTrackMatches>false</SkipSubtitlesIfAudioTrackMatches>
   <SubtitleDownloadLanguages />
   <RequirePerfectSubtitleMatch>true</RequirePerfectSubtitleMatch>
   <SaveSubtitlesWithMedia>true</SaveSubtitlesWithMedia>
+  <DisabledLyricFetchers />
+  <LyricFetcherOrder />
+  <CustomTagDelimiters>
+    <string>/</string>
+    <string>|</string>
+    <string>;</string>
+    <string>\</string>
+  </CustomTagDelimiters>
+  <DelimiterWhitelist />
   <AutomaticallyAddToCollection>false</AutomaticallyAddToCollection>
   <AllowEmbeddedSubtitles>AllowAll</AllowEmbeddedSubtitles>
   <TypeOptions>
@@ -49,6 +66,10 @@
         <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders>
+        <string>Local Genre/Tag</string>
+      </SimilarItemProviders>
+      <SimilarItemProviderOrder />
     </TypeOptions>
     <TypeOptions>
       <Type>Season</Type>
@@ -65,6 +86,8 @@
         <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders />
+      <SimilarItemProviderOrder />
     </TypeOptions>
     <TypeOptions>
       <Type>Episode</Type>
@@ -89,6 +112,8 @@
         <string>Screen Grabber</string>
       </ImageFetcherOrder>
       <ImageOptions />
+      <SimilarItemProviders />
+      <SimilarItemProviderOrder />
     </TypeOptions>
   </TypeOptions>
 </LibraryOptions>

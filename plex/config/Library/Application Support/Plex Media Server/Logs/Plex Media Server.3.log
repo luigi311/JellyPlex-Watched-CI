@@ -1,577 +1,567 @@
-Sep 27, 2026 00:46:31.289 [140654377311032] INFO - Plex Media Server v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
-Sep 27, 2026 00:46:31.289 [140654377311032] INFO - Linux version: 6.17.0-1022-azure, language: en-US
-Sep 27, 2026 00:46:31.289 [140654377311032] INFO - Processor: 4-core AMD EPYC 7763 64-Core Processor
-Sep 27, 2026 00:46:31.289 [140654377311032] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
-Sep 27, 2026 00:46:31.289 [140654377311032] INFO - /usr/lib/plexmediaserver/Plex Media Server
-Sep 27, 2026 00:46:31.289 [140654379854480] DEBUG - BPQ: [Idle] -> [Starting]
-Sep 27, 2026 00:46:31.289 [140654379854480] DEBUG - FeatureManager: Using cached data for features list
-Sep 27, 2026 00:46:31.293 [140654379854480] DEBUG - MyPlex: mapping state set to 'Unknown'.
-Sep 27, 2026 00:46:31.294 [140654379854480] DEBUG - Relay: read 11 cached entries from hosts file
-Sep 27, 2026 00:46:31.294 [140654379854480] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
-Sep 27, 2026 00:46:31.332 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - [CERT] Subject name is /CN=*.b1eb00e890d84884bd38f2ea180d2679.plex.direct
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - [CERT] Installed certificate with fingerprint 53:67:92:6c:59:2e:dd:5f:23:1b:62:2b:d8:36:79:c0:90:7b:63:bc.
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - [CERT/OCSP] no URL available
-Sep 27, 2026 00:46:31.369 [140654379854480] WARN - [CERT/OCSP] getCertInfo failed; skipping stapling
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - HttpServer: Listening on port 32400.
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - HttpServer: Listening on port 32401.
-Sep 27, 2026 00:46:31.369 [140654379854480] DEBUG - Running server...
-Sep 27, 2026 00:46:31.369 [140654359124792] DEBUG - HttpServer: Set up a thread pool with 2 threads.
-Sep 27, 2026 00:46:31.369 [140654379854480] INFO - Running migrations. (EPG 0)
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 0.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 1.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 2.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 3.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 4.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 5.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 6.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 7.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 8.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 9.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 10.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 11.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 12.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 13.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 14.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 15.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 16.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 17.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 18.
-Sep 27, 2026 00:46:31.370 [140654379854480] DEBUG - Captured session 19.
-Sep 27, 2026 00:46:31.374 [140654379854480] DEBUG - ChangestampAllocator: initialized to 1046
-Sep 27, 2026 00:46:31.375 [140654379854480] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.53.3, threadsafe=1
-Sep 27, 2026 00:46:31.380 [140654379854480] INFO - Running migrations. (EPG 0)
-Sep 27, 2026 00:46:31.380 [140654379854480] DEBUG - Captured session 0.
-Sep 27, 2026 00:46:31.380 [140654379854480] DEBUG - Captured session 1.
-Sep 27, 2026 00:46:31.406 [140654372555576] DEBUG - Grabber: Cleaning up orphaned grabs.
-Sep 27, 2026 00:46:31.406 [140654372555576] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - MyPlex: updating with 2 access tokens
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.407 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.408 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.408 [140654379854480] DEBUG - Opening 1 database sessions to library (), SQLite 3.53.3, threadsafe=1
-Sep 27, 2026 00:46:31.409 [140654372555576] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
-Sep 27, 2026 00:46:31.409 [140654372555576] DEBUG - [HCl#1] HTTP requesting GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.412 [140654308989752] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c" changed: -1 => 2026-09-21 15:51:25 (1790005885).
-Sep 27, 2026 00:46:31.412 [140654308989752] WARN - Warning: ex: boost::filesystem::last_write_time: No such file or directory [system:2]: "/config/Library/Application Support/Plex Media Server/Plug-ins", couldn't check file: "/config/Library/Application Support/Plex Media Server/Plug-ins"
-Sep 27, 2026 00:46:31.412 [140654308989752] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c"
-Sep 27, 2026 00:46:31.415 [140654308989752] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
-Sep 27, 2026 00:46:31.415 [140654308989752] DEBUG - PluginRepository::setStartState: 1, startingSystem
-Sep 27, 2026 00:46:31.415 [140654308989752] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/System.bundle.
-Sep 27, 2026 00:46:31.416 [140654308989752] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
-Sep 27, 2026 00:46:31.416 [140654308989752] DEBUG - Starting file watcher for com.plexapp.system
-Sep 27, 2026 00:46:31.417 [140654308989752] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
-Sep 27, 2026 00:46:31.417 [140654308989752] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
-Sep 27, 2026 00:46:31.418 [140654308989752] DEBUG - Spawned plug-in com.plexapp.system with PID 239
-Sep 27, 2026 00:46:31.418 [140654308989752] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
-Sep 27, 2026 00:46:31.592 [140654313208632] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.592 [140654372555576] DEBUG - MyPlex: updating with 2 access tokens
-Sep 27, 2026 00:46:31.592 [140654372555576] DEBUG - [HCl#2] HTTP requesting GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.676 [140654313208632] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:31.678 [140654304770872] DEBUG - [HCl#3] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:31.715 [140654313208632] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:31.715 [140654304770872] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.282 [140654364543800] DEBUG - Request: didn't get any data from 127.0.0.1:52624: End of file
-Sep 27, 2026 00:46:32.322 [140654300551992] DEBUG - Request: [127.0.0.1:52628 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
-Sep 27, 2026 00:46:32.323 [140654362434360] DEBUG - Completed: [127.0.0.1:52628] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP 0ms 436 bytes
-Sep 27, 2026 00:46:32.329 [140654300551992] DEBUG - Request: [127.0.0.1:52634 (Loopback)] GET / (3 live) #4 GZIP Token ()
-Sep 27, 2026 00:46:32.329 [140654362434360] DEBUG - Completed: [127.0.0.1:52634] 503 GET / (3 live) #4 GZIP 0ms 436 bytes
-Sep 27, 2026 00:46:32.941 [140654300551992] DEBUG - Request: [127.0.0.1:52642 (Loopback)] GET /servers (4 live) #7 GZIP Token ()
-Sep 27, 2026 00:46:32.942 [140654362434360] DEBUG - Completed: [127.0.0.1:52642] 503 GET /servers (4 live) #7 GZIP 0ms 436 bytes
-Sep 27, 2026 00:46:32.959 [140654308989752] DEBUG - Reading 486 bytes in the body, code is 200
-Sep 27, 2026 00:46:32.959 [140654308989752] DEBUG - [com.plexapp.system] Plug-in running on port 46747.
-Sep 27, 2026 00:46:32.959 [140654308989752] DEBUG -  * Plug-in handles prefix: /system
-Sep 27, 2026 00:46:32.959 [140654308989752] DEBUG -  * Plug-in handles prefix: /player
-Sep 27, 2026 00:46:32.959 [140654308989752] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
-Sep 27, 2026 00:46:32.960 [140654308989752] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
-Sep 27, 2026 00:46:32.960 [140654308989752] DEBUG - PluginRepository::setStartState: 2, startingPlugins
-Sep 27, 2026 00:46:32.960 [140654308989752] DEBUG - Updating the list of agents known by the system.
-Sep 27, 2026 00:46:32.960 [140654308989752] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
-Sep 27, 2026 00:46:32.960 [140654308989752] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:46747/system/agents
-Sep 27, 2026 00:46:32.960 [140654379854480] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
-Sep 27, 2026 00:46:32.961 [140654379854480] DEBUG - Transcoder: Cleaning old transcode directories.
-Sep 27, 2026 00:46:32.962 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.963 [140654379854480] DEBUG - MyPlex: updating with 2 access tokens
-Sep 27, 2026 00:46:32.963 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.963 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.964 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.964 [140654379854480] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
-Sep 27, 2026 00:46:32.966 [140654379854480] DEBUG - MyPlex: username is jellyplex_watched, login is jellyplex-watched@luigi311.com, home is 0, no pin
-Sep 27, 2026 00:46:32.967 [140654379854480] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
-Sep 27, 2026 00:46:32.967 [140654379854480] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
-Sep 27, 2026 00:46:32.967 [140654379854480] DEBUG - PublicAddressManager: Starting.
-Sep 27, 2026 00:46:32.967 [140654296333112] DEBUG - [HCl#5] HTTP requesting GET https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
-Sep 27, 2026 00:46:32.967 [140654379854480] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
-Sep 27, 2026 00:46:32.967 [140654302661432] DEBUG - PublicAddressManager: Obtaining public IP.
-Sep 27, 2026 00:46:32.967 [140654372555576] DEBUG - NAT: UPnP, attempting port mapping.
-Sep 27, 2026 00:46:32.968 [140654302661432] DEBUG - [HCl#6] HTTP requesting GET https://v4.plex.tv/pms/:/ip
-Sep 27, 2026 00:46:32.968 [140654379854480] DEBUG - NetworkInterface: Starting watch thread.
-Sep 27, 2026 00:46:32.968 [140654379854480] DEBUG - Network change.
-Sep 27, 2026 00:46:32.968 [140654379854480] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Sep 27, 2026 00:46:32.968 [140654379854480] DEBUG - Detected primary interface: 172.17.0.2
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - Network interfaces:
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG -  * 2 eth0 (172.17.0.2) (AA-B6-BE-AC-B3-F7) (loopback: 0)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - Creating NetworkServices singleton.
-Sep 27, 2026 00:46:32.969 [140654292114232] DEBUG - NetworkInterface: Watching for changes on the interfaces.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkServices: Initializing...
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654290004792] DEBUG - Network change for advertiser.
-Sep 27, 2026 00:46:32.969 [140654290004792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Creating new service.
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Sep 27, 2026 00:46:32.969 [140654379854480] DEBUG - NetworkService: Quick dispatch of network change.
-Sep 27, 2026 00:46:32.970 [140654290004792] DEBUG - Network change for advertiser.
-Sep 27, 2026 00:46:32.970 [140654290004792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
-Sep 27, 2026 00:46:32.971 [140654290004792] DEBUG - Network change for advertiser.
-Sep 27, 2026 00:46:32.971 [140654290004792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
-Sep 27, 2026 00:46:32.971 [140654290004792] DEBUG - [NetworkService] Network change for browser (polled=0), closing 0 browse sockets.
-Sep 27, 2026 00:46:32.972 [140654279457592] DEBUG - [HCl#8] HTTP requesting GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.972 [140654277348152] DEBUG - [HCl#9] HTTP requesting GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.971 [140654285785912] DEBUG - [HCl#7] HTTP requesting GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:32.971 [140654281567032] DEBUG - [DatabaseFixups] Running fix-ups.
-Sep 27, 2026 00:46:32.972 [140654281567032] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Executing fixup
-Sep 27, 2026 00:46:32.972 [140654281567032] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Fixup completed
-Sep 27, 2026 00:46:32.972 [140654281567032] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Executing fixup
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] NetworkService: Setting up multicast listener on 0.0.0.0:32413
-Sep 27, 2026 00:46:32.972 [140654379854480] DEBUG - Waiting for server condition to be signaled.
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 172.17.255.255 (index: 1)
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] Network change for browser (polled=1), closing 0 browse sockets.
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
-Sep 27, 2026 00:46:32.972 [140654290004792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 172.17.255.255 (index: 1)
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Fixup completed
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Executing fixup
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Fixup completed
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Executing fixup
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Fixup completed
-Sep 27, 2026 00:46:32.973 [140654268910392] DEBUG - DVR: Starting up.
-Sep 27, 2026 00:46:32.973 [140654281567032] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Executing fixup
-Sep 27, 2026 00:46:32.973 [140654290004792] DEBUG - [NetworkService] Network change for browser (polled=0), closing 0 browse sockets.
-Sep 27, 2026 00:46:32.973 [140654290004792] DEBUG - [NetworkService] NetworkService: Setting up multicast listener on 0.0.0.0:1901
-Sep 27, 2026 00:46:32.973 [140654290004792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 239.255.255.250 (index: 0)
-Sep 27, 2026 00:46:32.971 [140654283676472] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
-Sep 27, 2026 00:46:32.974 [140654283676472] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.43.4.10903-e5521bd8c 32600
-Sep 27, 2026 00:46:32.974 [140654281567032] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Fixup completed
-Sep 27, 2026 00:46:32.974 [140654281567032] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Executing fixup
-Sep 27, 2026 00:46:32.974 [140654281567032] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Fixup completed
-Sep 27, 2026 00:46:32.974 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Executing fixup
-Sep 27, 2026 00:46:32.975 [140654268910392] DEBUG - Activity: registered new activity ed419e7f-1f5d-42fd-8348-b34ebaf684bd - "Processing subscriptions"
-Sep 27, 2026 00:46:32.975 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 1.
-Sep 27, 2026 00:46:32.975 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.975 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 1 in 0ms.
-Sep 27, 2026 00:46:32.978 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 1 in 3ms.
-Sep 27, 2026 00:46:32.979 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 1 in 0ms.
-Sep 27, 2026 00:46:32.979 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
-Sep 27, 2026 00:46:32.980 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.980 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
-Sep 27, 2026 00:46:32.980 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
-Sep 27, 2026 00:46:32.980 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.980 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
-Sep 27, 2026 00:46:32.981 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
-Sep 27, 2026 00:46:32.981 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.981 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 1ms.
-Sep 27, 2026 00:46:32.983 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 3 in 1ms.
-Sep 27, 2026 00:46:32.983 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 3 in 0ms.
-Sep 27, 2026 00:46:32.984 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 4.
-Sep 27, 2026 00:46:32.984 [140654283676472] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 311
-Sep 27, 2026 00:46:32.984 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.984 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 4 in 0ms.
-Sep 27, 2026 00:46:32.987 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 4 in 2ms.
-Sep 27, 2026 00:46:32.988 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 4 in 0ms.
-Sep 27, 2026 00:46:32.988 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
-Sep 27, 2026 00:46:32.988 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.988 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 0ms.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 0ms.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
-Sep 27, 2026 00:46:32.989 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 0ms.
-Sep 27, 2026 00:46:32.991 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 5 in 1ms.
-Sep 27, 2026 00:46:32.992 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 5 in 0ms.
-Sep 27, 2026 00:46:32.992 [140654281567032] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Fixup completed
-Sep 27, 2026 00:46:32.992 [140654281567032] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Executing fixup
-Sep 27, 2026 00:46:32.992 [140654281567032] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Fixup completed
-Sep 27, 2026 00:46:32.992 [140654281567032] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Executing fixup
-Sep 27, 2026 00:46:32.993 [140654281567032] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Fixup completed
-Sep 27, 2026 00:46:32.993 [140654281567032] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Executing fixup
-Sep 27, 2026 00:46:32.993 [140654281567032] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Fixup completed
-Sep 27, 2026 00:46:32.993 [140654281567032] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Executing fixup
-Sep 27, 2026 00:46:32.994 [140654281567032] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Fixup completed
-Sep 27, 2026 00:46:32.994 [140654281567032] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
-Sep 27, 2026 00:46:33.031 [140654313208632] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:46747/system/agents
-Sep 27, 2026 00:46:33.031 [140654313208632] DEBUG - [HttpClient/HCl#7] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.031 [140654308989752] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
-Sep 27, 2026 00:46:33.032 [140654313208632] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.036 [140654308989752] DEBUG - The system knows about 12 agents.
-Sep 27, 2026 00:46:33.036 [140654264527672] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PlexThemeMusic.bundle.
-Sep 27, 2026 00:46:33.036 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LocalMedia.bundle.
-Sep 27, 2026 00:46:33.036 [140654260308792] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Media-Flags.bundle.
-Sep 27, 2026 00:46:33.037 [140654308989752] DEBUG - Waiting for 16 plug-ins to finish starting.
-Sep 27, 2026 00:46:33.038 [140654264527672] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
-Sep 27, 2026 00:46:33.038 [140654262418232] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
-Sep 27, 2026 00:46:33.038 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LyricFind.bundle.
-Sep 27, 2026 00:46:33.039 [140654264527672] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Fanart-TV.bundle.
-Sep 27, 2026 00:46:33.040 [140654260308792] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/TheMovieDB.bundle.
-Sep 27, 2026 00:46:33.041 [140654262418232] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
-Sep 27, 2026 00:46:33.043 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/WebClient.bundle.
-Sep 27, 2026 00:46:33.043 [140654264527672] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
-Sep 27, 2026 00:46:33.043 [140654264527672] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Scanners.bundle.
-Sep 27, 2026 00:46:33.045 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Framework.bundle.
-Sep 27, 2026 00:46:33.045 [140654260308792] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
-Sep 27, 2026 00:46:33.045 [140654260308792] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/TheTVDBv4.bundle.
-Sep 27, 2026 00:46:33.046 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/MoviePosterDB.bundle.
-Sep 27, 2026 00:46:33.047 [140654264527672] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Musicbrainz.bundle.
-Sep 27, 2026 00:46:33.048 [140654262418232] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
-Sep 27, 2026 00:46:33.048 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/HTbackdrops.bundle.
-Sep 27, 2026 00:46:33.049 [140654260308792] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
-Sep 27, 2026 00:46:33.049 [140654260308792] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PersonalMedia.bundle.
-Sep 27, 2026 00:46:33.049 [140654264527672] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
-Sep 27, 2026 00:46:33.049 [140654264527672] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LastFM.bundle.
-Sep 27, 2026 00:46:33.051 [140654262418232] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
-Sep 27, 2026 00:46:33.051 [140654262418232] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PlexMovie.bundle.
-Sep 27, 2026 00:46:33.051 [140654260308792] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
-Sep 27, 2026 00:46:33.052 [140654264527672] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
-Sep 27, 2026 00:46:33.053 [140654313208632] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.1s) 200 response from GET https://v4.plex.tv/pms/:/ip
-Sep 27, 2026 00:46:33.053 [140654302661432] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 20.97.198.246
-Sep 27, 2026 00:46:33.054 [140654262418232] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
-Sep 27, 2026 00:46:33.054 [140654308989752] DEBUG - Starting scheduled updates, every 3600 seconds
-Sep 27, 2026 00:46:33.054 [140654308989752] INFO - Refreshing paths watched by LibraryUpdateManager
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale hu_HU
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale af
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale ar
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale et_EE
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale nl_BE
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale pl
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale lt
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale pt_BR
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale es
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale no
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale ru
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale ja_JP
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale en
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale cs_CZ
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale zh_CN
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale de
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale fi
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale ko
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale uk
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale fr
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale pt
-Sep 27, 2026 00:46:33.054 [140654251760440] DEBUG - Translator: Found locale he
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale hu
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale sl
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale sv
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale hr_HR
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale sk
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale ro
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale da
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale nl
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale it
-Sep 27, 2026 00:46:33.055 [140654251760440] DEBUG - Translator: Found locale sr
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - LibraryUpdateManager will start watching /custom_movies
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - LibraryUpdateManager will start watching /custom_tvshows
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - LibraryUpdateManager will start watching /movies
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - LibraryUpdateManager will start watching /tvshows
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - [Notify] Initializing.
-Sep 27, 2026 00:46:33.055 [140654249577272] DEBUG - [Notify] Waiting for inotify notifications...
-Sep 27, 2026 00:46:33.055 [140654308989752] DEBUG - Done waiting for all plug-ins to start.
-Sep 27, 2026 00:46:33.055 [140654247467832] DEBUG - [Notify] Now watching "/custom_movies"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_movies/Movie Four (2023)"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_movies/Movie Two (2021)"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_movies/Movie Three (2022)"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_movies/Movie One (2020)"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_tvshows"
-Sep 27, 2026 00:46:33.056 [140654308989752] DEBUG - PluginRepository::setStartState: 3, complete
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_tvshows/Greatest Show Ever (3000)"
-Sep 27, 2026 00:46:33.056 [140654247467832] DEBUG - [Notify] Now watching "/custom_tvshows/Greatest Show Ever (3000)/Season 1"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/The Hunger Games The Ballad of Songbirds && Snakes (2023) {tmdb-695721} {imdb-tt10545296}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/Elephant Dream {tvdb-16180} {imdb-tt0807840}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/The Family Plan (2023) {tmdb-1029575} {imdb-tt16431870}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/tvshows"
-Sep 27, 2026 00:46:33.057 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}"
-Sep 27, 2026 00:46:33.058 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1"
-Sep 27, 2026 00:46:33.058 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}"
-Sep 27, 2026 00:46:33.058 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1"
-Sep 27, 2026 00:46:33.058 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}"
-Sep 27, 2026 00:46:33.059 [140654247467832] DEBUG - [Notify] Now watching "/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1"
-Sep 27, 2026 00:46:33.061 [140654251760440] DEBUG - [Req#a] Starting file watcher for com.plexapp.agents.imdb
-Sep 27, 2026 00:46:33.061 [140654251760440] DEBUG - [Req#a] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
-Sep 27, 2026 00:46:33.061 [140654251760440] DEBUG - [Req#a] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
-Sep 27, 2026 00:46:33.064 [140654251760440] DEBUG - [Req#a] Spawned plug-in com.plexapp.agents.imdb with PID 339
-Sep 27, 2026 00:46:33.064 [140654251760440] DEBUG - [Req#a] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
-Sep 27, 2026 00:46:33.116 [140654313208632] DEBUG - [HttpClient/HCl#9] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.117 [140654277348152] DEBUG - [HCl#a] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
-Sep 27, 2026 00:46:33.164 [140654313208632] DEBUG - [HttpClient/HCl#a] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5 (reused)
-Sep 27, 2026 00:46:33.178 [140654313208632] DEBUG - [HttpClient/HCl#5] HTTP/2.0 (0.2s) 200 response from GET https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (reused)
-Sep 27, 2026 00:46:33.180 [140654294223672] DEBUG - MyPlex: username is jellyplex_watched, login is jellyplex-watched@luigi311.com, home is 0, no pin
-Sep 27, 2026 00:46:33.180 [140654296333112] DEBUG - [HCl#b] HTTP requesting GET https://servers.plex.tv/api/v2/geoip
-Sep 27, 2026 00:46:33.213 [140654313208632] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/geoip (reused)
-Sep 27, 2026 00:46:33.214 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Resolving pubsub01.pop.yyz.plex.bz port 443
-Sep 27, 2026 00:46:33.216 [140654296333112] DEBUG - [HCl#c] HTTP requesting GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:33.249 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Resolved pubsub01.pop.yyz.plex.bz to 172.105.99.32:443
-Sep 27, 2026 00:46:33.257 [140654313208632] DEBUG - [HttpClient/HCl#c] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.258 [140654296333112] DEBUG - [HCl#e] HTTP requesting GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:33.280 [140654273129272] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
-Sep 27, 2026 00:46:33.287 [140654281567032] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.43.4.10903-e5521bd8c" --version=1.43.4.10903-e5521bd8c --platform=Linux --platformVersion=6.17.0-1022-azure --serverUuid=4aa082f4f7d6dd1a83a571d03b236b07794db03c --userId=jellyplex-watched@luigi311.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
-Sep 27, 2026 00:46:33.289 [140654281567032] DEBUG - [JobRunner] Jobs: Starting child process with pid 342
-Sep 27, 2026 00:46:33.310 [140654313208632] DEBUG - [HttpClient/HCl#e] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.311 [140654375111480] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 342 is 0 (success)
-Sep 27, 2026 00:46:33.316 [140654296333112] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
-Sep 27, 2026 00:46:33.317 [140654296333112] DEBUG - MyPlex: Updating device connections (from timer: 0)
-Sep 27, 2026 00:46:33.317 [140654243203896] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
-Sep 27, 2026 00:46:33.318 [140654243203896] DEBUG - MyPlex: mapping state set to 'Unknown'.
-Sep 27, 2026 00:46:33.319 [140654243203896] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=, port=0)
-Sep 27, 2026 00:46:33.319 [140654243203896] DEBUG - [HCl#f] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:33.319 [140654296333112] DEBUG - [HCl#10] HTTP requesting PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:33.323 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Connected in 73 ms.
-Sep 27, 2026 00:46:33.323 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Wrote data, reading reply.
-Sep 27, 2026 00:46:33.379 [140654313208632] DEBUG - [HttpClient/HCl#10] HTTP/2.0 (0.1s) 200 response from PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.386 [140654313208632] DEBUG - [HttpClient/HCl#f] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:33.387 [140654243203896] DEBUG - MyPlex: Published Mapping State response was 422
-Sep 27, 2026 00:46:33.387 [140654243203896] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
-Sep 27, 2026 00:46:33.387 [140654243203896] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
-Sep 27, 2026 00:46:33.387 [140654243203896] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
-Sep 27, 2026 00:46:33.418 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Read HTTP reply header.
-Sep 27, 2026 00:46:33.419 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] MyPlex: We appear to have regained Internet connectivity.
-Sep 27, 2026 00:46:33.628 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] PublicAddressManager: Obtaining public address and mapping port.
-Sep 27, 2026 00:46:33.628 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
-Sep 27, 2026 00:46:33.628 [140654364543800] WARN - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] MyPlex: attempted a reachability check but we're not yet mapped.
-Sep 27, 2026 00:46:33.628 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Successfully connected to pubsub01.pop.yyz.plex.bz.
-Sep 27, 2026 00:46:33.853 [140654300551992] DEBUG - Request: [127.0.0.1:52654 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) #8 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:33.853 [140654300551992] DEBUG - [Req#8] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
-Sep 27, 2026 00:46:33.885 [140654300551992] DEBUG - [Req#8/HCl#11] HTTP requesting GET http://127.0.0.1:46747/system/messaging/clear_events/com.plexapp.agents.imdb
-Sep 27, 2026 00:46:33.914 [140654313208632] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46747/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
-Sep 27, 2026 00:46:33.914 [140654300551992] DEBUG - [Req#8] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
-Sep 27, 2026 00:46:33.915 [140654364543800] DEBUG - Completed: [127.0.0.1:52654] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) #8 GZIP 63ms 280 bytes
-Sep 27, 2026 00:46:34.024 [140654300551992] DEBUG - Request: [127.0.0.1:52656 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (4 live) #13 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:34.024 [140654300551992] DEBUG - [Req#13] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
-Sep 27, 2026 00:46:34.025 [140654300551992] DEBUG - [Req#13/HCl#12] HTTP requesting GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/resourceHashes
-Sep 27, 2026 00:46:34.060 [140654308989752] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: 2026-09-21 15:51:25 (1790005885) => 2026-09-27 00:46:32 (1790469992).
-Sep 27, 2026 00:46:34.132 [140654313208632] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/resourceHashes
-Sep 27, 2026 00:46:34.132 [140654300551992] DEBUG - [Req#13] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
-Sep 27, 2026 00:46:34.132 [140654364543800] DEBUG - Completed: [127.0.0.1:52656] 404 GET /:/plugins/com.plexapp.system/resourceHashes (4 live) #13 GZIP 107ms 261 bytes
-Sep 27, 2026 00:46:34.154 [140654300551992] DEBUG - Request: [127.0.0.1:52680 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) #17 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:34.155 [140654243203896] DEBUG - Request: [127.0.0.1:52668 (Loopback)] GET / (5 live) #15 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:34.162 [140654362434360] DEBUG - Completed: [127.0.0.1:52668] 200 GET / (5 live) #15 GZIP 6ms 4120 bytes
-Sep 27, 2026 00:46:34.765 [140654243203896] DEBUG - Request: [127.0.0.1:52692 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (6 live) #18 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:35.060 [140654308989752] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c"
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - PluginRepository::setStartState: 1, startingSystem
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - PluginRepository::setStartState: 2, startingPlugins
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - Updating the list of agents known by the system.
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
-Sep 27, 2026 00:46:35.062 [140654308989752] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:46747/system/agents
-Sep 27, 2026 00:46:35.063 [140654300551992] DEBUG - [Req#17] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Sep 27, 2026 00:46:35.063 [140654300551992] DEBUG - [Req#17/HCl#14] HTTP requesting GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Sep 27, 2026 00:46:35.063 [140654243203896] DEBUG - [Req#18] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Sep 27, 2026 00:46:35.063 [140654243203896] DEBUG - [Req#18/HCl#15] HTTP requesting GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Sep 27, 2026 00:46:35.082 [140654313208632] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Sep 27, 2026 00:46:35.082 [140654300551992] DEBUG - [Req#17] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
-Sep 27, 2026 00:46:35.082 [140654364543800] DEBUG - Completed: [127.0.0.1:52680] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (6 live) #17 GZIP 928ms 746 bytes
-Sep 27, 2026 00:46:35.087 [140654313208632] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46747/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Sep 27, 2026 00:46:35.088 [140654243203896] DEBUG - [Req#18] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
-Sep 27, 2026 00:46:35.088 [140654364543800] DEBUG - Completed: [127.0.0.1:52692] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (5 live) #18 GZIP 323ms 415 bytes
-Sep 27, 2026 00:46:35.094 [140654313208632] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46747/system/agents
-Sep 27, 2026 00:46:35.094 [140654308989752] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
-Sep 27, 2026 00:46:35.096 [140654251760440] DEBUG - [Req#a] Reading 148 bytes in the body, code is 200
-Sep 27, 2026 00:46:35.096 [140654251760440] DEBUG - [Req#a] [com.plexapp.agents.imdb] Plug-in running on port 46129.
-Sep 27, 2026 00:46:35.096 [140654251760440] DEBUG - [Req#a] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
-Sep 27, 2026 00:46:35.096 [140654251760440] DEBUG - [Req#a] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.096 [140654251760440] DEBUG - [Req#a/HCl#16] HTTP requesting GET http://127.0.0.1:46129/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.097 [140654308989752] DEBUG - The system knows about 12 agents.
-Sep 27, 2026 00:46:35.097 [140654308989752] DEBUG - Waiting for 0 plug-ins to finish starting.
-Sep 27, 2026 00:46:35.098 [140654308989752] DEBUG - Done waiting for all plug-ins to start.
-Sep 27, 2026 00:46:35.098 [140654308989752] DEBUG - PluginRepository::setStartState: 3, complete
-Sep 27, 2026 00:46:35.101 [140654277348152] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.101 [140654277348152] DEBUG - [Req#1c] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.101 [140654277348152] DEBUG - [Req#1c/HCl#17] HTTP requesting GET http://127.0.0.1:46129/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.136 [140654313208632] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46129/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.136 [140654251760440] DEBUG - [Req#a] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
-Sep 27, 2026 00:46:35.137 [140654251760440] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 4bf80475c70db473aa692a59355b5471264bb178
-Sep 27, 2026 00:46:35.137 [140654251760440] DEBUG - IVA: Downloading trailer lists.
-Sep 27, 2026 00:46:35.138 [140654313208632] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46129/:/plugins/com.plexapp.agents.imdb/prefs
-Sep 27, 2026 00:46:35.138 [140654277348152] DEBUG - [Req#1c] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
-Sep 27, 2026 00:46:35.138 [140654277348152] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 4bf80475c70db473aa692a59355b5471264bb178
-Sep 27, 2026 00:46:35.138 [140654277348152] DEBUG - IVA: Downloading trailer lists.
-Sep 27, 2026 00:46:35.257 [140654251760440] DEBUG - IVA: Downloaded 38 trailers for source 1.
-Sep 27, 2026 00:46:35.264 [140654277348152] DEBUG - IVA: Downloaded 38 trailers for source 1.
-Sep 27, 2026 00:46:35.287 [140654251760440] DEBUG - IVA: Downloaded 31 trailers for source 2.
-Sep 27, 2026 00:46:35.294 [140654277348152] DEBUG - IVA: Downloaded 31 trailers for source 2.
-Sep 27, 2026 00:46:36.214 [140654273129272] DEBUG - [MediaProviderManager] Refreshing media providers
-Sep 27, 2026 00:46:36.214 [140654273129272] DEBUG - [MediaProviderManager/Response::fetch/HCl#1e] HTTP requesting GET https://servers.plex.tv/media/providers
-Sep 27, 2026 00:46:36.314 [140654313208632] DEBUG - [HttpClient/HCl#1e] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/media/providers
-Sep 27, 2026 00:46:36.314 [140654273129272] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
-Sep 27, 2026 00:46:36.314 [140654273129272] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
-Sep 27, 2026 00:46:36.314 [140654273129272] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
-Sep 27, 2026 00:46:36.314 [140654247467832] DEBUG - [MediaProviderManager/HCl#20] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
-Sep 27, 2026 00:46:36.418 [140654273129272] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 0)
-Sep 27, 2026 00:46:36.418 [140654273129272] DEBUG - [MediaProviderManager/HCl#22] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
-Sep 27, 2026 00:46:36.418 [140654313208632] DEBUG - [HttpClient/HCl#20] HTTP/2.0 (0.1s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1
-Sep 27, 2026 00:46:36.418 [140654247467832] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: hero
-Sep 27, 2026 00:46:36.430 [140654313208632] DEBUG - [HttpClient/HCl#22] HTTP/2.0 (0.0s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1 (reused)
-Sep 27, 2026 00:46:36.430 [140654273129272] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: hero
-Sep 27, 2026 00:46:36.430 [140654273129272] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 2
-Sep 27, 2026 00:46:36.430 [140654273129272] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
-Sep 27, 2026 00:46:36.430 [140654273129272] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.movie' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.series' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.music' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'org.musicbrainz.agents.music' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.nfo.movie' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.nfo.series' with source URI 'provider://tv.plex.provider.metadata'
-Sep 27, 2026 00:46:36.431 [140654273129272] DEBUG - [MediaProviderManager] Media provider refresh complete
-Sep 27, 2026 00:46:37.971 [140654290004792] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (JellyPlex-CI)
-Sep 27, 2026 00:46:37.971 [140654290004792] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
-Sep 27, 2026 00:46:37.971 [140654290004792] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
-Sep 27, 2026 00:46:37.971 [140654290004792] DEBUG - [NSB/HCl#23] HTTP requesting GET http://127.0.0.1:46747/system/notify/serverUpdated?host=127.0.0.1
-Sep 27, 2026 00:46:37.974 [140654300551992] DEBUG - Request: [127.0.0.1:52696 (Loopback)] GET /servers (3 live) #19 GZIP Signed-in Token (jellyplex_watched)
-Sep 27, 2026 00:46:37.975 [140654362434360] DEBUG - Completed: [127.0.0.1:52696] 200 GET /servers (3 live) #19 GZIP 0ms 494 bytes
-Sep 27, 2026 00:46:37.977 [140654313208632] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46747/system/notify/serverUpdated?host=127.0.0.1
-Sep 27, 2026 00:46:37.977 [140654290004792] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
-Sep 27, 2026 00:46:38.214 [140654255979320] DEBUG - [PubsubServerManager/process/HCl#24] HTTP requesting GET https://servers.plex.tv/services/pubsub/servers
-Sep 27, 2026 00:46:38.257 [140654313208632] DEBUG - [HttpClient/HCl#24] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/services/pubsub/servers (reused)
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub00.pop.ewr.plex.bz was 35 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub07.pop.atl.plex.bz was 46 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub04.pop.yyz.plex.bz was 60 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub01.pop.yyz.plex.bz was 67 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub03.pop.dfw.plex.bz was 100 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub04.pop.fmt.plex.bz was 191 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub00.pop.lhr.plex.bz was 252 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub01.pop.fra.plex.bz was 274 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub02.pop.hnd.plex.bz was 461 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Time to connect to pubsub02.pop.sin.plex.bz was 671 ms.
-Sep 27, 2026 00:46:39.239 [140654255979320] DEBUG - [PubsubServerManager/process] Another server (pubsub00.pop.ewr.plex.bz) beat the current one (pubsub01.pop.yyz.plex.bz).
-Sep 27, 2026 00:46:39.240 [140654255979320] DEBUG - [PubsubServerManager/process] Updating best host to pubsub00.pop.ewr.plex.bz.
-Sep 27, 2026 00:46:39.240 [140654255979320] DEBUG - [PubsubServerManager/process] Updating best ping time for pubsub00.pop.ewr.plex.bz to 35 ms.
-Sep 27, 2026 00:46:39.240 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Stopping.
-Sep 27, 2026 00:46:39.240 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Resolving pubsub00.pop.ewr.plex.bz port 443
-Sep 27, 2026 00:46:39.241 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub01.pop.yyz.plex.bz:443] Failure: 125 - Operation canceled.
-Sep 27, 2026 00:46:39.275 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Resolved pubsub00.pop.ewr.plex.bz to 97.107.133.152:443
-Sep 27, 2026 00:46:39.310 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Connected in 35 ms.
-Sep 27, 2026 00:46:39.310 [140654362434360] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Wrote data, reading reply.
-Sep 27, 2026 00:46:39.355 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Read HTTP reply header.
-Sep 27, 2026 00:46:39.355 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: We appear to have regained Internet connectivity.
-Sep 27, 2026 00:46:39.611 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] PublicAddressManager: Obtaining public address and mapping port.
-Sep 27, 2026 00:46:39.611 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
-Sep 27, 2026 00:46:39.611 [140654364543800] WARN - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: attempted a reachability check but we're not yet mapped.
-Sep 27, 2026 00:46:39.611 [140654364543800] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Successfully connected to pubsub00.pop.ewr.plex.bz.
-Sep 27, 2026 00:46:41.407 [140654285785912] DEBUG - DVR:Device: Discovering and refreshing all devices.
-Sep 27, 2026 00:46:41.407 [140654285785912] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
-Sep 27, 2026 00:46:41.407 [140654285785912] DEBUG - [HCl#25] HTTP requesting POST http://127.0.0.1:32600/devices/discover
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Grabber: Cleaning up orphaned grabs.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Activity: registered new activity fb040051-e888-4cc1-87c9-fa2bec3ca9af - "Processing subscriptions"
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Subscription: Scheduling subscriptions.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Subscription: Initialized 0 schedulers.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Activity: Ended activity fb040051-e888-4cc1-87c9-fa2bec3ca9af.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Subscription: There are 0 active grabs at the end.
-Sep 27, 2026 00:46:42.976 [140654281567032] DEBUG - Activity: Ended activity ed419e7f-1f5d-42fd-8348-b34ebaf684bd.
-Sep 27, 2026 00:46:42.977 [140654281567032] DEBUG - Subscription: Refreshed all content in 0 ms.
-Sep 27, 2026 00:46:43.214 [140654277348152] DEBUG - [HCl#26] HTTP requesting GET https://servers.plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:43.312 [140654258088760] DEBUG - [HCl#27] HTTP requesting GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:43.345 [140654313208632] DEBUG - [HttpClient/HCl#26] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:43.345 [140654277348152] DEBUG - Media Server: Tested all servers in 0.0 seconds.
-Sep 27, 2026 00:46:43.440 [140654313208632] DEBUG - [HttpClient/HCl#27] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:43.441 [140654258088760] DEBUG - [HCl#28] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
-Sep 27, 2026 00:46:43.487 [140654313208632] DEBUG - [HttpClient/HCl#28] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5 (reused)
-Sep 27, 2026 00:46:43.835 [140654313208632] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
-Sep 27, 2026 00:46:44.974 [140654372555576] DEBUG - NAT: UPnP, didn't find usable IGD.
-Sep 27, 2026 00:46:44.974 [140654372555576] DEBUG - NAT: PMP, attempting mapping.
-Sep 27, 2026 00:46:45.063 [140654302661432] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
-Sep 27, 2026 00:46:45.225 [140654372555576] WARN - NAT: PMP, got an error: Not Supported by gateway.
-Sep 27, 2026 00:46:45.225 [140654372555576] DEBUG - NAT: UPnP, attempting port mapping.
-Sep 27, 2026 00:46:45.313 [140654302661432] WARN - NAT: PMP, got an error: Not Supported by gateway.
-Sep 27, 2026 00:46:45.314 [140654302661432] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
-Sep 27, 2026 00:46:45.314 [140654302661432] DEBUG - MyPlex: mapping state set to 'Unknown'.
-Sep 27, 2026 00:46:45.314 [140654302661432] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=20.97.198.246, port=0)
-Sep 27, 2026 00:46:45.315 [140654302661432] DEBUG - [HCl#29] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:45.399 [140654313208632] DEBUG - [HttpClient/HCl#29] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:45.399 [140654302661432] DEBUG - MyPlex: Published Mapping State response was 422
-Sep 27, 2026 00:46:45.399 [140654302661432] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
-Sep 27, 2026 00:46:45.399 [140654302661432] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
-Sep 27, 2026 00:46:45.399 [140654302661432] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
-Sep 27, 2026 00:46:45.400 [140654302661432] DEBUG - MyPlex: Updating device connections (from timer: 0)
-Sep 27, 2026 00:46:45.400 [140654302661432] DEBUG - [HCl#2a] HTTP requesting PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:45.453 [140654313208632] DEBUG - [HttpClient/HCl#2a] HTTP/2.0 (0.1s) 200 response from PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:57.237 [140654372555576] DEBUG - NAT: UPnP, didn't find usable IGD.
-Sep 27, 2026 00:46:57.237 [140654372555576] DEBUG - PublicAddressManager: Mapping failed.
-Sep 27, 2026 00:46:57.238 [140654372555576] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
-Sep 27, 2026 00:46:57.238 [140654372555576] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
-Sep 27, 2026 00:46:57.238 [140654372555576] DEBUG - MyPlex: mapping state set to 'Unknown'.
-Sep 27, 2026 00:46:57.239 [140654372555576] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=20.97.198.246, port=0)
-Sep 27, 2026 00:46:57.239 [140654372555576] DEBUG - [HCl#2b] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:46:57.307 [140654313208632] DEBUG - [HttpClient/HCl#2b] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: Published Mapping State response was 422
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - MyPlex: Requesting reachability check.
-Sep 27, 2026 00:46:57.308 [140654372555576] DEBUG - [HCl#2c] HTTP requesting PUT https://servers.plex.tv/api/servers/4aa082f4f7d6dd1a83a571d03b236b07794db03c/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=3c6e7468-19de-4e4f-9444-dd165bd41349
-Sep 27, 2026 00:46:57.341 [140654313208632] DEBUG - [HttpClient/HCl#2c] HTTP/2.0 (0.0s) 200 response from PUT https://servers.plex.tv/api/servers/4aa082f4f7d6dd1a83a571d03b236b07794db03c/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=3c6e7468-19de-4e4f-9444-dd165bd41349 (reused)
-Sep 27, 2026 00:46:57.341 [140654372555576] DEBUG - MyPlex: Last published value didn't change, we're done.
-Sep 27, 2026 00:47:01.384 [140654285785912] DEBUG - [HCl#2d] HTTP requesting GET https://servers.plex.tv/api/v2/shared_sources/owned?machineIdentifier=4aa082f4f7d6dd1a83a571d03b236b07794db03c
-Sep 27, 2026 00:47:01.424 [140654313208632] DEBUG - [HttpClient/HCl#2d] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/shared_sources/owned?machineIdentifier=4aa082f4f7d6dd1a83a571d03b236b07794db03c (reused)
-Sep 27, 2026 00:47:01.424 [140654285785912] DEBUG - [HCl#2e] HTTP requesting GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:47:01.472 [140654313208632] DEBUG - [HttpClient/HCl#2e] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:47:01.472 [140654285785912] DEBUG - MyPlex: updating with 2 access tokens
-Sep 27, 2026 00:47:01.472 [140654285785912] DEBUG - [HCl#2f] HTTP requesting GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:47:01.508 [140654313208632] DEBUG - [HttpClient/HCl#2f] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:47:01.509 [140654304770872] DEBUG - [HCl#30] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:47:01.547 [140654313208632] DEBUG - [HttpClient/HCl#30] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
-Sep 27, 2026 00:47:01.548 [140654304770872] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:47:01.680 [140654375111480] DEBUG - Shutting down with signal 15 (Terminated)
-Sep 27, 2026 00:47:01.680 [140654375111480] DEBUG - Ordered to stop server.
-Sep 27, 2026 00:47:01.680 [140654375111480] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader --sessionStatus=exited --sessionStart=1790469991 --sessionDuration=30 --version=1.43.4.10903-e5521bd8c --userId=jellyplex-watched@luigi311.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Sep 27, 2026 00:47:01.680 [140654375111480] DEBUG - [JobRunner] Jobs: Starting child process with pid 398
-Sep 27, 2026 00:47:01.681 [140654379854480] DEBUG - Stopping server...
-Sep 27, 2026 00:47:01.681 [140654379854480] DEBUG - HttpServer: Stopping server.
-Sep 27, 2026 00:47:01.681 [140654247467832] DEBUG - TranscodeJobManager: [Running] onServerShutdown
-Sep 27, 2026 00:47:01.681 [140654247467832] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
-Sep 27, 2026 00:47:01.681 [140654247467832] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
-Sep 27, 2026 00:47:01.681 [140654379854480] DEBUG - Server stopped.
-Sep 27, 2026 00:47:01.681 [140654379854480] DEBUG - NetworkService: Stopping advertisement.
-Sep 27, 2026 00:47:01.681 [140654379854480] DEBUG - Killing plug-ins.
-Sep 27, 2026 00:47:01.692 [140654379854480] DEBUG - [com.plexapp.agents.imdb] Killing.
-Sep 27, 2026 00:47:01.696 [140654375111480] WARN - JobManager: Could not find job for handle 339
-Sep 27, 2026 00:47:01.698 [140654379854480] DEBUG - [com.plexapp.system] Killing.
-Sep 27, 2026 00:47:01.704 [140654375111480] WARN - JobManager: Could not find job for handle 239
-Sep 27, 2026 00:47:01.704 [140654379854480] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
-Sep 27, 2026 00:47:01.704 [140654379854480] DEBUG - [JobRunner] Signalling job ID 311 with 2
-Sep 27, 2026 00:47:01.749 [140654375111480] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 311 is 0 (success)
-Sep 27, 2026 00:47:01.749 [140654283676472] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
-Sep 27, 2026 00:47:01.749 [140654379854480] DEBUG - Database: Shutting down.
-Sep 27, 2026 00:47:01.756 [140654379854480] DEBUG - Database: Shutting down.
+Oct 04, 2026 01:17:43.439 [140544800996152] INFO - Plex Media Server v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+Oct 04, 2026 01:17:43.440 [140544800996152] INFO - Linux version: 6.17.0-1022-azure, language: en-US
+Oct 04, 2026 01:17:43.440 [140544800996152] INFO - Processor: 4-core AMD EPYC 7763 64-Core Processor
+Oct 04, 2026 01:17:43.440 [140544800996152] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Oct 04, 2026 01:17:43.440 [140544800996152] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Oct 04, 2026 01:17:43.439 [140544803539600] DEBUG - BPQ: [Idle] -> [Starting]
+Oct 04, 2026 01:17:43.440 [140544803539600] DEBUG - FeatureManager: Using cached data for features list
+Oct 04, 2026 01:17:43.445 [140544803539600] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Oct 04, 2026 01:17:43.445 [140544803539600] DEBUG - Relay: read 11 cached entries from hosts file
+Oct 04, 2026 01:17:43.445 [140544803539600] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
+Oct 04, 2026 01:17:43.490 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
+Oct 04, 2026 01:17:43.526 [140544803539600] DEBUG - [CERT] Subject name is /CN=*.b1eb00e890d84884bd38f2ea180d2679.plex.direct
+Oct 04, 2026 01:17:43.526 [140544803539600] DEBUG - [CERT] Installed certificate with fingerprint 53:67:92:6c:59:2e:dd:5f:23:1b:62:2b:d8:36:79:c0:90:7b:63:bc.
+Oct 04, 2026 01:17:43.526 [140544803539600] DEBUG - [CERT/OCSP] no URL available
+Oct 04, 2026 01:17:43.526 [140544803539600] WARN - [CERT/OCSP] getCertInfo failed; skipping stapling
+Oct 04, 2026 01:17:43.527 [140544803539600] DEBUG - HttpServer: Listening on port 32400.
+Oct 04, 2026 01:17:43.527 [140544803539600] DEBUG - HttpServer: Listening on port 32401.
+Oct 04, 2026 01:17:43.527 [140544803539600] DEBUG - Running server...
+Oct 04, 2026 01:17:43.528 [140544803539600] INFO - Running migrations. (EPG 0)
+Oct 04, 2026 01:17:43.528 [140544803539600] DEBUG - Captured session 0.
+Oct 04, 2026 01:17:43.528 [140544803539600] DEBUG - Captured session 1.
+Oct 04, 2026 01:17:43.528 [140544803539600] DEBUG - Captured session 2.
+Oct 04, 2026 01:17:43.528 [140544803539600] DEBUG - Captured session 3.
+Oct 04, 2026 01:17:43.528 [140544803539600] DEBUG - Captured session 4.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 5.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 6.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 7.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 8.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 9.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 10.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 11.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 12.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 13.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 14.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 15.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 16.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 17.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 18.
+Oct 04, 2026 01:17:43.529 [140544803539600] DEBUG - Captured session 19.
+Oct 04, 2026 01:17:43.529 [140544782846776] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Oct 04, 2026 01:17:43.533 [140544803539600] DEBUG - ChangestampAllocator: initialized to 1046
+Oct 04, 2026 01:17:43.534 [140544803539600] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.53.3, threadsafe=1
+Oct 04, 2026 01:17:43.538 [140544803539600] INFO - Running migrations. (EPG 0)
+Oct 04, 2026 01:17:43.539 [140544803539600] DEBUG - Captured session 0.
+Oct 04, 2026 01:17:43.539 [140544803539600] DEBUG - Captured session 1.
+Oct 04, 2026 01:17:43.560 [140544796240696] DEBUG - Grabber: Cleaning up orphaned grabs.
+Oct 04, 2026 01:17:43.561 [140544803539600] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Oct 04, 2026 01:17:43.561 [140544796240696] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Oct 04, 2026 01:17:43.561 [140544803539600] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Oct 04, 2026 01:17:43.561 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.561 [140544803539600] DEBUG - MyPlex: updating with 2 access tokens
+Oct 04, 2026 01:17:43.561 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.562 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.562 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.562 [140544796240696] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Oct 04, 2026 01:17:43.563 [140544803539600] DEBUG - Opening 1 database sessions to library (), SQLite 3.53.3, threadsafe=1
+Oct 04, 2026 01:17:43.563 [140544796240696] DEBUG - [HCl#1] HTTP requesting GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.567 [140544734907192] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c" changed: -1 => 2026-09-28 17:34:31 (1790616871).
+Oct 04, 2026 01:17:43.567 [140544734907192] WARN - Warning: ex: boost::filesystem::last_write_time: No such file or directory [system:2]: "/config/Library/Application Support/Plex Media Server/Plug-ins", couldn't check file: "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Oct 04, 2026 01:17:43.567 [140544734907192] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c"
+Oct 04, 2026 01:17:43.570 [140544734907192] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Oct 04, 2026 01:17:43.570 [140544734907192] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Oct 04, 2026 01:17:43.570 [140544734907192] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/System.bundle.
+Oct 04, 2026 01:17:43.570 [140544734907192] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Oct 04, 2026 01:17:43.571 [140544734907192] DEBUG - Starting file watcher for com.plexapp.system
+Oct 04, 2026 01:17:43.571 [140544734907192] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Oct 04, 2026 01:17:43.571 [140544734907192] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Oct 04, 2026 01:17:43.572 [140544734907192] DEBUG - Spawned plug-in com.plexapp.system with PID 239
+Oct 04, 2026 01:17:43.572 [140544734907192] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Oct 04, 2026 01:17:43.682 [140544737016632] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.684 [140544796240696] DEBUG - MyPlex: updating with 2 access tokens
+Oct 04, 2026 01:17:43.684 [140544796240696] DEBUG - [HCl#2] HTTP requesting GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.719 [140544737016632] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:43.720 [140544728578872] DEBUG - [HCl#3] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:43.755 [140544737016632] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:43.757 [140544728578872] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:44.433 [140544788196152] DEBUG - Request: didn't get any data from 127.0.0.1:40520: End of file
+Oct 04, 2026 01:17:44.724 [140544724359992] DEBUG - Request: [127.0.0.1:40532 (Loopback)] GET / (4 live) #4 GZIP Token ()
+Oct 04, 2026 01:17:44.724 [140544786086712] DEBUG - Completed: [127.0.0.1:40532] 503 GET / (4 live) #4 GZIP 0ms 436 bytes
+Oct 04, 2026 01:17:44.726 [140544724359992] DEBUG - Request: [127.0.0.1:40530 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #3 GZIP Token ()
+Oct 04, 2026 01:17:44.726 [140544788196152] DEBUG - Completed: [127.0.0.1:40530] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #3 GZIP 0ms 436 bytes
+Oct 04, 2026 01:17:45.437 [140544726469432] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.43.4.10903-e5521bd8c" --version=1.43.4.10903-e5521bd8c --platform=Linux --platformVersion=6.17.0-1022-azure --serverUuid=4aa082f4f7d6dd1a83a571d03b236b07794db03c --userId=jellyplex-watched@luigi311.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+Oct 04, 2026 01:17:45.440 [140544726469432] DEBUG - [JobRunner] Jobs: Starting child process with pid 274
+Oct 04, 2026 01:17:45.448 [140544798796600] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 274 is 0 (success)
+Oct 04, 2026 01:17:45.763 [140544724359992] DEBUG - Request: [127.0.0.1:40534 (Loopback)] GET /servers (4 live) #5 GZIP Token ()
+Oct 04, 2026 01:17:45.766 [140544788196152] DEBUG - Completed: [127.0.0.1:40534] 503 GET /servers (4 live) #5 GZIP 2ms 436 bytes
+Oct 04, 2026 01:17:45.787 [140544734907192] DEBUG - Reading 486 bytes in the body, code is 200
+Oct 04, 2026 01:17:45.787 [140544734907192] DEBUG - [com.plexapp.system] Plug-in running on port 40483.
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG -  * Plug-in handles prefix: /system
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG -  * Plug-in handles prefix: /player
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - Updating the list of agents known by the system.
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Oct 04, 2026 01:17:45.788 [140544734907192] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:40483/system/agents
+Oct 04, 2026 01:17:45.788 [140544803539600] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Oct 04, 2026 01:17:45.789 [140544803539600] DEBUG - Transcoder: Cleaning old transcode directories.
+Oct 04, 2026 01:17:45.793 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.794 [140544803539600] DEBUG - MyPlex: updating with 2 access tokens
+Oct 04, 2026 01:17:45.794 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.795 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.795 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.795 [140544803539600] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Oct 04, 2026 01:17:45.796 [140544803539600] DEBUG - MyPlex: username is jellyplex_watched, login is jellyplex-watched@luigi311.com, home is 0, no pin
+Oct 04, 2026 01:17:45.797 [140544803539600] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Oct 04, 2026 01:17:45.797 [140544803539600] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Oct 04, 2026 01:17:45.797 [140544803539600] DEBUG - PublicAddressManager: Starting.
+Oct 04, 2026 01:17:45.797 [140544803539600] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Oct 04, 2026 01:17:45.797 [140544726469432] DEBUG - PublicAddressManager: Obtaining public IP.
+Oct 04, 2026 01:17:45.798 [140544726469432] DEBUG - [HCl#5] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Oct 04, 2026 01:17:45.798 [140544796240696] DEBUG - NAT: UPnP, attempting port mapping.
+Oct 04, 2026 01:17:45.799 [140544720141112] DEBUG - [HCl#6] HTTP requesting GET https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Oct 04, 2026 01:17:45.799 [140544803539600] DEBUG - NetworkInterface: Starting watch thread.
+Oct 04, 2026 01:17:45.799 [140544803539600] DEBUG - Network change.
+Oct 04, 2026 01:17:45.799 [140544803539600] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - Detected primary interface: 172.17.0.2
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - Network interfaces:
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG -  * 2 eth0 (172.17.0.2) (AE-EB-64-C8-A0-4F) (loopback: 0)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - Creating NetworkServices singleton.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkServices: Initializing...
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Creating new service.
+Oct 04, 2026 01:17:45.800 [140544715922232] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Oct 04, 2026 01:17:45.800 [140544803539600] DEBUG - NetworkService: Quick dispatch of network change.
+Oct 04, 2026 01:17:45.801 [140544713812792] DEBUG - Network change for advertiser.
+Oct 04, 2026 01:17:45.801 [140544713812792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Oct 04, 2026 01:17:45.801 [140544713812792] DEBUG - Network change for advertiser.
+Oct 04, 2026 01:17:45.801 [140544713812792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - Network change for advertiser.
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Network change for browser (polled=0), closing 0 browse sockets.
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 172.17.255.255 (index: 1)
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Network change for browser (polled=1), closing 0 browse sockets.
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 172.17.255.255 (index: 1)
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Network change for browser (polled=0), closing 0 browse sockets.
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Oct 04, 2026 01:17:45.802 [140544713812792] DEBUG - [NetworkService] Browsing on interface 172.17.0.2 on broadcast address 239.255.255.250 (index: 0)
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups] Running fix-ups.
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Executing fixup
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Fixup completed
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Executing fixup
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Fixup completed
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Executing fixup
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Fixup completed
+Oct 04, 2026 01:17:45.803 [140544709593912] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Executing fixup
+Oct 04, 2026 01:17:45.804 [140544709593912] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Fixup completed
+Oct 04, 2026 01:17:45.804 [140544709593912] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Executing fixup
+Oct 04, 2026 01:17:45.804 [140544703265592] DEBUG - [HCl#7] HTTP requesting GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.805 [140544707484472] DEBUG - [HCl#8] HTTP requesting GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.807 [140544705375032] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Oct 04, 2026 01:17:45.807 [140544705375032] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.43.4.10903-e5521bd8c 32600
+Oct 04, 2026 01:17:45.808 [140544699046712] DEBUG - [HCl#9] HTTP requesting GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:45.810 [140544709593912] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Fixup completed
+Oct 04, 2026 01:17:45.810 [140544709593912] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Executing fixup
+Oct 04, 2026 01:17:45.810 [140544709593912] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Fixup completed
+Oct 04, 2026 01:17:45.810 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Executing fixup
+Oct 04, 2026 01:17:45.811 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 1.
+Oct 04, 2026 01:17:45.811 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.811 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 1 in 0ms.
+Oct 04, 2026 01:17:45.811 [140544803539600] DEBUG - Waiting for server condition to be signaled.
+Oct 04, 2026 01:17:45.811 [140544692718392] DEBUG - DVR: Starting up.
+Oct 04, 2026 01:17:45.811 [140544705375032] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 314
+Oct 04, 2026 01:17:45.825 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 1 in 11ms.
+Oct 04, 2026 01:17:45.826 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 1 in 0ms.
+Oct 04, 2026 01:17:45.826 [140544692718392] DEBUG - Activity: registered new activity 599b418a-d57a-4509-9f20-97f7dcd1295b - "Processing subscriptions"
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.827 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
+Oct 04, 2026 01:17:45.828 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Oct 04, 2026 01:17:45.828 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.828 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 1ms.
+Oct 04, 2026 01:17:45.830 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 3 in 1ms.
+Oct 04, 2026 01:17:45.830 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 3 in 0ms.
+Oct 04, 2026 01:17:45.831 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 4.
+Oct 04, 2026 01:17:45.831 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.831 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 4 in 0ms.
+Oct 04, 2026 01:17:45.832 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 4 in 1ms.
+Oct 04, 2026 01:17:45.833 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 4 in 0ms.
+Oct 04, 2026 01:17:45.833 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
+Oct 04, 2026 01:17:45.833 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.833 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 0ms.
+Oct 04, 2026 01:17:45.833 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
+Oct 04, 2026 01:17:45.834 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.834 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 0ms.
+Oct 04, 2026 01:17:45.834 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 5.
+Oct 04, 2026 01:17:45.834 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Oct 04, 2026 01:17:45.834 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 5 in 1ms.
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 5 in 1ms.
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 5 in 0ms.
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Fixup completed
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Executing fixup
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Fixup completed
+Oct 04, 2026 01:17:45.836 [140544709593912] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Executing fixup
+Oct 04, 2026 01:17:45.837 [140544709593912] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Fixup completed
+Oct 04, 2026 01:17:45.837 [140544709593912] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Executing fixup
+Oct 04, 2026 01:17:45.838 [140544709593912] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Fixup completed
+Oct 04, 2026 01:17:45.838 [140544709593912] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Executing fixup
+Oct 04, 2026 01:17:45.838 [140544709593912] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Fixup completed
+Oct 04, 2026 01:17:45.838 [140544709593912] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+Oct 04, 2026 01:17:45.846 [140544737016632] DEBUG - [HttpClient/HCl#7] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:45.857 [140544737016632] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:45.890 [140544694827832] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Oct 04, 2026 01:17:45.902 [140544737016632] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:40483/system/agents
+Oct 04, 2026 01:17:45.902 [140544734907192] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+Oct 04, 2026 01:17:45.906 [140544734907192] DEBUG - The system knows about 12 agents.
+Oct 04, 2026 01:17:45.906 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PlexThemeMusic.bundle.
+Oct 04, 2026 01:17:45.907 [140544686390072] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Oct 04, 2026 01:17:45.907 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LocalMedia.bundle.
+Oct 04, 2026 01:17:45.909 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Oct 04, 2026 01:17:45.910 [140544737016632] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.1s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Oct 04, 2026 01:17:45.911 [140544726469432] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 74.235.134.160
+Oct 04, 2026 01:17:45.914 [140544684280632] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Media-Flags.bundle.
+Oct 04, 2026 01:17:45.914 [140544734907192] DEBUG - Waiting for 14 plug-ins to finish starting.
+Oct 04, 2026 01:17:45.914 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LyricFind.bundle.
+Oct 04, 2026 01:17:45.915 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Fanart-TV.bundle.
+Oct 04, 2026 01:17:45.917 [140544684280632] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/TheMovieDB.bundle.
+Oct 04, 2026 01:17:45.919 [140544686390072] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Oct 04, 2026 01:17:45.919 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/WebClient.bundle.
+Oct 04, 2026 01:17:45.919 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Scanners.bundle.
+Oct 04, 2026 01:17:45.920 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Framework.bundle.
+Oct 04, 2026 01:17:45.920 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/TheTVDBv4.bundle.
+Oct 04, 2026 01:17:45.921 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Oct 04, 2026 01:17:45.921 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/MoviePosterDB.bundle.
+Oct 04, 2026 01:17:45.922 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Oct 04, 2026 01:17:45.922 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/Musicbrainz.bundle.
+Oct 04, 2026 01:17:45.922 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Oct 04, 2026 01:17:45.922 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/HTbackdrops.bundle.
+Oct 04, 2026 01:17:45.924 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Oct 04, 2026 01:17:45.924 [140544688499512] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PersonalMedia.bundle.
+Oct 04, 2026 01:17:45.925 [140544686390072] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Oct 04, 2026 01:17:45.925 [140544686390072] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/LastFM.bundle.
+Oct 04, 2026 01:17:45.926 [140544684280632] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Oct 04, 2026 01:17:45.926 [140544684280632] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c/PlexMovie.bundle.
+Oct 04, 2026 01:17:45.928 [140544688499512] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Oct 04, 2026 01:17:45.928 [140544684280632] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Oct 04, 2026 01:17:45.928 [140544686390072] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Oct 04, 2026 01:17:45.929 [140544734907192] DEBUG - Starting scheduled updates, every 3600 seconds
+Oct 04, 2026 01:17:45.929 [140544734907192] INFO - Refreshing paths watched by LibraryUpdateManager
+Oct 04, 2026 01:17:45.929 [140544680061752] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale hu_HU
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale af
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale ar
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale et_EE
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale nl_BE
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale pl
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale lt
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale pt_BR
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale es
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale no
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale ru
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale ja_JP
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale en
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale cs_CZ
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale zh_CN
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale de
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale fi
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale ko
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale uk
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale fr
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale pt
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale he
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale hu
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale sl
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale sv
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale hr_HR
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale sk
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale ro
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale da
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale nl
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale it
+Oct 04, 2026 01:17:45.930 [140544680061752] DEBUG - Translator: Found locale sr
+Oct 04, 2026 01:17:45.930 [140544734907192] DEBUG - LibraryUpdateManager will start watching /custom_movies
+Oct 04, 2026 01:17:45.930 [140544734907192] DEBUG - LibraryUpdateManager will start watching /custom_tvshows
+Oct 04, 2026 01:17:45.931 [140544734907192] DEBUG - LibraryUpdateManager will start watching /movies
+Oct 04, 2026 01:17:45.931 [140544734907192] DEBUG - LibraryUpdateManager will start watching /tvshows
+Oct 04, 2026 01:17:45.931 [140544734907192] DEBUG - [Notify] Initializing.
+Oct 04, 2026 01:17:45.931 [140544677952312] DEBUG - [Notify] Waiting for inotify notifications...
+Oct 04, 2026 01:17:45.931 [140544692718392] DEBUG - [Notify] Now watching "/custom_movies"
+Oct 04, 2026 01:17:45.931 [140544692718392] DEBUG - [Notify] Now watching "/custom_movies/Movie Four (2023)"
+Oct 04, 2026 01:17:45.931 [140544692718392] DEBUG - [Notify] Now watching "/custom_movies/Movie Two (2021)"
+Oct 04, 2026 01:17:45.931 [140544692718392] DEBUG - [Notify] Now watching "/custom_movies/Movie Three (2022)"
+Oct 04, 2026 01:17:45.931 [140544692718392] DEBUG - [Notify] Now watching "/custom_movies/Movie One (2020)"
+Oct 04, 2026 01:17:45.931 [140544734907192] DEBUG - Done waiting for all plug-ins to start.
+Oct 04, 2026 01:17:45.931 [140544734907192] DEBUG - PluginRepository::setStartState: 3, complete
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/custom_tvshows"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/custom_tvshows/Greatest Show Ever (3000)"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/custom_tvshows/Greatest Show Ever (3000)/Season 1"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/movies"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/movies/Killers of the Flower Moon (2023) {tmdb-466420} {imdb-tt5537002}"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/movies/Five Nights at Freddy's (2023) {tmdb-507089} {imdb-tt4589218}"
+Oct 04, 2026 01:17:45.932 [140544692718392] DEBUG - [Notify] Now watching "/movies/The Hunger Games The Ballad of Songbirds && Snakes (2023) {tmdb-695721} {imdb-tt10545296}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/movies/Elephant Dream {tvdb-16180} {imdb-tt0807840}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/movies/The Family Plan (2023) {tmdb-1029575} {imdb-tt16431870}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/movies/Tears Of Steel {tvdb-37711} {imdb-tt2285752}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/movies/Big Buck Bunny {tvdb-12352} {imdb-tt1254207}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/tvshows"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Doctor Who (2005) {tvdb-78804} {imdb-tt0436992}/Season 1"
+Oct 04, 2026 01:17:45.933 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/My Adventures with Superman {tvdb-403172} {imdb-tt14681924}/Season 1"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/ONE PIECE (2023) {tvdb-392276} {imdb-tt11737520}/Season 1"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Black Mirror {tvdb-253463} {imdb-tt2085059}/Season 1"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Breaking Bad {tvdb-81189} {imdb-tt0903747}/Season1"
+Oct 04, 2026 01:17:45.934 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}"
+Oct 04, 2026 01:17:45.935 [140544692718392] DEBUG - [Notify] Now watching "/tvshows/Monarch - Legacy of Monsters {tvdb-422598} {imdb-tt17220216}/Season 1"
+Oct 04, 2026 01:17:45.941 [140544680061752] DEBUG - [Req#a] Starting file watcher for com.plexapp.agents.imdb
+Oct 04, 2026 01:17:45.941 [140544680061752] DEBUG - [Req#a] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Oct 04, 2026 01:17:45.941 [140544680061752] DEBUG - [Req#a] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Oct 04, 2026 01:17:45.943 [140544680061752] DEBUG - [Req#a] Spawned plug-in com.plexapp.agents.imdb with PID 338
+Oct 04, 2026 01:17:45.943 [140544680061752] DEBUG - [Req#a] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Oct 04, 2026 01:17:46.020 [140544737016632] DEBUG - [HttpClient/HCl#6] HTTP/2.0 (0.2s) 200 response from GET https://servers.plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (reused)
+Oct 04, 2026 01:17:46.021 [140544728578872] DEBUG - MyPlex: username is jellyplex_watched, login is jellyplex-watched@luigi311.com, home is 0, no pin
+Oct 04, 2026 01:17:46.022 [140544720141112] DEBUG - [HCl#a] HTTP requesting GET https://servers.plex.tv/api/v2/geoip
+Oct 04, 2026 01:17:46.060 [140544737016632] DEBUG - [HttpClient/HCl#9] HTTP/2.0 (0.3s) 200 response from GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:46.062 [140544699046712] DEBUG - [HCl#b] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
+Oct 04, 2026 01:17:46.064 [140544737016632] DEBUG - [HttpClient/HCl#a] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/geoip (reused)
+Oct 04, 2026 01:17:46.067 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Resolving pubsub00.pop.ewr.plex.bz port 443
+Oct 04, 2026 01:17:46.067 [140544720141112] DEBUG - [HCl#c] HTTP requesting GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:46.115 [140544737016632] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5 (reused)
+Oct 04, 2026 01:17:46.115 [140544737016632] DEBUG - [HttpClient/HCl#c] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:46.117 [140544720141112] DEBUG - [HCl#e] HTTP requesting GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:46.152 [140544737016632] DEBUG - [HttpClient/HCl#e] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:46.157 [140544720141112] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
+Oct 04, 2026 01:17:46.157 [140544675711800] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Oct 04, 2026 01:17:46.157 [140544675711800] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Oct 04, 2026 01:17:46.158 [140544720141112] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Oct 04, 2026 01:17:46.158 [140544720141112] DEBUG - [HCl#f] HTTP requesting PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:46.158 [140544675711800] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=, port=0)
+Oct 04, 2026 01:17:46.159 [140544675711800] DEBUG - [HCl#10] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:46.192 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Resolved pubsub00.pop.ewr.plex.bz to 97.107.133.152:443
+Oct 04, 2026 01:17:46.217 [140544786086712] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Connected in 25 ms.
+Oct 04, 2026 01:17:46.217 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Wrote data, reading reply.
+Oct 04, 2026 01:17:46.233 [140544737016632] DEBUG - [HttpClient/HCl#10] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:46.234 [140544675711800] DEBUG - MyPlex: Published Mapping State response was 422
+Oct 04, 2026 01:17:46.234 [140544675711800] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
+Oct 04, 2026 01:17:46.234 [140544675711800] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Oct 04, 2026 01:17:46.234 [140544675711800] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Oct 04, 2026 01:17:46.246 [140544737016632] DEBUG - [HttpClient/HCl#f] HTTP/2.0 (0.1s) 200 response from PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:46.261 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Read HTTP reply header.
+Oct 04, 2026 01:17:46.261 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: We appear to have regained Internet connectivity.
+Oct 04, 2026 01:17:46.393 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] PublicAddressManager: Obtaining public address and mapping port.
+Oct 04, 2026 01:17:46.393 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Oct 04, 2026 01:17:46.393 [140544788196152] WARN - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Oct 04, 2026 01:17:46.393 [140544788196152] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] Successfully connected to pubsub00.pop.ewr.plex.bz.
+Oct 04, 2026 01:17:46.648 [140544724359992] DEBUG - Request: [127.0.0.1:40538 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) #8 GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:46.648 [140544724359992] DEBUG - [Req#8] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Oct 04, 2026 01:17:46.648 [140544724359992] DEBUG - [Req#8/HCl#11] HTTP requesting GET http://127.0.0.1:40483/system/messaging/clear_events/com.plexapp.agents.imdb
+Oct 04, 2026 01:17:46.653 [140544737016632] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40483/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+Oct 04, 2026 01:17:46.653 [140544724359992] DEBUG - [Req#8] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Oct 04, 2026 01:17:46.653 [140544788196152] DEBUG - Completed: [127.0.0.1:40538] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (4 live) #8 GZIP 4ms 280 bytes
+Oct 04, 2026 01:17:46.736 [140544724359992] DEBUG - Request: [127.0.0.1:40540 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (4 live) #13 GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:46.736 [140544724359992] DEBUG - [Req#13] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Oct 04, 2026 01:17:46.736 [140544724359992] DEBUG - [Req#13/HCl#12] HTTP requesting GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/resourceHashes
+Oct 04, 2026 01:17:46.851 [140544737016632] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/resourceHashes
+Oct 04, 2026 01:17:46.851 [140544724359992] DEBUG - [Req#13] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Oct 04, 2026 01:17:46.851 [140544788196152] DEBUG - Completed: [127.0.0.1:40540] 404 GET /:/plugins/com.plexapp.system/resourceHashes (4 live) #13 GZIP 115ms 261 bytes
+Oct 04, 2026 01:17:46.866 [140544724359992] DEBUG - Request: [127.0.0.1:40554 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #15 GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:46.866 [140544724359992] DEBUG - [Req#15] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Oct 04, 2026 01:17:46.866 [140544724359992] DEBUG - [Req#15/HCl#13] HTTP requesting GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Oct 04, 2026 01:17:46.867 [140544675711800] DEBUG - Request: [127.0.0.1:40558 (Loopback)] GET / (5 live) #17 GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:46.869 [140544788196152] DEBUG - Completed: [127.0.0.1:40558] 200 GET / (5 live) #17 GZIP 1ms 4120 bytes
+Oct 04, 2026 01:17:46.874 [140544737016632] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Oct 04, 2026 01:17:46.874 [140544724359992] DEBUG - [Req#15] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Oct 04, 2026 01:17:46.874 [140544788196152] DEBUG - Completed: [127.0.0.1:40554] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #15 GZIP 8ms 746 bytes
+Oct 04, 2026 01:17:46.932 [140544734907192] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: 2026-09-28 17:34:31 (1790616871) => 2026-10-04 01:17:45 (1791076665).
+Oct 04, 2026 01:17:47.351 [140544675711800] DEBUG - Request: [127.0.0.1:56380 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (5 live) #18 GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:47.932 [140544734907192] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-e5521bd8c"
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - Updating the list of agents known by the system.
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Oct 04, 2026 01:17:47.933 [140544675711800] DEBUG - [Req#18] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Oct 04, 2026 01:17:47.933 [140544734907192] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:40483/system/agents
+Oct 04, 2026 01:17:47.933 [140544675711800] DEBUG - [Req#18/HCl#15] HTTP requesting GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Oct 04, 2026 01:17:47.942 [140544737016632] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40483/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Oct 04, 2026 01:17:47.942 [140544675711800] DEBUG - [Req#18] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Oct 04, 2026 01:17:47.942 [140544786086712] DEBUG - Completed: [127.0.0.1:56380] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (4 live) #18 GZIP 591ms 415 bytes
+Oct 04, 2026 01:17:47.947 [140544680061752] DEBUG - [Req#a] Reading 148 bytes in the body, code is 200
+Oct 04, 2026 01:17:47.947 [140544680061752] DEBUG - [Req#a] [com.plexapp.agents.imdb] Plug-in running on port 39589.
+Oct 04, 2026 01:17:47.947 [140544680061752] DEBUG - [Req#a] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Oct 04, 2026 01:17:47.948 [140544680061752] DEBUG - [Req#a] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.948 [140544680061752] DEBUG - [Req#a/HCl#16] HTTP requesting GET http://127.0.0.1:39589/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.949 [140544737016632] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40483/system/agents
+Oct 04, 2026 01:17:47.949 [140544734907192] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+Oct 04, 2026 01:17:47.952 [140544734907192] DEBUG - The system knows about 12 agents.
+Oct 04, 2026 01:17:47.953 [140544734907192] DEBUG - Waiting for 0 plug-ins to finish starting.
+Oct 04, 2026 01:17:47.953 [140544734907192] DEBUG - Done waiting for all plug-ins to start.
+Oct 04, 2026 01:17:47.953 [140544734907192] DEBUG - PluginRepository::setStartState: 3, complete
+Oct 04, 2026 01:17:47.953 [140544711703352] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.953 [140544711703352] DEBUG - [Req#1d] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.953 [140544711703352] DEBUG - [Req#1d/HCl#17] HTTP requesting GET http://127.0.0.1:39589/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.971 [140544737016632] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39589/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.971 [140544680061752] DEBUG - [Req#a] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Oct 04, 2026 01:17:47.972 [140544680061752] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 820818e95662032e9e41b26157c901b91f298b40
+Oct 04, 2026 01:17:47.972 [140544680061752] DEBUG - IVA: Downloading trailer lists.
+Oct 04, 2026 01:17:47.974 [140544737016632] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39589/:/plugins/com.plexapp.agents.imdb/prefs
+Oct 04, 2026 01:17:47.974 [140544711703352] DEBUG - [Req#1d] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Oct 04, 2026 01:17:47.974 [140544711703352] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 820818e95662032e9e41b26157c901b91f298b40
+Oct 04, 2026 01:17:47.974 [140544711703352] DEBUG - IVA: Downloading trailer lists.
+Oct 04, 2026 01:17:48.031 [140544711703352] DEBUG - IVA: Downloaded 50 trailers for source 1.
+Oct 04, 2026 01:17:48.058 [140544711703352] DEBUG - IVA: Downloaded 30 trailers for source 2.
+Oct 04, 2026 01:17:48.059 [140544680061752] DEBUG - IVA: Downloaded 50 trailers for source 1.
+Oct 04, 2026 01:17:48.073 [140544680061752] DEBUG - IVA: Downloaded 30 trailers for source 2.
+Oct 04, 2026 01:17:49.067 [140544680061752] DEBUG - [MediaProviderManager] Refreshing media providers
+Oct 04, 2026 01:17:49.067 [140544680061752] DEBUG - [MediaProviderManager/Response::fetch/HCl#1e] HTTP requesting GET https://servers.plex.tv/media/providers
+Oct 04, 2026 01:17:49.164 [140544737016632] DEBUG - [HttpClient/HCl#1e] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/media/providers
+Oct 04, 2026 01:17:49.164 [140544680061752] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Oct 04, 2026 01:17:49.164 [140544680061752] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Oct 04, 2026 01:17:49.164 [140544680061752] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
+Oct 04, 2026 01:17:49.164 [140544692718392] DEBUG - [MediaProviderManager/HCl#1f] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
+Oct 04, 2026 01:17:49.234 [140544680061752] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 0)
+Oct 04, 2026 01:17:49.234 [140544680061752] DEBUG - [MediaProviderManager/HCl#22] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
+Oct 04, 2026 01:17:49.240 [140544737016632] DEBUG - [HttpClient/HCl#1f] HTTP/2.0 (0.1s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1
+Oct 04, 2026 01:17:49.240 [140544692718392] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: hero
+Oct 04, 2026 01:17:49.242 [140544737016632] DEBUG - [HttpClient/HCl#22] HTTP/2.0 (0.0s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1 (reused)
+Oct 04, 2026 01:17:49.242 [140544680061752] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: hero
+Oct 04, 2026 01:17:49.242 [140544680061752] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 2
+Oct 04, 2026 01:17:49.242 [140544680061752] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Oct 04, 2026 01:17:49.242 [140544680061752] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.movie' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.series' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'org.musicbrainz.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.nfo.movie' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.nfo.series' with source URI 'provider://tv.plex.provider.metadata'
+Oct 04, 2026 01:17:49.243 [140544680061752] DEBUG - [MediaProviderManager] Media provider refresh complete
+Oct 04, 2026 01:17:50.801 [140544713812792] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (JellyPlex-CI)
+Oct 04, 2026 01:17:50.801 [140544713812792] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Oct 04, 2026 01:17:50.801 [140544713812792] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Oct 04, 2026 01:17:50.801 [140544713812792] DEBUG - [NSB/HCl#23] HTTP requesting GET http://127.0.0.1:40483/system/notify/serverUpdated?host=127.0.0.1
+Oct 04, 2026 01:17:50.804 [140544724359992] DEBUG - Request: [127.0.0.1:56386 (Loopback)] GET /servers (3 live) #1a GZIP Signed-in Token (jellyplex_watched)
+Oct 04, 2026 01:17:50.805 [140544786086712] DEBUG - Completed: [127.0.0.1:56386] 200 GET /servers (3 live) #1a GZIP 0ms 494 bytes
+Oct 04, 2026 01:17:50.809 [140544737016632] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40483/system/notify/serverUpdated?host=127.0.0.1
+Oct 04, 2026 01:17:50.809 [140544713812792] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Oct 04, 2026 01:17:51.066 [140544699046712] DEBUG - [PubsubServerManager/process/HCl#24] HTTP requesting GET https://servers.plex.tv/services/pubsub/servers
+Oct 04, 2026 01:17:51.098 [140544737016632] DEBUG - [HttpClient/HCl#24] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/services/pubsub/servers (reused)
+Oct 04, 2026 01:17:52.326 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub00.pop.ewr.plex.bz was 23 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub05.pop.ewr.plex.bz was 29 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub07.pop.atl.plex.bz was 49 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub01.pop.yyz.plex.bz was 55 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub01.pop.dfw.plex.bz was 100 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub00.pop.fmt.plex.bz was 199 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub03.pop.lhr.plex.bz was 239 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub08.pop.fra.plex.bz was 266 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub02.pop.hnd.plex.bz was 468 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Time to connect to pubsub03.pop.sin.plex.bz was 665 ms.
+Oct 04, 2026 01:17:52.327 [140544699046712] DEBUG - [PubsubServerManager/process] Updating best ping time for pubsub00.pop.ewr.plex.bz to 23 ms.
+Oct 04, 2026 01:17:53.560 [140544703265592] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Oct 04, 2026 01:17:53.560 [140544703265592] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Oct 04, 2026 01:17:53.560 [140544703265592] DEBUG - [HCl#25] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Oct 04, 2026 01:17:55.827 [140544694827832] DEBUG - Grabber: Cleaning up orphaned grabs.
+Oct 04, 2026 01:17:55.827 [140544694827832] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Oct 04, 2026 01:17:55.827 [140544694827832] DEBUG - Activity: registered new activity 518bac3e-f1e5-4896-badf-1ea9d7c7052a - "Processing subscriptions"
+Oct 04, 2026 01:17:55.827 [140544694827832] DEBUG - Subscription: Scheduling subscriptions.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Subscription: Initialized 0 schedulers.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Activity: Ended activity 518bac3e-f1e5-4896-badf-1ea9d7c7052a.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Subscription: There are 0 active grabs at the end.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Activity: Ended activity 599b418a-d57a-4509-9f20-97f7dcd1295b.
+Oct 04, 2026 01:17:55.828 [140544694827832] DEBUG - Subscription: Refreshed all content in 0 ms.
+Oct 04, 2026 01:17:55.988 [140544737016632] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
+Oct 04, 2026 01:17:56.067 [140544692718392] DEBUG - [HCl#26] HTTP requesting GET https://servers.plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:56.152 [140544737016632] DEBUG - [HttpClient/HCl#26] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:56.152 [140544692718392] DEBUG - Media Server: Tested all servers in 0.0 seconds.
+Oct 04, 2026 01:17:56.154 [140544680061752] DEBUG - [HCl#27] HTTP requesting GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:56.267 [140544737016632] DEBUG - [HttpClient/HCl#27] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:56.268 [140544680061752] DEBUG - [HCl#28] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5
+Oct 04, 2026 01:17:56.309 [140544737016632] DEBUG - [HttpClient/HCl#28] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/features?filterFeatures[]=b83c8dc9-5a01-4b7a-a7c9-5870c8a6e21b&filterFeatures[]=926bc176-58ca-47da-b8e3-080ed14ea6ba&filterFeatures[]=ea791163-c28d-4b7c-af88-bcc9553b206d&filterFeatures[]=6ab6677b-ad9b-444f-9ca1-b8027d05b3e1&filterFeatures[]=56cd352b-0d47-436d-aced-f20db3508de5 (reused)
+Oct 04, 2026 01:17:57.802 [140544796240696] DEBUG - NAT: UPnP, didn't find usable IGD.
+Oct 04, 2026 01:17:57.802 [140544796240696] DEBUG - NAT: PMP, attempting mapping.
+Oct 04, 2026 01:17:57.923 [140544726469432] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Oct 04, 2026 01:17:58.052 [140544796240696] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Oct 04, 2026 01:17:58.052 [140544796240696] DEBUG - NAT: UPnP, attempting port mapping.
+Oct 04, 2026 01:17:58.174 [140544726469432] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Oct 04, 2026 01:17:58.174 [140544726469432] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Oct 04, 2026 01:17:58.174 [140544726469432] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Oct 04, 2026 01:17:58.175 [140544726469432] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=74.235.134.160, port=0)
+Oct 04, 2026 01:17:58.175 [140544726469432] DEBUG - [HCl#29] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:58.315 [140544737016632] DEBUG - [HttpClient/HCl#29] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:17:58.315 [140544726469432] DEBUG - MyPlex: Published Mapping State response was 422
+Oct 04, 2026 01:17:58.315 [140544726469432] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
+Oct 04, 2026 01:17:58.315 [140544726469432] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Oct 04, 2026 01:17:58.315 [140544726469432] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Oct 04, 2026 01:17:58.316 [140544726469432] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Oct 04, 2026 01:17:58.316 [140544726469432] DEBUG - [HCl#2a] HTTP requesting PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:17:58.390 [140544737016632] DEBUG - [HttpClient/HCl#2a] HTTP/2.0 (0.1s) 200 response from PUT https://servers.plex.tv/devices/4aa082f4f7d6dd1a83a571d03b236b07794db03c?Connection[][uri]=http://172.17.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:18:10.065 [140544796240696] DEBUG - NAT: UPnP, didn't find usable IGD.
+Oct 04, 2026 01:18:10.065 [140544796240696] DEBUG - PublicAddressManager: Mapping failed.
+Oct 04, 2026 01:18:10.066 [140544796240696] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Oct 04, 2026 01:18:10.066 [140544796240696] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Oct 04, 2026 01:18:10.066 [140544796240696] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Oct 04, 2026 01:18:10.067 [140544796240696] DEBUG - MyPlex: Sending Server Info to myPlex (user=jellyplex-watched@luigi311.com, ip=74.235.134.160, port=0)
+Oct 04, 2026 01:18:10.067 [140544796240696] DEBUG - [HCl#2b] HTTP requesting POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:10.123 [140544737016632] DEBUG - [HttpClient/HCl#2b] HTTP/2.0 (0.1s) 422 response from POST https://servers.plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: Published Mapping State response was 422
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: Got response for 4aa082f4f7d6dd1a83a571d03b236b07794db03c ~ registered :0
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - MyPlex: Requesting reachability check.
+Oct 04, 2026 01:18:10.124 [140544796240696] DEBUG - [HCl#2c] HTTP requesting PUT https://servers.plex.tv/api/servers/4aa082f4f7d6dd1a83a571d03b236b07794db03c/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=b4a3cd0c-89b1-4e75-813a-cef5bf8ef7f2
+Oct 04, 2026 01:18:10.189 [140544737016632] DEBUG - [HttpClient/HCl#2c] HTTP/2.0 (0.1s) 200 response from PUT https://servers.plex.tv/api/servers/4aa082f4f7d6dd1a83a571d03b236b07794db03c/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=b4a3cd0c-89b1-4e75-813a-cef5bf8ef7f2 (reused)
+Oct 04, 2026 01:18:10.190 [140544796240696] DEBUG - MyPlex: Last published value didn't change, we're done.
+Oct 04, 2026 01:18:10.199 [140544786086712] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="b4a3cd0c-89b1-4e75-813a-cef5bf8ef7f2" connectivity="0" command="notifyConnectivity"/>'
+Oct 04, 2026 01:18:10.199 [140544786086712] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] PubSub: Got notified of reachability for async identifier b4a3cd0c-89b1-4e75-813a-cef5bf8ef7f2: 0 for :0 (responded in 9 ms)
+Oct 04, 2026 01:18:10.199 [140544786086712] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Oct 04, 2026 01:18:10.199 [140544786086712] DEBUG - [EventSourceClient/pubsub/pubsub00.pop.ewr.plex.bz:443] MyPlex: mapping state set to 'Mapped - Not Published (Not Reachable)'.
+Oct 04, 2026 01:18:13.543 [140544707484472] DEBUG - [HCl#2d] HTTP requesting GET https://servers.plex.tv/api/v2/shared_sources/owned?machineIdentifier=4aa082f4f7d6dd1a83a571d03b236b07794db03c
+Oct 04, 2026 01:18:13.602 [140544737016632] DEBUG - [HttpClient/HCl#2d] HTTP/2.0 (0.1s) 200 response from GET https://servers.plex.tv/api/v2/shared_sources/owned?machineIdentifier=4aa082f4f7d6dd1a83a571d03b236b07794db03c (reused)
+Oct 04, 2026 01:18:13.602 [140544707484472] DEBUG - [HCl#2e] HTTP requesting GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:13.650 [140544737016632] DEBUG - [HttpClient/HCl#2e] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:18:13.650 [140544707484472] DEBUG - MyPlex: updating with 2 access tokens
+Oct 04, 2026 01:18:13.651 [140544707484472] DEBUG - [HCl#2f] HTTP requesting GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:13.687 [140544737016632] DEBUG - [HttpClient/HCl#2f] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:18:13.688 [140544728578872] DEBUG - [HCl#30] HTTP requesting GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:13.721 [140544737016632] DEBUG - [HttpClient/HCl#30] HTTP/2.0 (0.0s) 200 response from GET https://servers.plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Oct 04, 2026 01:18:13.721 [140544728578872] DEBUG - MyPlex: using cached data for request for https://servers.plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:13.839 [140544798796600] DEBUG - Shutting down with signal 15 (Terminated)
+Oct 04, 2026 01:18:13.839 [140544798796600] DEBUG - Ordered to stop server.
+Oct 04, 2026 01:18:13.839 [140544798796600] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader --sessionStatus=exited --sessionStart=1791076663 --sessionDuration=30 --version=1.43.4.10903-e5521bd8c --userId=jellyplex-watched@luigi311.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Oct 04, 2026 01:18:13.839 [140544798796600] DEBUG - [JobRunner] Jobs: Starting child process with pid 396
+Oct 04, 2026 01:18:13.839 [140544803539600] DEBUG - Stopping server...
+Oct 04, 2026 01:18:13.839 [140544803539600] DEBUG - HttpServer: Stopping server.
+Oct 04, 2026 01:18:13.840 [140544803539600] DEBUG - Server stopped.
+Oct 04, 2026 01:18:13.840 [140544803539600] DEBUG - NetworkService: Stopping advertisement.
+Oct 04, 2026 01:18:13.840 [140544803539600] DEBUG - Killing plug-ins.
+Oct 04, 2026 01:18:13.840 [140544796240696] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Oct 04, 2026 01:18:13.840 [140544796240696] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Oct 04, 2026 01:18:13.840 [140544796240696] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Oct 04, 2026 01:18:13.853 [140544803539600] DEBUG - [com.plexapp.agents.imdb] Killing.
+Oct 04, 2026 01:18:13.857 [140544798796600] WARN - JobManager: Could not find job for handle 338
+Oct 04, 2026 01:18:13.857 [140544803539600] DEBUG - [com.plexapp.system] Killing.
+Oct 04, 2026 01:18:13.861 [140544798796600] WARN - JobManager: Could not find job for handle 239
+Oct 04, 2026 01:18:13.861 [140544803539600] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Oct 04, 2026 01:18:13.861 [140544803539600] DEBUG - [JobRunner] Signalling job ID 314 with 2
+Oct 04, 2026 01:18:13.912 [140544798796600] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 314 is 0 (success)
+Oct 04, 2026 01:18:13.912 [140544705375032] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Oct 04, 2026 01:18:13.913 [140544803539600] DEBUG - Database: Shutting down.
+Oct 04, 2026 01:18:13.920 [140544803539600] DEBUG - Database: Shutting down.
